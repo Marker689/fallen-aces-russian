@@ -155,7 +155,7 @@ def extract_tips():
             recs.append({
                 "file": rel, "id": make_id(rel, line),
                 "orig": line, "surface": "tip",
-                "prefix": "", "content": m.group("c"), "suffix": "",
+                "prefix": '"', "content": m.group("c"), "suffix": '"',
                 "full_line": line,
             })
     return recs

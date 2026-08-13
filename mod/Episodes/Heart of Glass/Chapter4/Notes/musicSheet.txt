@@ -10,6 +10,5 @@ Page
 {
 	darken_note_background = false;
 	use_lower_text = true;
-	text = "<color=#47AF3D> Ноты с обведённой красным цифрой 782
- </color>"
+	text = "<color=#47AF3D> Ноты с обведённой красным цифрой 782 </color>"
 }

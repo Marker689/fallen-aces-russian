@@ -26,10 +26,11 @@ MSG_MAP = {
     '"You feel tougher"': '"Ты чувствуешь себя крепче"',
     '"Your Favourite!"': '"Твоё любимое!"',
     '"Your energy is replenishing!"': '"Твоя энергия восстанавливается!"',
+    '"You feel energized"': '"Ты чувствуешь прилив энергии"',
 }
 
 def main():
-    for fn in ["consumables.txt", "props.txt"]:
+    for fn in ["consumables.txt", "props.txt", "weaponPickups.txt"]:
         p = os.path.join(MOD, fn)
         if not os.path.exists(p):
             continue

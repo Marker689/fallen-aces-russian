@@ -1,0 +1,12 @@
+GeneralInfo
+{
+	background_sprite = "MikeGlassJawPicture";
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	voiceline = "Better Times";
+	text = "<color=#47AF3D>Лучшие времена</color>"
+}

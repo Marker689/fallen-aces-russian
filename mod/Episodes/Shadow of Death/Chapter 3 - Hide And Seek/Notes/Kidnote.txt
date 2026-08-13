@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        print_name = "Детская записка";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Детская записка</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Эй, Бобби, мой старик слетел с катушек из-за того, что мы спёрли <color=#47AF3D> гнома </color> Эдгара. Он его забрал.
+Короче, сегодня идеальный вечер для твоей проделки над стариной Нормкларком. 
+Встречаемся у <color=#47AF3D> домика на дереве </color> и не забудь папин <color=#47AF3D> транквилизатор!</color>
+
+-Джуниор
+
+
+</color>"
+}

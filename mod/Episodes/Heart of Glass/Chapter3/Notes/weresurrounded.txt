@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Мы в окружении
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Они застали врасплох команду Паршивого Лу, когда те возвращались с улицы Картера. Теперь их отрезали, и они окопались на свалке. 
+
+Похоже, они загнали их в угол, и мы ничего не можем сделать, чтобы их спасти, пока эти ублюдки молотят нас со всех сторон. Я приказал ребятам выставить периметр вокруг бара, чтобы держать их на расстоянии. Мы должны продержаться до прихода подмоги, надеюсь, Лу сможет так же.  
+
+
+   </color>"
+}
+
+
+
+

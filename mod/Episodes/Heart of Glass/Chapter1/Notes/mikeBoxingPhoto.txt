@@ -1,0 +1,24 @@
+GeneralInfo
+{
+	print_name = "Фотография с бокса";
+	background_sprite = "MikeBoxingPicture";
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "Старое боксёрское фото";
+	voiceline = "Looking Good Mikey";
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = 
+"Мой бой с Джеком «Катком» Сэмпсоном. Зверский был бой. 
+15 изнурительных раундов...кровь, пот и один здорово сломанный нос. Понадобилась вся моя воля, чтобы просто устоять на ногах. 
+Один точный хук в финальном раунде, и Джекки наконец получил «катком» по морде...»
+";
+}

@@ -1,0 +1,28 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Работник месяца";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Анонс «Работник месяца» </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Поздравляем работника месяца октября, Уэсли Уитмена! Всегда усердно трудясь, чтобы к открытию магазин был в порядке, Уэсли постоянно выходит на смену с настроем «могу и сделаю». Будь то срочные доставки в последний момент или помощь в фотолаборатории, его усилия ценят и руководители, и коллеги. 
+
+</color>"
+}
+
+
+}

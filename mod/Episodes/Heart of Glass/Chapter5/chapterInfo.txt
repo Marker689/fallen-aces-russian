@@ -1,0 +1,12 @@
+title = "Мотылёк и пламя";
+continue_to_next_episode = true;
+order = 5;
+secret_count = 9;
+loading_screen_music = 46;
+intro_movie = "Level 5 - Intro";
+outro_movie = "Level 5 - Outro";
+world_file_name = "Moth_n_Flame.txt";
+over_title_text = "Глава 5";
+faction_name = 0 "Глассхарты";
+faction_color = 0 "red";
+description_text = "Гласджо хочет документы, что мы нашли в сейфе Уолтца, в обмен на женщину по имени Делия Прайс. Делия работала с Найтвейвом, чтобы найти ответы на то, что тут, чёрт возьми, происходит. Они заперли её в клубе «Мотылёк и пламя». Тут всё с ног до головы ловушка, мы оба знаем, чем это на самом деле кончится.";

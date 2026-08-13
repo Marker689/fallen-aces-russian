@@ -1,0 +1,2426 @@
+actor FloorSign 16000
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Floor Sign - Menu",
+			"Floor Sign - Wet Floor";
+	effectSet = 5;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	hasVariants = true;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor TreeProp 16002
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Tree - Stump",
+			"Tree - Burnt",
+			"Tree - 1",
+			"Tree - 2",
+			"Tree - 3",
+			"Tree - 4",
+			"Tree - 5";
+	projectilesCanDamage = true;
+	freezeXZ = true;
+	hasVariants = true;
+	effectSet = 5;
+	weightClass = 1;
+}
+
+actor Trashbin 16003
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Trashbin", "Trashbin - Damaged", "Trashbin - Broken";
+	effectSet = 22;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	breakable = true;
+	damageIsRelativeToDamagedVariants = true;
+	damagedVariantCount = 2;
+	weightClass = 2;
+	hitpoints = 50;
+	supportWithLeftHandWhenEquipped = 1;
+}
+
+actor GasCanister 16005
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Gas Canister";
+	sprites = 	"Gas Canister", 
+			"Gas Canister - Damaged";
+	effectSet = 22;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	breakable = true;
+	// damageIsRelativeToDamagedVariants = true;
+	damagedVariantCount = 2;
+	weightClass = 2;
+	hitpoints = 1;
+	firstPersonScale = 1.5;
+	firstPersonOffset = -80, 0;
+	supportWithLeftHandWhenEquipped = 1;
+}
+
+actor TablePlant 16006
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Table Plant", 
+			"Table Plant 2";
+	effectSet = 1;
+	pickupType = "Unstorable";
+	hasVariants = true;
+	projectilesCanDamage = true;
+	breakable = true;
+	weightClass = 1;
+	hitpoints = 5;
+}
+
+actor TableLamp 16007
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Table Lamp", 
+			"Table Lamp - Broken", 
+			"Table Lamp 2",
+			"Table Lamp 2 - Broken",
+			"Table Lamp 3",
+			"Table Lamp 3 - Broken",
+			"Table Lamp 4",
+			"Table Lamp 4 - Broken",
+			"Table Lamp 5",
+			"Table Lamp 5 - Broken";
+	pickupType = "Unstorable";
+	effectSet = 1;
+	projectilesCanDamage = true;
+	breakable = true;
+	hasVariants = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 20;
+}
+
+actor Trashcan 16008
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Trashcan";
+	sprites = "Trashcan", "Trashcan_b", "Trashcan_b2";
+	effectSet = 22;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	breakable = true;
+	damageIsRelativeToDamagedVariants = true;
+	thrownProjectile = "Player Thrown Trashcan";
+	damagedVariantCount = 2;
+	weightClass = 3;
+	hitpoints = 50;
+	supportWithLeftHandWhenEquipped = 1;
+}
+
+actor CardboardBox 16009
+{
+	//$Title "Cardboard Box"
+	//$Category "Props"
+}
+
+actor Firebarrel 16010
+{
+	type = "Prop";
+	category = "Props";
+	effectSet = 4;
+	prefab = "Fire Barrel";
+	breakable = true;
+	projectilesCanDamage = true;
+	sprites = 	"Fire Barrel 1", 
+			"Fire Barrel 2", 
+			"Fire Barrel 3", 
+			"Fire Barrel 4";
+	icon = "iconb_firebarrel";
+	hitpoints = 10;
+	hasAnimations = true;
+	weightClass = 2;
+}
+
+actor TrafficBollard 16011
+{
+	type = "Prop";
+	category = "Props";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	sprites = 	"Traffic Bollard";
+	freezeXZ = true;
+	weightClass = 2;
+}
+
+actor WallSconce 16012
+{
+	//$Title "Wall Sconce"
+	//$Category "Props"
+}
+
+actor WoodenBarrel 16013
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Wooden Barrel", 
+			"Wooden Barrel - 2",
+			"Wooden Barrel - 3";
+	effectSet = "Generic Wood";
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	buoyant = true;
+	breakable = true;
+	damageIsRelativeToDamagedVariants = true;
+	damagedVariantCount = 2;
+	weightClass = 2;
+	hitpoints = 50;
+	supportWithLeftHandWhenEquipped = 1;
+}
+
+actor MetalBarrel 16014
+{
+	//$Title "Metal Barrel"
+	//$Category "Props"
+}
+
+actor RoofVent 16015
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Roof Vent";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	breakable = false;
+	attachToGeometry = true;
+}
+
+actor StreetLamp 16017
+{
+	type = "Prop";
+	category = "Props";
+	effectSet = 1;
+	sprites = 	"Street Lamp",
+			"Street Lamp 2",
+			"Street Lamp 3",
+			"Street Lamp 4",
+			"Street Lamp 5";
+	renderMode = "Transparent";
+	projectilesCanDamage = true;
+	freezeXZ = true;
+	freezeY = true;
+	applyGravity = false;
+	hasVariants = true;
+	fullbright = true;
+}
+
+actor CableReel 16018
+{
+	type = "Prop";
+	category = "Props";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	breakable = true;
+	sprites = 	"Cable Reel", "cablereel";
+	freezeXZ = true;
+	hasVariants = true;
+	weightClass = 4;
+}
+
+actor CeilingLamp 16020
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Ceiling Lamp 1", 
+			"Ceiling Lamp 1 - Broken", 
+			"Ceiling Lamp 2",
+			"Ceiling Lamp 2 - Broken"
+			"Ceiling Lamp 3",
+			"Ceiling Lamp 1 - Broken";
+	icon = "icon_lamp";
+	effectSet = 1;
+	hitpoints = 1;
+	damagedVariantCount = 1;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	hasVariants = true;
+	disappearOnBreak = false;
+	applyGravity = false;
+	attachToGeometry = true;
+}
+actor Glass 16021
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Glass",
+			"Glass 2",
+			"Glass 3",
+			"Glass 4",
+			"Glass 5",
+			"bourbondecanter",
+			"champagneglass",
+			"wineglass";
+	pickupType = "Unstorable";
+	effectSet = 1;
+	projectilesCanDamage = true;
+	hitpoints = 1;
+	hasVariants = true;
+	breakable = true;
+	collideWithCharacters = false;
+}
+actor WhiskeyTumbler 16022
+{
+	//$Title "Whiskey Tumbler"
+	//$Category "Props"
+}
+actor Chair 16023
+{
+	type = "Prop";
+	category = "Props";
+	projectilesCanDamage = true;
+	sprites = 	"Chair - South", 
+			"Chair - Southeast", 
+			"Chair - East", 
+			"Chair - Northeast", 
+			"Chair - North";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	weightClass = 3;
+	supportWithLeftHandWhenEquipped = 1;
+	hitpoints = 10;
+	breakable = true;
+	hasRotations = true;
+	mirrorRotations = true;
+}
+actor ChampagneBucket 16024
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Bucket 2";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	hitpoints = 10;
+	breakable = true;
+}
+actor CoatHanger 16027
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Coathanger";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	weightClass = 3;
+	hitpoints = 10;
+	breakable = true;
+	projectilesCanDamage = true;
+}
+actor Mannequin 16028
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Mannequin - 1",
+			"Mannequin - 2",
+			"Mannequin - 3",
+			"Mannequin - 4",
+			"Mannequin - 5",
+			"Mannequin - 6",
+			"mannequin7",
+			"mannequin8",
+			"mannequin9",
+			"mannequin10",
+			"mannequin11",
+			"mannequin12";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	weightClass = 3;
+	hitpoints = 20;
+	breakable = true;
+	hasVariants = true;
+	projectilesCanDamage = true;
+	properties =     Checkbox "cast_shadow";
+}
+actor WoodenStool 16029
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Wooden Stool",
+			"Wooden Barstool";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	weightClass = 3;
+	hitpoints = 10;
+	breakable = true;
+	hasVariants = true;
+	projectilesCanDamage = true;
+}
+actor UmbrellaStand 16030
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Umbrella Stand";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	weightClass = 1;
+	hitpoints = 1;
+	projectilesCanDamage = true;
+	breakable = true;
+}
+actor ScrunchedPaper 16031
+{
+	//$Title "Scrunched Paper"
+	//$Category "Props"
+}
+
+actor Fedora 16032
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Fedora";
+	projectilesCanDamage = true;
+	breakable = true;
+	pickupType = "Unstorable";
+	weightClass = 1;
+}
+
+actor Chandelier 16033
+{
+	//$Title "Chandelier"
+	//$Category "Props"
+}
+
+actor Microphone 16034
+{
+	type = "Prop";
+
+	category = "Props";
+	effectSet = 15;
+	sprites = 		"Microphone", 
+				"mic1",
+				"mic2",
+				"mic3",
+				"mic4";
+	breakable = true;
+	projectilesCanDamage = true;
+	pickupType = "Unstorable";
+	weightClass = 2;
+	hitpoints = 25;
+	hasVariants = true;
+}
+
+actor FallenChandelier 16036
+{
+	//$Title "Fallen Chandelier"
+	//$Category "Props"
+}
+
+actor BathroomBottle 16037
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Bathroom Bottle 1",
+			"Bathroom Bottle 2",
+			"Bathroom Bottle 3",
+			"Bathroom Bottle 4",
+			"Bathroom Bottle 5";
+	pickupType = "Unstorable";
+	hitpoints = 1;
+	weightClass = 1;
+	effectSet = 3;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	allowUpwardRotation = true;
+	collideWithCharacters = false;
+	breakable = true;
+}
+
+actor Toolbox 16038
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Toolbox";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	hitpoints = 50;
+	allowUpwardRotation = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakable = true;
+}
+
+actor Handbag 16039
+{
+	//$Title "Handbag"
+	//$Category "Props"
+}
+
+actor Hairbrush 16040
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Hairbrush";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	hitpoints = 1;
+	allowUpwardRotation = true;
+	collideWithCharacters = false;
+	breakable = true;
+	projectilesCanDamage = true;
+}
+
+actor RopePile 16041
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Rope Pile";
+	effectSet = "Generic";
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor Sack 16042
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Sack",
+			"Sack - 2",
+			"Sugar Bag";
+	effectSet = 5;
+	projectilesCanDamage = true;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor AppleSack 16043
+{
+	//$Title "Apple Sack"
+	//$Category "Props"
+}
+
+actor CraneHook 16044
+{
+	//$Title "Crane Hook"
+	//$Category "Props"
+}
+
+actor PaintCan 16045
+{
+	//$Title "Paint Can"
+	//$Category "Props"
+}
+
+actor ParkingMeter 16049
+{
+    	type = "Prop";
+	prefab = "Parking Meter";
+	category = "Props";
+	effectSet = 15;
+	sprites = "Parking Meter", 
+		  "Parking Meter - Broken";
+	breakable = true;
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	weightClass = 2;
+	freezeXZ = true;
+	freezeY = true;
+	applyGravity = false;
+	damagedVariantCount = 1;
+	hitpoints = 25;
+}
+
+actor Bush 16052
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Bush",
+			"Bush - Broken",
+			"Bush - Dead",
+			"Bush - Broken";	
+	weightClass = 1;
+	hitpoints = 1;
+	damagedVariantCount = 1;
+	hasVariants = true;
+	breakable = true;
+	collideWithCharacters = false;
+	attachToGeometry = true;
+}
+
+actor Grass 16053
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Grass 1",
+			"Grass 2",
+			"Grass 3",
+			"Grass 4",
+			"Grass 5",
+			"Grass 6",
+			"Grass 7";	
+	weightClass = 1;
+	hitpoints = 1;
+	attachToGeometry = true;
+	breakable = true;
+	hasVariants = true;
+	collideWithCharacters = false;
+}
+
+actor BlackBook 16054
+{
+    //$Title "Black Book"
+    //$Category "Props"
+}
+
+actor Barstool 16055
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Barstool";	
+	pickupType = "Unstorable";
+	effectSet = 4;
+	breakable = true;
+	weightClass = 1;
+	hitpoints = 1;
+}
+
+actor EspressoMachine 16058
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Espresso Machine";	
+	pickupType = "Unstorable";
+	effectSet = 4;
+	breakable = true;
+	weightClass = 3;
+	hitpoints = 50;
+}
+
+actor TrafficCone 16059
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Traffic Cone";
+	weightClass = 1;
+	hitpoints = 1;
+	pickupType = "Unstorable";
+}
+
+actor NotePickup 16060
+{
+    type = "Prop";
+    category = "Props";
+    properties = Event "disappear_on_event";
+    inGameName = "";
+    sprites =     "Notepad",
+            "Newspaper", 
+            "Nightwave Comic",
+            "Secret Documents";
+    hasVariants = true;
+    collideWithCharacters = false;
+    projectilesCanDamage = false;
+    attachToGeometry = true;
+    pickupType = "Note";
+}
+
+actor CoveredCeilingLight 16061
+{
+    //$Title "Covered Ceiling Light"
+    //$Category "Props"
+}
+
+actor GenericBottle 16062
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Generic Bottle 1",
+			"Generic Bottle 2",
+			"Generic Bottle 3",
+			"Generic Bottle 4",
+			"Generic Bottle 5",
+			"Generic Bottle 6",
+			"champagnebottle",
+			"seltzerdispenser",
+			"winebottle",
+			"Martini shaker",
+			"ginbottle";
+	pickupType = "Unstorable";
+	breakable = true;
+	hasVariants = true;
+	collideWithCharacters = false;
+	effectSet = 4;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor GenericJar 16063
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Generic Jar 1",
+			"Generic Jar 2",
+			"Generic Jar 3",
+			"Generic Jar 4",
+			"Generic Jar 5";
+	pickupType = "Unstorable";
+	breakable = true;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	hasVariants = true;
+	effectSet = 4;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor GenericContainer 16064
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Generic Container 1",
+			"Generic Container 2",
+			"Generic Container 3",
+			"Generic Container 4",
+			"Generic Container 5",
+			"Generic Container 6",
+			"Generic Container 7",
+			"Generic Container 8";
+	pickupType = "Unstorable";
+	breakable = true;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	hasVariants = true;
+	effectSet = 4;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor Matchbox 16065
+{
+    //$Title "Matchbox"
+    //$Category "Props"
+}
+
+actor AshtrayBin 16066
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Ashtray Bin",
+			"Ashtray Bin Fallen";
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	breakable = true;
+	hasVariants = true;
+	effectSet = 4;
+	hitpoints = 20;
+	weightClass = 1;
+}
+
+actor CookingPot 16067
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Cooking Pot";
+	pickupType = "Unstorable";
+	effectSet = 4;
+	hitpoints = 20;
+	weightClass = 2;
+	projectilesCanDamage = true;
+	breakable = true;
+}
+
+actor GenericCan 16069
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Can 1",
+			"Can 2",
+			"Can 3",
+			"Can 4",
+			"Can 5",
+			"Can 6",
+			"Can 7",
+			"Can 8",
+			"Soda Can 1",
+			"Soda Can 2",
+			"Soda Can 3",
+			"Metal Can - 1",
+			"Metal Can - 2",
+			"Metal Can - 3",
+			"Metal Can - 4";
+	pickupType = "Unstorable";
+	breakable = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	effectSet = 4;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor PoolBall 16070
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Pool Ball 1",
+			"Pool Ball 2",
+			"Pool Ball 3",
+			"Pool Ball 4",
+			"Pool Ball 5",
+			"Pool Ball 6",
+			"Pool Ball 7",
+			"Pool Ball 8",
+			"Pool Ball 9",
+			"Pool Ball 10",
+			"Pool Ball 11",
+			"Pool Ball 12",
+			"Pool Ball 13",
+			"Pool Ball 14",
+			"Pool Ball 15";
+	pickupType = "Unstorable";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	effectSet = 20;
+	hitpoints = 1;
+	weightClass = 0;
+}
+
+actor HangingCarcass 16071
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Shark Carcass";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	freezeXZ = true;
+	freezeY = true;
+	breakable = false;
+	effectSet = "Carcass";
+}
+
+actor Bucket 16072
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Bucket 1";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	hitpoints = 10;
+	breakable = true;
+}
+
+actor TruthSerum 16073
+{
+	//$Title "Truth Serum"
+	//$Category "Props"
+}
+
+actor PokerChips 16074
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Poker Chips 1",
+			"Poker Chips 2",
+			"Poker Chips 3",
+			"Poker Chips 4",
+			"Poker Chips 5",
+			"Poker Chips 6",
+			"Poker Chips 7",
+			"Poker Chips 8",
+			"Poker Chips 9",
+			"Poker Chips 10",
+			"Poker Chips 11",
+			"Poker Chips 12";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	effectSet = 20;
+	hitpoints = 1;
+	weightClass = 0;
+}
+
+actor MilkJugs 16075
+{
+	//$Title "Milk Jugs"
+	//$Category "Props"
+}
+
+actor ChristmasTree 16076
+{
+	//$Title "Christmas Tree"
+	//$Category "Props"
+}
+
+actor SaltAndPepperShakers 16077
+{
+	type = "Prop";
+	title = "Приправа";
+	sprites = "SaltShaker", "PepperShaker";
+	hasVariants = true;
+	effectSet = 1;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakable = true;
+	pickupType = "Unstorable";
+	weightClass = 1;
+	hitpoints = 1;
+	category = "Props";
+}
+
+actor AlarmClock 16078
+{
+	type = "Prop";
+	sprites = "AlarmClock";
+	effectSet = 4;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor Stapler 16080
+{
+	type = "Prop";
+	title = "Степлер";
+	sprites = "Stapler";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	disappearOnBreak = true;
+	pickupType = "Unstorable";
+	weightClass = 1;
+	hitpoints = 1;
+	category = "Props";
+}
+
+actor PencilHolder 16081
+{
+	type = "Prop";
+	sprites = "PencilHolder";
+	effectSet = 5;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	pickupType = "Unstorable";
+	weightClass = 1;
+	hitpoints = 1;
+	category = "Props";
+}
+
+actor OldPhone 16082
+{
+	type = "Prop";
+	prefab = "Phone Prop";
+	sprites = "OldPhone";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	pickupType = "Unstorable";
+	weightClass = 1;
+	hitpoints = 1;
+	category = "Props";
+	properties = 	Event "ring_on_event",
+			Event "stop_ringing_on_event";
+}
+
+actor WasteBasket 16083
+{
+	//$Title "Waste Basket"
+	//$Category "Props"
+
+	type = "Prop";
+	sprites = "WasteBasket";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	pickupType = "Unstorable";
+	weightClass = 1;
+	hitpoints = 1;
+	category = "Props";
+}
+
+actor Trophy 16085
+{
+	type = "Prop";
+	pickupType = "Unstorable";
+	effectSet = 4;
+	category = "Props";
+	sprites =	"Trophy",
+			"Trophy 1",
+			"Trophy 2",
+			"Trophy 3",
+			"Trophy 4",
+			"Trophy 5",
+			"Trophy 6",
+			"Trophy 7";
+	projectilesCanDamage = true;
+	hasVariants = true;
+	hitpoints = 1;
+	weightClass = 2;
+	hitpoints = 10;
+}
+
+actor Soap 16086
+{
+	type = "Prop";
+	title = "Мыло";
+	sprites = "Soap";
+	category = "Props";
+	thrownProjectile = "Thrown Soap";
+	effectSet = 6;
+	projectilesCanDamage = true;
+	breakOnThrownImpact = true;
+	pickupType = "Unstorable";
+	collideWithCharacters = false;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor DeskLamp 16087
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Desklamp_East", "Desklamp_NorthEast", "Desklamp_North", "Desklamp_NorthWest", "Desklamp_West", "Desklamp_SouthWest", "Desklamp_South", "Desklamp_SouthEast";
+	hasRotations = true;
+	effectSet = 4;
+	projectilesCanDamage = true;
+	pickupType = "Unstorable";
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor UtensilJar 16088
+{
+	type = "Prop";
+	sprites = "UtensilJar";
+	effectSet = 2;
+	category = "Props";
+	projectilesCanDamage = true;
+	pickupType = "Unstorable";
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor Toothbrush 16089
+{
+	type = "Prop";
+	title = "Зубная щётка";
+	sprites = "ToothBrush";
+	effectSet = 5;
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	pickupType = "Unstorable";
+	weightClass = 0;
+	category = "Props";
+}
+
+actor Toothpaste 16090
+{
+	type = "Prop";
+	title = "Зубная паста";
+	sprites = "ToothPaste";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	pickupType = "Unstorable";
+	weightClass = 0;
+	category = "Props";
+}
+
+actor GamsMagazine 16092
+{
+	//$Title "Gams Magazine"
+	//$Category "Props"
+
+}
+
+actor CeilingLampFan 16094
+{
+	type = "LessGeneric";
+	category = "Props";
+}
+
+actor BarberChair 16095
+{
+	type = "Prop";
+	prefab = "Swivel Chair";
+	category = "Props";
+	sprites = "Barber Chair - South", 
+		  "Barber Chair - Southeast",
+		  "Barber Chair - East",
+		  "Barber Chair - Northeast",
+		  "Barber Chair - North";
+	hasRotations = true;
+	mirrorRotations = true;
+	freezeXZ = true;
+}
+
+actor GumballMachine 16096
+{
+	type = "Prop";
+	prefab = "Gumball Machine";
+	category = "Props";
+	effectSet = 15;
+	sprites = "Gumball Machine", 
+		  "Gumball Machine b";
+	breakable = true;
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	pickupType = "Unstorable";
+	weightClass = 2;
+	damagedVariantCount = 1;
+	hitpoints = 25;
+}
+
+actor Gumball 16097
+{
+	type = "Prop";
+	cateogry = "Props";
+	prefab = "Gumball";
+	// pickupType = "Unstorable";
+	sprites = 	"Gumball 1", 
+			"Gumball 2", 
+			"Gumball 3", 
+			"Gumball 4", 
+			"Gumball 5", 
+			"Gumball 6", 
+			"Gumball 7", 
+			"Gumball 8", 
+			"Gumball 9", 
+			"Gumball 10";
+	breakable = true;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	allowUpwardRotation = true;
+	hasVariants = true;
+	effectSet = 16;
+	weightClass = 0;
+}
+
+actor FireHydrant 16099
+{
+	type = "Prop";
+	category = "Props";
+	effectSet = 4;
+	prefab = "Fire Hydrant";
+	breakable = true;
+	projectilesCanDamage = true;
+	sprites = 	"fh", 
+			"fh_b", 
+			"fh1", 
+			"fh2", 
+			"fh3", 
+			"fh4", 
+			"fs1", 
+			"fs2", 
+			"fs3";
+	freezeXZ = true;
+	freezeY = true;
+	disappearOnBreak = false;
+	hitpoints = 10;
+	hasAnimations = true;
+	becomeNonSolidOnBreak = false;
+}
+
+actor OfficeChair 16100
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Office Chair - South", 
+			"Office Chair - Southeast", 
+			"Office Chair - East", 
+			"Office Chair - Northeast", 
+			"Office Chair - North";
+	pickupType = "Unstorable";
+	effectSet = 5;
+	hitpoints = 10;
+	weightClass = 3;
+	supportWithLeftHandWhenEquipped = 1;
+	breakable = 		true;
+	projectilesCanDamage = 	true;
+	hasRotations = 		true;
+	mirrorRotations = 	true;
+}
+
+actor PottedPlant 16101
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	effectSet = 4;
+	breakable = true;
+	projectilesCanDamage = true;
+	sprites = 	"Potted Plant 1",
+			"Potted Plant 2",
+			"Potted Plant 3",
+			"Potted Plant 4",
+			"Potted Plant 5";
+	hitpoints = 10;
+	weightClass = 1;
+	hasVariants = true;
+}
+
+actor DeskFan 16102
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Desk Fan - South",
+			"Desk Fan - Southeast",
+			"Desk Fan - East",
+			"Desk Fan - Northeast",
+			"Desk Fan - North";
+	effectSet = 4;
+	breakable = true;
+	projectilesCanDamage = true;
+	hasRotations = true;
+	mirrorRotations = true;
+	hitpoints = 10;
+	weightClass = 2;
+}
+
+actor StandingLamp 16103
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Standing Lamp",
+			"Standing Lamp - Broken",
+			"Standing Lamp 2",
+			"Standing Lamp 2 - Broken",
+			"Standing Lamp 3",
+			"Standing Lamp 3 - Broken";
+	effectSet = 4;
+	hitpoints = 20;
+	breakable = true;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	weightClass = 2;
+}
+
+actor StandingFan 16104
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Standing Fan - South",
+			"Standing Fan - Southeast",
+			"Standing Fan - East",
+			"Standing Fan - Northeast",
+			"Standing Fan - North";
+	effectSet = 4;
+	breakable = true;
+	projectilesCanDamage = true;
+	hasRotations = true;
+	mirrorRotations = true;
+	hitpoints = 10;
+	weightClass = 2;
+}
+
+actor SmallRock 16105
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Rock - 1";
+	weightClass = 1;
+    collideWithCharacters = false;
+}
+
+actor MediumRock 16106
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Rock - 2";
+	weightClass = 2;
+    collideWithCharacters = false;
+}
+
+actor LargeRock 16107
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Rock - 3",
+			"Rock - 4",
+			"Rock - 5";
+	weightClass = 3;
+	hasVariants = true;
+}
+
+actor Seaweed 16108
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Seaweed - 1",
+			"Seaweed - 2",
+			"Seaweed - 3",
+			"Seaweed - 4",
+			"Seaweed - 5";
+	hasVariants = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	attachToGeometry = true;
+}
+
+actor BareBulb 16109
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Bare Bulb 1",
+			"Bare Bulb 1 - Off",
+			"Bare Bulb 1 - Broken",
+			"Bare Bulb 2",
+			"Bare Bulb 2 - Off",
+			"Bare Bulb 2 - Broken";
+	damagedVariantCount = 1;
+	damagedVariantOffset = 1;
+	hitpoints = 1;
+	effectSet = 1;
+	hasVariants = true;
+	collideWithCharacters = false;
+	disappearOnBreak = false;
+	projectilesCanDamage = true;
+	attachToGeometry = true;
+	damageIsRelativeToDamagedVariants = true;
+}
+
+actor ButtonClue 16110
+{
+	type = "Prop";
+	category = "Props";
+	inGameName = "Пуговица";
+	sprites = 	"Button Clue - 1";
+	collideWithCharacters = false;
+	attachToGeometry = true;
+}
+
+actor Umbrella 18016
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Umbrella";
+}
+
+actor SmallWoodenToy 18019
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Big John Toy",
+			"Clown Toy",
+			"Toy Soldier",
+			"Toy Tank",
+			"Toy Train";
+	effectSet = 5;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	breakable = true;
+	pickupType = "Unstorable";
+	weightClass = 1;
+}
+
+actor StandingAshtray 18020
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Standing Ashtray";
+	sprites = "Standing Ashtray";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	breakable = true;
+	pickupType = "Unstorable";
+	weightClass = 1;
+}
+
+actor Pigeon 18021
+{
+	type = "Prop";
+	category = "Critters";
+	prefab = "Pigeon";
+	sprites = 	"Pigeon A",
+			"Pigeon B",
+			"Pigeon - Dead",
+			"Pigeon - Roasted",
+			"Pigeon Equipped - A",
+			"Pigeon Equipped - B",
+			"Pigeon Equipped - C",
+			"Pigeon Flying Northwest A",
+			"Pigeon Flying Northwest B",
+			"Pigeon Flying Northwest C",
+			"Pigeon Flying Northwest D";
+	effectSet = 19;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	breakable = true;
+	hasAnimations = true;
+	attachedToGround = true;
+	firstPersonOffset = 100, 150;
+}
+
+actor OilBarrel 18022
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Oil Barrel";
+	sprites = 	"Oil Barrel 2",
+			"Oil Barrel 3";
+	icon = "iconb_oilbarrel";
+	effectSet = 4;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	buoyant = true;
+	breakable = true;
+	hasVariants = true;
+	weightClass = 2;
+	hitpoints = 5;
+	supportWithLeftHandWhenEquipped = 1;
+}
+
+actor SpinnerRack 18030
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Spinner Rack";
+	effectSet = 5;
+	projectilesCanDamage = true;
+	weightClass = 2;
+	breakable = true;
+}
+
+actor Baseball 18031
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Baseball";
+	pickupType = "Unstorable";
+	breakable = true;
+	projectilesCanDamage = true;
+	weightClass = 1;
+	hitpoints = 1;
+}
+
+actor StackOfTires 18018
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Tire",
+			"Tire2",
+			"Tire3",
+			"Tire4",
+			"Tire5";
+	hasVariants = true;
+	freezeXY = true;
+	weightClass = 2;
+}
+
+actor EmptyMug 18033
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Keeneye Mug";
+	pickupType = "Unstorable";
+	breakable = true;
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	effectSet = 2;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor MetalStool 18034
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Metal Stool";
+	effectSet = 4;
+	weightClass = 1;
+	pickupType = "Unstorable";
+}
+
+actor Barbercide 18035
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Barbercide";
+	pickupType = "Unstorable";
+	breakable = true;
+	projectilesCanDamage = true;
+	effectSet = 2;
+	hitpoints = 1;
+	weightClass = 1;
+}
+
+actor Rat 18037
+{
+	type = "Prop";
+	category = "Critters";
+	prefab = "Rat";
+	sprites = 	"Rat - South - 1",
+			"Rat - South - 2",
+			"Rat - South - 3",
+			"Rat - Southeast - 1",
+			"Rat - Southeast - 2",
+			"Rat - Southeast - 3",
+			"Rat - East - 1",
+			"Rat - East - 2",
+			"Rat - East - 3",
+			"Rat - Northeast - 1",
+			"Rat - Northeast - 2",
+			"Rat - Northeast - 3",
+			"Rat - North - 1",
+			"Rat - North - 2",
+			"Rat - North - 3",
+			"Rat - Equipped";
+	effectSet = 26;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	breakable = true;
+	hasAnimations = true;
+	attachedToGround = true;
+	firstPersonOffset = 50, 200;
+	properties =       Event "spawn_on_event";
+}
+
+actor BigJohnToy 18038
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Big John Toy";
+	effectSet = 27;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	breakable = true;
+	pickupType = "Unstorable";
+}
+
+actor CoffeeDecanter 18039
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Coffee Decanter";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	breakable = true;
+	pickupType = "Unstorable";
+}
+
+actor AutomaticPistolMagazine 18042
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Магазин пистолета";
+	sprites =	"Automatic Pistol Magazine - World";
+	icon = "icon_apistolmag";
+	inventoryIcon = "Inventory Icon - Automatic Pistol Magazine";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 7;
+	maxStackCount = 4;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor ThirtyEightSpecialSpeedloader 18043
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Спидлоадер .38 Special";
+	sprites =	"Speedloader - 38 Special - World";
+	icon = "icon_38speedloader";
+	inventoryIcon = "Inventory Icon - 38 Special Speedloader";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 6;
+	maxStackCount = 4;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor SpeargunSpear 18044
+{
+	type = "Prop";
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites =	"Speargun Spear - World";
+	icon = "iconb_spearbolt";
+	inventoryIcon = "Inventory Icon - Speargun Spear";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	maxStackCount = 8;
+	firstPersonOffset = 0, -100;
+}
+
+actor ThirtyEightSpecialAmmo 18045
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Патроны .38 Special";
+	sprites =	"38 Special Ammo - World";
+	icon = "icon_rifleround";
+	inventoryIcon = "38 Special Ammo - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 24;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor ShotgunAmmo 18046
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Патроны для дробовика";
+	sprites =	"Shotgun Shell";
+	icon = "iconb_shotgunshell";
+	inventoryIcon = "Inventory Icon - Shotgun Shell";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 34;
+	maxStackCount = 12;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor RifleAmmo 18047
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Патроны 30-06 для винтовки";
+	sprites =	"30 - 06 Rifle Round";
+	icon = "icon_rifleround";
+	inventoryIcon = "Inventory Icon - 30 - 06 Rifle Round";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 10;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor RifleClip 18048
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Обойма 30-06 для винтовки";
+	sprites =	"30 - 06 Rifle Clip";
+	icon = "icon_rifleclip";
+	inventoryIcon = "Inventory Icon - 30 - 06 Rifle Clip";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 5;
+	maxStackCount = 4;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor JerryCan 18049
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Jerrycan";
+	sprites =	"Jerry Can";
+	pickupType = "Unstorable";
+	buoyant = true;
+	breakable = true;
+	projectilesCanDamage = true;	
+	collideWithCharacters = false;
+	effectSet = 35;
+	weightClass = 2;
+	hitpoints = 5;
+}
+
+actor NailGunMagazine 18050
+{
+	type = "Prop";
+	category = "Weapons";
+	sprites =	"Nail Gun Magazine - World";
+	icon = "icon_nailgun_mag";
+	inventoryIcon = "Inventory Icon - Nail Gun Magazine";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 15;
+	maxStackCount = 4;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor StatueMiniature 18051
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Statue Miniature 1",
+			"Statue Miniature 2",
+			"Statue Miniature 3",
+			"Statue Miniature 4";
+	weightClass = 2;
+	breakable = true;
+	hitpoints = 20;
+	hasVariants = true;
+	collideWithCharacters = false;
+}
+
+actor Bust 18052
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Bust 1",
+			"Bust 2";
+	hasVariants = true;
+	weightClass = 3;
+	collideWithCharacters = true;
+}
+
+actor Vase 18053
+{
+	type = "Prop";
+	category = "Props";
+	pickupType = "Unstorable";
+	sprites = 	"Vase 1",
+			"Vase 2",
+			"Vase 3",
+			"Vase 4",
+			"Vase 5",
+			"Vase 6",
+			"Vase 7";
+	effectSet = 1;
+	hitpoints = 5;
+	weightClass = 1;
+	hasVariants = true;
+	breakable = true;
+	collideWithCharacters = true;
+	projectilesCanDamage = true;
+}
+
+actor ThreeFiftySevenMagnumAmmo 18054
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Патроны .357 Magnum";
+	sprites =	"357 Magnum Ammo - World";
+	icon = "icon_revolverbullet";
+	inventoryIcon = "357 Magnum Ammo - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 16;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor ThreeFiftySevenMagnumSpeedloader 18055
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Спидлоадер .357 Magnum";
+	sprites =	"357 Magnum Speedloader - World";
+	icon = "icon_revolverspeedloader";
+	inventoryIcon = "357 Magnum Speedloader - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	ammoPerMag = 6;
+	maxStackCount = 4;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor TranquilizerDartAmmo 18056
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Дротик с транквилизатором";
+	sprites =	"Tranq Dart - World";
+	inventoryIcon = "Tranq Dart - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 10;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor HangingMeat 18057
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Meat Hook 2",
+			"Meat Hook 3";
+	freezeXZ = true;
+	freezeY = true;
+	projectilesCanDamage = true;
+	collideWithCharacters = true;
+	hasVariants = true;
+	weightClass = 2;
+	freezeXZ = true;
+	freezeY = true;
+	applyGravity = false;
+	effectSet = 14;
+}
+
+actor MeatHook 18058
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"Meat Hook 1";
+	freezeXZ = true;
+	freezeY = true;
+	disappearOnBreak = false;
+	weightClass = 2;
+	freezeXZ = true;
+	freezeY = true;
+}
+
+
+actor FortyFiveACPAmmo 18061
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = ".45 ACP";
+	sprites =	"45 Acp Ammo - World";
+	inventoryIcon = "45 Acp Ammo - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 24;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor NailGunAmmo 18062
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Гвоздь";
+	sprites =	"Nail - World";
+	inventoryIcon = "Nail - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 32;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor PocketPistolMagazine 18063
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Магазин карманного пистолета";
+	sprites =	"Pocket Pistol Mag - World";
+	inventoryIcon = "Pocket Pistol Mag - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 5;
+	magazineLoadedAmmoDef = 18061;
+	maxStackCount = 5;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor EmptyStrawberryMilkshake 18064
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Strawberry Milkshake - Empty - World";
+	inventoryIcon = "Strawberry Milkshake - Empty - Inventory Icon";
+	effectSet = 2;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	weightClass = 1;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor Jackolantern 18065
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Jackolantern";
+	sprites = 			"jackolantern1", 
+					"jackolantern2",
+					"jackolantern3",
+					"jackolantern4";
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	breakable = true;
+	hasAnimations = true;
+	fullbright = true;
+	weightClass = 1;
+	effectSet = 6;
+}
+
+actor Flag 18066
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "flag";
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	breakable = true;
+	weightClass = 2;
+}
+
+actor Plunger 18067
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "plunger", "plungera";
+	weightClass = 2;
+	pickupType = "Key";
+}
+
+
+actor DynamiteBoxKeyItem 18068
+{
+	type = "Prop";
+	category = "Props";
+	inGameName = "Ящик динамита";
+	sprites = "dynamitebox";
+	weightClass = 2;
+	pickupType = "Key";
+	projectilesPassthrough = true;
+}
+
+actor Lantern 18069
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "lantern2", "lanternoff", "lanternbroken";
+	weightClass = 2;
+}
+
+actor Oillamp 18070
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Oillamp";
+	effectSet = "Generic Glass";
+	sprites = 		"oillampf1", 
+				"oillampf2", 
+				"oillampf3", 
+				"oillampoff", 									"oillampbroken";
+	weightClass = 2;
+	hasAnimations = true;
+	projectilesCanDamage = true;
+	breakable = true;
+	disappearOnBreak = false;
+}
+
+actor Gnome 18071
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 		"gnome1",
+				"gnome2",									"gnome3",
+				"gnome4",
+				"gnome5",
+				"gnome6",
+				"gnome7",
+				"gnome8",
+				"gnome9",
+				"gnome10",
+				"gnome11",
+				"gnome12",
+				"gnome13",
+				"gnome14",
+ 				"gnome15",
+				"Gome 16";
+	weightClass = 2;
+	firstPersonScale = 2;
+	pickupType = "Unstorable";
+	effectSet = "Generic Glass";
+	projectilesCanDamage = true;
+	collideWithCharacters = false;
+	hasVariants = true;
+	breakable = true;
+}
+
+actor Balloon 18072
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 		"balloon",
+				"balloon2";
+	weightClass = 2;
+	breakable = true;
+	projectilesCanDamage = true;
+}
+
+actor Pumpkin 18073
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 		"pumpkin",
+				"pumpkinsmashed";
+	pickupType = "Unstorable";
+	breakable = true;
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	weightClass = 2;
+	effectSet = 6;
+	damagedVariantCount = 1;
+}
+
+actor Pumpkinsmashed 18074
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 		"pumpkinsmashed";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakable = true;
+	effectSet = 6;
+}
+
+actor Armor 18075
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 		"armor1",
+				"armor2",
+				"armor3",
+				"armor4",
+				"armordestroyed";
+	weightClass = 2;
+	hasVariants = true;
+}
+
+actor Shoe 18076
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 		"shoe1",
+				"shoe2",
+				"shoe3",
+				"shoe4",
+				"shoe5",
+				"shoe6",
+				"shoe7";
+	pickupType = "Unstorable";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	breakable = true;
+	weightClass = 1;
+	firstPersonScale = 2;
+}
+
+actor Candelabra 18077
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Candelabra";
+	sprites = 	"candelabra1",
+			"candelabra1a",
+			"candelabra1b",
+			"candelabra1c";
+	properties = 	Checkbox "lit";
+	attachToGeometry = true;
+	hasAnimations = true;
+}
+
+actor CandelabraTall 18078
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Candelabra";
+	sprites = 	"candelabratall",
+			"candelabratall1b",
+			"candelabratall1c",
+			"candelabratall1d";
+	properties = 	Checkbox "lit";
+	attachToGeometry = true;
+	hasAnimations = true;
+}
+
+actor DeskBell 18134
+{
+	type = "Prop";
+	prefab = "Desk Bell";
+	category = "Props";
+	sprites = "Ringer";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+}
+
+actor Bones 18136
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "armbone", "femur", "skull3", "skull2", "skull", "Rib bones";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	projectilesPassthrough = true;
+	breakable = false;
+	hasVariants = true;
+}
+
+actor WateringCan 18137
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "wateringcan", "wateringcan2";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakable = true;
+	hasVariants = true;
+}
+
+actor TeddyBear 18138
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "teddybear";
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakable = true;
+}
+
+actor AlexiaFinger 18139
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Alexiafinger";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+}
+
+actor Badge 18140
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Deliabadge2", "hobo_badge";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+	hasVariants = true;
+}
+
+actor MeatHook2 18141
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "meathook";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+}
+
+actor PigHead 18142
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "pighead";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+}
+
+actor PoliceCap 18143
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "police cap";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+}
+
+actor StairLamp 18144
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "stairlamp";
+	collideWithCharacters = false;
+	projectilesCanDamage = false;
+	breakable = false;
+}
+
+actor Candle1 18145
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"candle",
+			"candle1a",
+			"candle1b",
+			"candle1c";
+	properties = 	Checkbox "lit";
+	attachToGeometry = true;
+	hasAnimations = true;
+}
+
+actor Candle2 18146
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"candle2",
+			"candle2a",
+			"candle2b";
+	properties = 	Checkbox "lit";
+	attachToGeometry = true;
+	hasAnimations = true;
+}
+
+actor Crucifix 18147
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"crucifix";
+}
+
+actor Binocs 18148
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"binocs";
+}
+
+actor Microscope 18149
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"microscope";
+}
+
+actor Firepoker 18150
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"firepoker", "firepoker - 2", "firepoker - 3";
+	hasVariants = true;
+}
+
+actor Broom 18151
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"broom1", "broom2";
+	hasVariants = true;
+	projectilesCanDamage = true;
+	breakable = true;
+}
+
+actor Piggybank 18152
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"piggybank";
+	effectSet = 1;
+	hitpoints = 1;
+	breakable = true;
+	projectilesCanDamage = true;
+}
+
+actor PartyHat 18153
+{
+	type = "Prop";
+	category = "Props";
+	sprites = 	"partyhat";
+}
+
+actor MonitorMagazine 18154
+{
+	type = "Prop";
+	category = "Weapons";
+	sprites =	"Monitor - Magazine - World";
+	icon = "icon_apistolmag";
+	inventoryIcon = "Inventory Icon - Monitor Magazine";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 20;
+	maxStackCount = 4;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor CableReelKeyItem 16111
+{
+	type = "Prop";
+	category = "Props";
+	inGameName = "Катушка с тросом";
+	effectSet = 4;
+	projectilesCanDamage = true;
+	sprites = 	"cablereel";
+	freezeXZ = true;
+	pickupType = "Key";
+	projectilesPassthrough = true;
+}
+
+actor FuseKeyItem 16112
+{
+	type = "Prop";
+	category = "Props";
+	inGameName = "Запал";
+	sprites = 	"Fuse - Red",
+			"Fuse - Green",
+			"Fuse - Blue";
+	freezeXZ = true;
+	hasVariants = true;
+	weightClass = 4;
+	pickupType = "Key";
+	projectilesPassthrough = true;
+}
+
+actor FourBoreRound 18165
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Патрон 4-го калибра";
+	icon = "icon_revolverbullet";
+	sprites =	"4 Bore Round - World";
+	inventoryIcon = "4 Bore Round - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 16;
+	firstPersonOffset = 0, -500;
+	firstPersonScale = 0.5;
+}
+
+actor TommyGunMagazine 18171
+{
+	type = "Prop";
+	category = "Weapons";
+	sprites =	"Tommy Gun Magazine - World";
+	icon = "icon_apistolmag";
+	inventoryIcon = "Tommy Gun Magazine - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 23;
+	ammoPerMag = 50;
+	maxStackCount = 3;
+	firstPersonOffset = 0, -175;
+	firstPersonScale = 0.45;
+}
+
+actor TaserAmmo 18174
+{
+	type = "Prop";
+	category = "Weapons";
+	sprites =	"w_taserammo";
+	inventoryIcon = "Taser Ammo - Inventory Icon";
+	pickupType = "Ammo";
+	breakable = false;
+	projectilesCanDamage = false;	
+	collideWithCharacters = false;
+	ammoPouchable = true;
+	effectSet = 33;
+	maxStackCount = 10;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor Disguise 17051
+{
+	type = "Prop";
+	category = "Scripting";
+	sprites = "Disguise - Police - World";
+	breakable = false;
+	projectilesCanDamage = false;
+	projectilesPassthrough = true;
+	collideWithCharacters = false;
+}
+
+actor LockpicksProp 1153
+{
+	type = "Prop";
+	category = "Scripting";
+	inGameName = "Отмычки";
+	sprites = "lockpickset";
+	breakable = false;
+	pickupType = "Key";
+	projectilesCanDamage = false;
+	projectilesPassthrough = true;
+	collideWithCharacters = false;
+}
+
+actor EmptyRagingBullTonic 1154
+{
+	type = "Prop";
+	category = "Props";
+	sprites = "Raging Bull Tonic - World";
+	icon = "icon_bulltonic";
+	inventoryIcon = "Raging Bull Tonic - Inventory Icon";
+	effectSet = 37;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	weightClass = 1;
+}

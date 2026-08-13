@@ -1,0 +1,29 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Внутренняя служебная записка об убийце";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Внутренняя служебная записка об убийце </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+
+До меня дошло, что некоторые офицеры прозвали преступника "The Comic Book Butcher". I don't want to hear any of that around the press or in any of the internal memorandum. This is a murder investigation, we don't need some muckraker's rag catching wind of anything and muddying up the case. Keep details about the investigation within the station walls.
+
+</color>"
+}
+
+
+}

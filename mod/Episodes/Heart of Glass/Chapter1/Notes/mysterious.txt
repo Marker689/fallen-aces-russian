@@ -1,0 +1,27 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Mike Photos";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Таинственная записка </color>"
+	voiceline = "What The Hell";
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+1100 - Заходит в квартиру 
+1300 - Работает за столом
+1800 - В гостиной 
+2000 - Стирка 
+2200 - Читает газету </color>"
+}
+

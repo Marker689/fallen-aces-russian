@@ -1,0 +1,9 @@
+title = "Побег";
+over_title_text = "Пролог";
+order = 0;
+next_chapter = 1;
+world_file_name = "prologue.txt";
+scripted_event_controller = 3;
+outro_movie = "EP2 Prologue - Outro.webm";
+always_unlocked = false;
+loading_screen_music = "Music/Subway"

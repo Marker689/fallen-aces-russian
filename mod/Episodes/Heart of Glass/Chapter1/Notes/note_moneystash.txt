@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Деньги перевёз. 
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Нидлз.
+
+Похоже, мы уходим на войну с Глассхартами. Они вскрыли одну из наших страховых касс на другом конце города. На всякий случай я перевёз всю выручку за эту неделю в свою квартиру в «Ройял Армс», <color=#47AF3D>комната 204</color>. 
+Тебе понадобится <color=#47AF3D>ключ</color>, я спрятал его в <color=#47AF3D>мусорном баке за пончиковой</color>. Приглядывай 
+за легавыми.
+
+  </color>"
+}
+

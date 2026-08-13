@@ -1,0 +1,18 @@
+title = "Что было, то прошло";
+over_title_text = "Глава 2";
+order = 2;
+next_chapter = 3;
+world_file_name = "Water_Under_The_Bridge.txt";
+scripted_event_controller = 2;
+sprite_groups = "Level 2";
+loading_screen_music = 41;
+intro_movie = "Level 2 - Intro.webm";
+outro_movie = "Level 2 - Outro.webm";
+unlock_hideout = true;
+
+description_text = "Снова увидел старого кореша, он совсем свихнулся. Он пришил Пита и попытался замочить и меня.
+
+Хотя, похоже, у меня есть друг наверху...";
+
+faction_name = 0 "Глассхарты";
+faction_color = 0 "red";

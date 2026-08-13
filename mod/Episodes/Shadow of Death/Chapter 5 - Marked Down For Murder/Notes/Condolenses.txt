@@ -1,0 +1,29 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка о соболезнованиях семье";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка о соболезнованиях семье </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Эй, ни за что не поверишь. Уэс ни с того ни с сего попросил всех подписать открытку с соболезнованиями для семьи Горачека. Такой милый жест, подумать о его семье после такой жути. Никогда бы от него такого не ожидала. Он такой застенчивый и тихий, но я всегда чувствовала, что в глубине души у него золотое сердце. 
+
+
+</color>"
+}
+
+
+}

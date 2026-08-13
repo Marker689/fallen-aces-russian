@@ -1,0 +1,13 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "deathcard";
+	background_scale = 1;
+        print_name = "Карта смерти";
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+}

@@ -1,0 +1,30 @@
+title = "Друзья наверху";
+over_title_text = "Глава 1";
+order = 1;
+next_chapter = 2;
+intro_movie = "EP2 CH1 - Intro";
+loading_screen_music = "Music/pickurselfup" "Music/tramptramptramp" "Music/buddycanuspareadime" "Music/dontwannaberich" "Music/imabum" "Music/justrollingalong";
+
+world_file_name = "friendsInHighPlaces.txt";
+always_unlocked = false;
+
+description_text = "Оставили меня с перегаром и без гроша в какой-то грязной подворотне. Какой-то прощелыга утащил последние мои бабки. Вот так всегда.
+Найтвейв говорит, что Гектор залёг в том отеле на холме. Придётся тащиться в гору и молиться, чтобы у него нашлись ответы, ради которых стоило лезть.";
+
+faction_name = 0 "Глассхарты";
+faction_color = 0 "red";
+
+faction_name = 1 "Бенедетто.";
+faction_color = 1 "Purple";
+
+faction_name = 2 "Легавые";
+faction_color = 2 "Blue";
+
+faction_name = 3 "Гражданские";
+faction_color = 1 "green";
+
+
+
+
+
+

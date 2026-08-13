@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        print_name = "ТЕЛЕГРАММА";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> ТЕЛЕГРАММА </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+ТЕЛЕГРАФНЫЙ ПЛАТЁЖ ПОЛУЧЕН - (ТОЧКА)-
+
+ОХРАНА УПД В ПОМЕСТЬЯХ УИЛЛОУБРУК ПО ЗАПРОСУ-(ТОЧКА)-
+
+НЕДАВНЯЯ КОНЧИНА МИСТЕРА УОЛТЦА НЕ ИЗМЕНИЛА СДЕЛКУ -(ТОЧКА)- 
+
+ВАЙЗУ ПРИКАЗАНО НЕ ВМЕШИВАТЬСЯ В ДЕЛА ЗАГОРОДНОГО КЛУБА -(ТОЧКА)-
+
+
+</color>"
+}

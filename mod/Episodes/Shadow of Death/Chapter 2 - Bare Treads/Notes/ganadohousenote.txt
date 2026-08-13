@@ -1,0 +1,29 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка о грузовике";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка о грузовике </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Товар пройдёт в полдень. У Бенедетто трое парней следят за поставкой, пока её не довезут до лесопилки, так что действуй аккуратно и прошмыгни тихо. Должно быть легко, как яйца в кофе, раз межштатное шоссе закрыто. Спрячь в обычном месте для Пусси Фингерс.
+
+
+</color>"
+}
+
+
+}

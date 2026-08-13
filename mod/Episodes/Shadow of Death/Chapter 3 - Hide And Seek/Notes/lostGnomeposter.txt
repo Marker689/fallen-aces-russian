@@ -1,0 +1,16 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	inspectable = true;
+	background_sprite = "gnomeposter";
+        print_name = "Плакат о пропавшем гноме";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> 37 Левант-стрит. 
+ </color>"
+}

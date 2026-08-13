@@ -1,0 +1,894 @@
+actor Leaves 1002
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Leaves 1",
+			"Leaves 2";
+}
+actor Sign 1006
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Sign - Help Wanted",
+			"Sign - For Sale",
+			"Sign - Closed",
+			"Sign - Employees Only";
+}
+actor WantedPoster 1038
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Wanted Poster - Nightwave",
+			"Wanted Poster - Grillin",
+			"Wanted Poster - Dave";
+}
+actor Clock 1009
+{
+	type = "Decal";
+	sprites = "Clock", "Clock_b";
+	category = "Decals";
+	effectSet = "Generic Glass";
+	prefab = "Breakable Decal";
+}
+actor NeonSign 1012
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Neon Sign - Comics";
+}
+actor BarberTools 1013
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = "Barber Tools";
+}
+actor WallCrack 1014
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Wall Crack";
+	sprites = 	"Wall Crack 1",
+			"Wall Crack 2",
+			"Wall Crack 3";
+	properties =	Event "event_on_break";
+}
+actor WallPainting 1015
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Wall Art Painting",
+			"Wall Art Painting2",
+			"Wall Art Painting3",
+			"Wall Art Painting4",
+			"Wall Art Painting5",
+			"Wall Art Painting6",
+			"Wall Art Painting7";
+}
+actor WallHolePipe 1019
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Wall Hole Pipe";
+	inGameName = "Свинцовая труба";
+	sprites =		"Wall Hole Pipe", 
+				"Wall Hole Pipe - Pipe Taken";
+}
+actor Dartboard 1020
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Dartboard";
+}
+actor Cardboard 1025
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Cardboard 1",
+		  	"Cardboard 2",
+		  	"Cardboard 3",
+		  	"Cardboard 4",
+		  	"Cardboard 5";
+}
+actor MetalDebris 1027
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Metal Debris",
+			"Metal Debris - 2",
+			"Metal Debris - 3";
+}
+actor WoodDebris 1028
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Wood Debris",
+			"Wood Debris - 2",
+			"Wood Debris - 3";
+}
+actor GlassDebris 1029
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Glass Debris",
+			"Glass Debris - 2",
+			"Glass Debris - 3";
+}
+
+actor PowerOutlet 1030
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Outlet";
+	prefab = "Power Outlet";
+}
+
+actor Wallads 1033
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Hair Tonic Ad",
+			"Waltz Ad",
+			"Waltz Ad Worn",
+			"Waltz Ad Worn 2",
+			"Poster - Keeneye"			
+			"Wall Ad - Hats",
+			"Poster - Cowboy",	
+			"Wall Ad - VISE",
+			"Poster - Captain Spade",	
+			"Wall Ad - Labour - Fixed";
+}
+
+actor GenericDebris 1037
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Generic Debris 1",
+			"Generic Debris 2",
+			"Generic Debris 3",
+			"Generic Debris 4",
+			"Generic Debris 5",
+			"Generic Debris 6",
+			"Generic Debris 7",
+			"Generic Debris 8";
+}
+
+actor ManholeCover 1039
+{
+	type = "Decal";
+	sprites = "Manhole Cover";
+	category = "Decals";
+}
+
+actor Newspapers 1040
+{
+	type = "Decal";
+	sprites = "Newspapers1", "Newspapers2";
+	category = "Decals";
+}
+
+actor GhostSign 1041
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Filler Entry", "Ghost Sign - Overalls",
+			"Filler Entry", "Ghost Sign - Motor Parts",
+			"Filler Entry", "Ghost Sign - Insurance",
+			"Filler Entry", "Ghost Sign - Icecream",
+			"Filler Entry", "Ghost Sign - Ace Cola",
+			"Filler Entry", "Ghost Sign - Ace Cola 2",
+			"Filler Entry", "Ghost Sign - New Blood",
+			"Filler Entry", "Ghost Sign - Darkhound",
+			"Filler Entry", "Ghost Sign - Ambush",
+			"Filler Entry", "Ghost Sign - Dresses",
+			"Filler Entry", "Ghost Sign - Apartments",
+			"Filler Entry", "Ghost Sign - Cigar",
+			"Filler Entry", "Ghost Sign - Hardware",
+			"Filler Entry", "Ghost Sign - Shipping",
+			"Filler Entry", "Ghost Sign - Shoes";
+}
+
+actor BathroomDecals 1042
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Toilet Paper Roll",
+			"Towel Rack",
+			"Robe",
+			"Clothing Rack";
+}
+
+actor FireAlarm 1043
+{
+	type = "Decal";
+	cateogory = "Decals";
+	sprites = 	"Fire Alarm";
+}
+
+actor Bricks 1044
+{
+	//$Title "Bricks"
+	//$Category "Decals/Debris"
+}
+
+actor Barbrawl1 1045
+{
+	//$Title "Barbrawl1"
+	//$Category "Decals/BloodAndGore"
+}
+
+actor BloodSplat 1046
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Blood Splat - 1",
+			"Blood Splat - 2",
+			"Blood Splat - 3",
+			"Blood Splat - 4",
+			"Blood Splat - 5",
+			"Blood Splat - 6",
+			"Blood Splat - 7",
+			"Blood Splat - 8",
+			"Blood Splat - 9";
+}
+
+actor BulletHole 1048
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Bullet Hole - 1",
+			"Bullet Hole - 2",
+			"Bullet Hole - 3",
+			"Bullet Hole - 4",
+			"Bullet Hole - 5",
+			"Bullet Hole - 6",
+			"Bullet Hole - 7",
+			"Bullet Hole - 8",
+			"Bullet Hole - 9",
+			"Nail Impact",
+			"Tranq Dart Impact";
+}
+
+actor LifePreserver 1049
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Life Preserver";
+}
+
+actor LifeVest 1050
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Life Vest";
+}
+
+actor Grate2 1064
+{
+    //$Title "Grate 2"
+    //$Category "Decals"
+}
+
+actor Grate3 1065
+{
+    //$Title "Grate 3"
+    //$Category "Decals"
+}
+
+actor Sign28 1066
+{
+    //$Title "Sign 28"
+    //$Category "Decals"
+}
+
+actor Hardware 1069
+{
+    //$Title "Hardware"
+    //$Category "Decals"
+}
+
+actor BarredWindow 1070
+{
+    //$Title "Barred Window"
+    //$Category "Decals"
+}
+
+actor Mirror 1071
+{
+    //$Title "Mirror"
+    //$Category "Decals"
+}
+
+actor MoneySign 1074
+{
+    //$Title "Money Sign"
+    //$Category "Decals"
+}
+
+actor PrivateSign 1075
+{
+    //$Title "Private Sign"
+    //$Category "Decals"
+}
+
+actor RoomsSign 1076
+{
+    //$Title "Rooms Sign"
+    //$Category "Decals"
+}
+
+actor Sign21 1077
+{
+    //$Title "Sign 21"
+    //$Category "Decals"
+}
+
+actor PapersWall 1078
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Papers Wall",
+			"Papers Wall 2",
+			"Captain Spade Page";
+	inGameNameIsSpriteName = true;
+}
+
+actor PapersFloor 1079
+{
+	type = "Decal";
+	category = "Decals";
+	inGameName = "";
+	sprites = 	"PapersFloor",
+			"Comic Shop Floor",
+			"Comic Shop Floor 2",
+			"Gloves Off - Cover";
+}
+
+actor NoTrespassingSign 1080
+{
+    //$Title "No Trespassing Sign"
+    //$Category "Decals"
+}
+
+actor MissingCatSign 1081
+{
+    //$Title "Missing Cat Sign"
+    //$Category "Decals"
+}
+
+actor Corkboard2 1083
+{
+    //$Title "Corkboard 2"
+    //$Category "Decals"
+}
+
+actor TireSkidmarks 1084
+{
+	type = "Decal";
+	sprites = 	"Tire Skidmarks";
+	category = "Decals";
+}
+
+actor CoffeeStain 1085
+{
+    //$Title "Coffee Stain"
+    //$Category "Decals"
+}
+
+actor BloodPool 1104
+{
+	type = "Decal";
+	prefab = "Blood Pool";
+	sprites = "Blood Pool";
+	category = "Decals";
+}
+
+actor Button 1106
+{
+	type = "Decal";
+	sprites = "ButtonUnpressed", "ButtonPressed";
+	category = "Decals";
+	effectSet = "Button";
+}
+
+actor NoteDecal 1107
+{
+	type = "Decal";
+	category = "Decals";
+	inGameName = "Записка";
+	sprites = 	"Note Decal",
+			"Letter",
+			"Open Book",
+			"gnomeposter",
+			"gnome_catalogue",
+			"gnome_catalogue2",
+			"secdoc1",
+            		"secdoc2",
+            		"secdoc3";
+}
+
+actor BrownStain 1108
+{
+    //$Title "Brown Stain"
+    //$Category "Decals"
+}
+
+actor SurgicalTray 1109
+{
+    //$Title "Surgical Tray"
+    //$Category "Decals"
+}
+
+actor SmashedComms 1110
+{
+    //$Title "Smashed Comms"
+    //$Category "Decals"
+}
+
+actor DoorDecal 1111
+{
+    //$Title "Door Decal"
+    //$Category "Decals"
+}
+
+actor Painting10 1112
+{
+    //$Title "Painting10"
+    //$Category "Decals"
+}
+
+actor BloodyHandSwitch 1113
+{
+    //$Title "Bloody Hand Switch"
+    //$Category "Decals/Switches"
+}
+
+actor NightwaveSymbol 1114
+{
+	type = "Decal";
+	title = "Символ Найтвейв";
+	sprites = "NWSymbol";
+	category = "Decals";
+}
+
+actor Plate 1115
+{
+	type = "Decal";
+	title = "Тарелка";
+	sprites = "Plate", "dirtyplate";
+	category = "Decals";
+}
+
+actor MikeBoxingPicture 1116
+{
+	type = "Decal";
+	title = "Фото Майка с бокса";
+	sprites = "MikeBoxingPicture";
+	category = "Decals";
+}
+
+actor MikeAndThomasPicture 1117
+{
+	type = "Decal";
+	sprites = "MikeGlassJawPicture";
+	category = "Decals";
+}
+
+actor Casefile 1118
+{
+	type = "Decal";
+	sprites = 	"VictorWaltzCasefile",
+			"Alexia Case File";
+	category = "Decals";
+	hasVariants = true;
+}
+
+actor ClothesFloor 1119
+{
+	type = "Decal";
+	inGameName = "Полицейская форма";
+	sprites = 	"ClothesFloor1", 
+			"ClothesFloor2",
+			"Cop Uniform";
+	category = "Decals";
+}
+
+actor FlowersPainting 1120
+{
+	type = "Decal";
+	sprites = "FlowersPainting1", "FlowersPainting2";
+	category = "Decals";
+}
+
+actor Calendar 1121
+{
+	type = "Decal";
+	sprites = "Calendar";
+	category = "Decals";
+}
+
+actor LightSwitch5 1122
+{
+	type = "Decal";
+	sprites = "LightSwitch5Off", "LightSwitch5On";
+	category = "Decals";
+	effectSet = "Light Switch"
+}
+actor ElevatorButtonPanel 1123
+{
+	type = "Decal";
+	sprites = 	"Elevator Button Panel - One Column"
+			"Elevator Button Panel - Two Columns";
+	category = "Decals";
+}
+actor ElevatorButton 1124
+{
+	type = "Decal";
+	sprites = 	"Elevator Button - 1",
+			"Elevator Button - 2",
+			"Elevator Button - 3",
+			"Elevator Button - 4",
+			"Elevator Button - 5",
+			"Elevator Button - 6",
+			"Elevator Button - 7",
+			"Elevator Button - 8",
+			"Elevator Button - 9";
+	category = "Decals";
+	effectSet = "Button";
+	dontAnimate = true;
+}
+actor Wires 1125
+{
+	type = "Decal";
+	sprites = 	"Wires1", 
+			"Wires2", 
+			"Wires3", 
+			"Wires4",
+			"Wires5", 
+			"Wires6", 
+			"Wires7", 
+			"Wires8";
+}
+actor Puddle 1126
+{
+	type = "Decal";
+	prefab = "Puddle";
+	sprites = "Puddle";
+	properties = Event "electrify_on_event", 
+		     Event "electrify_stop_on_event";
+}
+actor WarningSign 1127
+{
+	type = "Decal";
+	sprites = 	"SafetyFirstSign", 
+			"MachineryDangerSign", 
+			"MachineRoomWarningSign", 
+			"MachineRoomNoticeSign",
+			"HighVoltageDangerSign2",
+			"HighVoltageDangerSign", 
+			"ElevatorShaftDangerSign",
+			"ElevatorControllerSign", 
+			"ElectroSymbol";
+}
+actor Switch2 1128
+{
+	type = "Decal";
+	title = "Выключатель";
+	sprites = "Switch2Off", "Switch2On";
+	category = "Decals";
+	effectSet = "Button";
+	fullbright = true;
+}
+actor Grate 1129
+{
+	type = "Decal";
+	sprites = "Grate2";
+	category = "Decals";
+}
+actor ElevatorDial 1130
+{
+	type = "Decal";
+	sprites = "ElevatorDial";
+	category = "Decals";
+}
+actor ElectricalBox 1131
+{
+	type = "Decal";
+	sprites = "ElectricalBox", "ElectricalBox_b";
+	category = "Decals";
+	effectSet = "Generic Metal";
+	prefab = "Breakable Electrical Decal";
+	properties =	Event "event_on_break";
+}
+actor BloodyPrint 1132
+{
+	type = "Decal";
+	sprites = 	"Bloody Footprint",
+			"Bloody Handprint";
+	category = "Decals";
+}
+actor FramedPhoto 1133
+{
+	type = "Decal";
+	sprites = 	"Barbershop Photo 1",
+		  	"Barbershop Photo 1 - Broken",
+		  	"Barbershop Photo 2",
+		  	"Barbershop Photo 2 - Broken",
+		  	"Barbershop Photo 3",
+		  	"Barbershop Photo 3 - Broken",
+			"Photo 1",
+			"Photo 1 - Broken",
+			"Photo 2",
+			"Photo 2 - Broken",
+			"Photo 3",
+			"Photo 3 - Broken",
+			"Photo 4",
+			"Photo 4 - Broken",
+			"Photo 15",
+			"Photo 15 - Broken",
+			"Photo 16",
+			"Photo 16 - Broken",
+			"Photo 17",
+			"Photo 17 - Broken",
+			"Photo 18",
+			"Photo 18 - Broken",
+			"Photo 19",
+			"Photo 19 - Broken";
+	category = "Decals";
+	prefab = "Breakable Decal";
+	effectSet = "Generic Glass";
+}
+actor OilPuddle 1134
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Oil Puddle";
+	sprites = "Oil Puddle";
+	properties = Event "event_on_ignite";
+}
+actor NailBoardDecal 1035
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Nail Board Decal";
+	inGameName = "Доска с гвоздями";
+	sprites =		"Nail Board - Decal", 
+				"Nail Board - Decal - Picked Up";
+}
+actor ShotgunPlaque 1036
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Shotgun Plaque";
+	sprites =		"Shotgun Plaque", 
+				"Shotgun Plaque - Picked Up";
+}
+actor MikeSpyPhoto 1135
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =		"Mike Spy Photo - 1",
+				"Mike Spy Photo - 2",
+				"Mike Spy Photo - 3",
+				"Mike Spy Photo - 4",
+				"Alexia_bull",
+				"Photo of Alexia",
+				"Photo of Nightwave",
+				"mike_photo";
+}
+
+actor Map 1136
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =		"Map - 1",
+				"Map - 2",
+				"Map - 3",
+				"submap",
+				"E2C4 - Map - Floor 1",
+				"E2C4 - Map - Floor 2",
+				"E2C4 - Map - Basement",
+				"E2C2 - Map - Ruined",
+				"E2C2 - Map",
+				"E2C1 - Map";
+}
+
+actor MouseTrap 1137
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Mouse Trap";
+	sprites =		"Mouse Trap";
+}
+actor Speaker 1138
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Breakable Electrical Decal";
+	sprites =		"Grate2",
+				"Grate - Broken";
+	properties =		Event "event_on_break",
+				Event "break_on_event";
+}
+
+actor TripwireDecal 1139
+{
+	type = "Decal";
+	category = "Decals";
+	inGameName = "Растяжка";
+	prefab = "Tripwire Decal";
+	sprites =		"Tripwire Decal";
+	properties =		Event "event_on_trigger";
+}
+
+actor Graffiti 18028
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"Graffiti - Benetto",
+			"Graffiti - Time Is Up",
+			"Graffiti - Glass Heart";
+}
+
+actor CookingRack 18029
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Cooking Rack";
+}
+
+actor TapedRadio 1140
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Taped Radio";
+	sprites =	"Taped Radio - 1",
+			"Taped Radio - 2",
+			"Taped Radio - 3",;
+
+	properties = 	Event "start_on_event",
+			Event "hide_on_event",
+			String "character";
+}
+
+actor Valve 1141
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Valve";
+	effectSet = "Valve";
+	sprites =	"Valve";
+}
+
+actor ChalkOutline 1142
+{
+	type = "Decal";
+	category = "Decals";
+	sprites =	"Chalk Outline - 1",
+			"Chalk Outline - 2",
+			"Chalk Outline - 3",
+			"Chalk Outline - 4",
+			"Chalk Outline - 5",
+			"Chalk Outline - 6";
+}
+
+actor PlayingCards 1143
+{
+    type = "Decal";
+    category = "Decals";
+    sprites =    "Cards",
+            "Cards - 2",
+            "Ace Card",
+	    "deathcard";
+}
+
+actor ShipName 1144
+{
+    type = "Decal";
+    category = "Decals";
+    sprites =     "Manticore";
+}
+
+actor Hobosign 1145
+{
+    type = "Decal";
+    category = "Decals";
+    sprites =     	"hobo_ambush",
+			"hobo_alarm",
+			"hobo_ammo",
+			"hobo_boobytraps",
+			"hobo_benedettos",
+			"hobo_breakablewall",
+			"hobo_trainstation",
+			"hobo_foe",
+			"hobo_thisway",
+			"hobo_food",
+			"hobo_sniper",
+			"hobo_glasshearts",
+			"hobo_shortvut",
+			"hobo_goodweapon",
+			"hobo_secretpath",
+			"hobo_gun",
+			"hobo_secret",
+			"hobo_healing",
+			"hobo_saferroute",
+			"hobo_heavilygaurded",
+			"hobo_safe",
+			"hobo_hide",
+			"hobo_police2",
+			"hobo_imposter",
+			"hobo_police",
+			"hobo_jail",
+			"hobo_loot",
+			"hobo_key";
+}
+
+actor Switch 1146
+{
+	type = "Decal";
+	title = "Выключатель";
+	sprites = 		"Lightswitch2off", 
+				"Lightswitch2on",
+				"Lightswitch3off",
+				"Lightswitch3on",
+				"Lightswitch4off",
+				"Lightswitch4on",
+				"industswitchoff",
+				"industswitchon",
+				"industbutton1",
+				"industbutton2";
+	category = "Decals";
+	effectSet = "Button";
+}
+
+actor Utencil 1147
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"fork",
+			"spoon",
+			"butterknife";
+}
+
+actor Fusebox 1148
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"fusebox1",
+			"fusebox2",
+			"fusebox3",
+			"fusebox4";
+	
+}
+
+actor LockpicksDecal 1149
+{
+	type = "Decal";
+	category = "Decals";
+	inGameName = "Отмычки";
+	sprites = 	"lockpickset";
+}
+
+actor AlarmSwitch 1150
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"alarm1", "alarm2";
+}
+
+actor AlarmBell 1151
+{
+	type = "Decal";
+	category = "Decals";
+	prefab = "Breakable Decal";
+	sprites = 	"alarmbell1",
+			"alarmbell4";
+}
+
+actor HideoutBoardDecal 1152
+{
+	type = "Decal";
+	category = "Decals";
+	sprites = 	"edv_prech1",
+			"edv_prech3",
+			"edv_prech6";
+}

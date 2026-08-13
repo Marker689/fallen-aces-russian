@@ -1,0 +1,13 @@
+title = "Карточный домик";
+order = 4;
+next_chapter = 5;
+loading_screen_ambience = 9;
+loading_screen_music = 42;
+intro_movie = "Level 4 - Intro";
+description_text = "Наконец-то добрались до дома Уолтца после нашего небольшого крюка. Тут что-то нечисто, пора получить ответы.";
+world_file_name = "House_of_Cards.txt";
+over_title_text = "Глава 4";
+sprite_groups = "Level 4", "Note Backgrounds";
+
+faction_name = 0 "Глассхарты";
+faction_color = 0 "red";

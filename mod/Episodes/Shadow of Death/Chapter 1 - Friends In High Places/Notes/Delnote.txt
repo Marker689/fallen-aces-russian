@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Разбери стол Лу";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Разбери стол Лу </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Эй, мне нужно, чтобы ты разобрал старый стол Лу. Он пылится с тех пор, как она ушла. Её шкафчик внизу тоже нужно вычистить, но удачи протискиваться сквозь этот потоп!
+
+</color>"
+}
+
+
+
+
+}

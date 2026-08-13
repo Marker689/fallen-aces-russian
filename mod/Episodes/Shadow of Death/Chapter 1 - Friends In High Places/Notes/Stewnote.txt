@@ -1,0 +1,61 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Рецепт похлёбки Маллигана";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Рецепт похлёбки Маллигана</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Любой бродяга, уважающий себя, должен уметь сварганить хорошую похлёбку на скорую руку.
+
+Ингредиенты:
+
+-1 банка бобов 
+-1 картофелина, мелко нарезанная 
+-1 одуванчик
+-Любые обрезки мяса или кость (болонья, голубь или собачий корм, если есть под рукой)
+-1 луковица, нарезанная 
+-Чёрствый хлеб или галета 
+-Щепотка соли
+-Бутылка кетчупа или томатов
+
+Возьми банку из-под кофе или жестяную кастрюлю, начни с воды. Добавь картошку и лук (или любой корнеплод), вари на медленном огне, пока не размягчатся.
+Брось бобы или помидоры, обрезки мяса и любую зелень, что есть. Дай всему потомиться на медленном огне.
+
+</color>"
+}
+
+
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+</color>"
+}
+
+
+Season with whatever's in your bindle. Some salt or a squirt of mustard can make a difference.
+
+Let it stew slow awhile until boil. Serve hot, eat with a crust of bread if you got any.
+
+</color>"
+}
+
+
+}

@@ -1,0 +1,31 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "НЕ ПИТЬ!";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> НЕ ПИТЬ! </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+НЕ ПИТЬ!
+
+Вещдок!
+
+
+</color>"
+}
+
+
+}

@@ -1,0 +1,37 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка о предохранителях на станции фуникулёра";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Заявка на техобслуживание </color>"
+SpeakDialogue("mike", "EP2 CH1 - Misc_1", 1, 1, 1);
+AddObjective("Check the hardware store for a fuse" 1, 1);
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+
+
+
+Проведу ещё несколько проверок перед разборкой. Механизмы капризные и часто глохнут. У нас кончились хорошие
+электрические предохранители. Если нужен, сбегай в хозяйственный магазин через дорогу. У них должно быть несколько в наличии.
+
+
+</color>"
+}
+
+
+
+
+}

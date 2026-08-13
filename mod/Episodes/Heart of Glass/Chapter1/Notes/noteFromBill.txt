@@ -1,0 +1,34 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка от домовладельца";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Записка от домовладельца </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Мистер Тейн, у вас есть неделя, чтобы внести арендную плату за этот и прошлый месяц. 
+ Если в течение недели я не получу деньги, я познакомлю ваши колени со своими новыми клюшками для гольфа...
+
+Сегодня вечером я вам позвоню, и лучше бы вы на этот раз взяли трубку.
+
+Ваш домовладелец,
+-Билл
+</color>"
+}
+
+
+}
+

@@ -1,0 +1,13 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+	background_scale = 1;
+        print_name = "Код ворот";
+}
+
+Page
+{
+	darken_note_background = false;
+	text = "На случай, если вы, умники, снова забудете, код ворот — <color=#47AF3D>825</color>"
+}

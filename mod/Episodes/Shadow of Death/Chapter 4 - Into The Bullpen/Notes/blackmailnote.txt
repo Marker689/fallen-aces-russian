@@ -1,0 +1,28 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка на имя капитана";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка на имя капитана </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Вы довольно долго служите в управлении и оставили за собой достойное наследие. Очень надеюсь, что так оно и останется, учитывая большие объёмы наркоты, пропавшей из камеры вещдоков. 
+
+</color>"
+}
+
+
+}

@@ -1,0 +1,1068 @@
+actor LeadPipe 17000
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Lead Pipe", "Lead Pipe - Broken";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Inventory Icon - Lead Pipe";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Lead Pipe";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 9;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 55;
+}
+
+actor FryingPan 17001
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Frying Pan", 
+			"Frying Pan - Broken";
+	icon = "icon_fryingpan";
+	inventoryIcon = "Inventory Icon - Frying Pan";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Frying Pan";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 9;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 40;
+}
+
+actor AutomaticPistol 17002
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Automatic Pistol - World", 
+			"Automatic Pistol - World - Broken";
+	icon = "icon_apistol";
+	inventoryIcon = "Inventory Icon - Automatic Pistol";
+	firstPersonWeapon = "Automatic Pistol";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor Bottle 17003
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Bottle", 
+			"Bottle - Side";
+	icon = "icon_bottle";
+	inventoryIcon = "Inventory Icon - Bottle",
+			"Inventory Icon - Broken Bottle";
+	firstPersonWeapon = "Bottle";
+	pickupType = "Weapon";
+	effectSet = 7;
+	disappearOnBreak = true;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	hasVariants = true;
+	damageIsRelativeToDamagedVariants = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 20;
+}
+
+actor BrokenBottle 17004
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Bottle - Broken",
+			"Bottle - Broken Broken";
+	icon = "icon_bottleb";
+	inventoryIcon = "Inventory Icon - Broken Bottle";
+	firstPersonWeapon = "Bottle - Broken";
+	pickupType = "Weapon";
+	effectSet = 7;
+	disappearOnBreak = false;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	damageIsRelativeToDamagedVariants = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 20;
+}
+
+actor TommyGun 17006
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Tommy Gun - World", 
+			"Tommy Gun - World - Broken";
+	icon = "icon_tommygun";
+	inventoryIcon = "Inventory Icon - Tommy Gun";
+	firstPersonWeapon = "Tommy Gun";
+	pickupType = "Weapon";
+	pickupReaction = "FancyWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor NailBoard 17007
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = "Nail Board - World", "Nail Board - World - Broken";
+	icon = "icon_nailboard";
+	inventoryIcon = "Nail Board - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Nail Board";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 11;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 25;
+}
+
+actor Molotov 17008
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = "Molotov - World";
+	icon = "icon_molotov";
+	inventoryIcon = "Inventory Icon - Molotov";
+	firstPersonWeapon = "Molotov";
+	pickupReaction = "UsefulItem";
+	disappearOnBreak = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	ammoPouchable = true;
+	pickupType = "Weapon";
+	effectSet = "Glass Bottle Liquid";
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 1;
+	maxStackCount = 3;
+}
+
+actor BaseballBat 17009
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Baseball Bat", "Baseball Bat_b";
+	icon = "icon_baseballbat";
+	inventoryIcon = "Inventory Icon - Baseball Bat";
+	firstPersonWeapon = "Baseball Bat";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 11;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 40;
+}
+
+actor Knife 17010
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Knife", "Knife - World - Broken";
+	icon = "Editor Icon - Switchblade";
+	inventoryIcon = "Knife - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Knife";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 10;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 55;
+}
+
+actor PumpShotgun 17011
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Pump Shotgun - World", 
+			"Pump Shotgun - World - Broken";
+	icon = "icon_pumpshotgun";
+	inventoryIcon = "Inventory Icon - Pump Shotgun";
+	firstPersonWeapon = "Pump Shotgun";
+	pickupType = "Weapon";
+	pickupReaction = "FancyWeapon";
+	effectSet = 28;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor NailGun 17012
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Nail Gun - World", 
+			"Nail Gun - World - Broken";
+	icon = "icon_nailgun";
+	inventoryIcon = "Inventory Icon - Nail Gun";
+	firstPersonWeapon = "Nail Gun";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 28;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor TrashcanLid 17013
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Trashcan Lid - World", 
+			"Trashcan Lid - World - Broken";
+	icon = "iconb_trashcanlid";
+	// inventoryIcon = "Inventory Icon - Trashcan Lid";
+	firstPersonWeapon = "Trashcan Lid";
+	pickupType = "Weapon";
+	effectSet = 4;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 120;
+}
+
+actor FireExtinguisher 17014
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Fire Extinguisher";
+	sprites = 	"Fire Extinguisher - World", 
+			"Fire Extinguisher - World - Broken",
+			"Fire Extinguisher 2",
+			"Fire Extinguisher 2 - Broken";
+	icon = "icon_fextinguisher";
+	inventoryIcon = "Inventory Icon - Fire Extinguisher";
+	firstPersonWeapon = "Fire Extinguisher";
+	pickupType = "Weapon";
+	effectSet = 22;
+	disappearOnBreak = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	attachToGeometry = true;
+	hasVariants = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor SaturdayNightSpecial 17015
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Snub - World", 
+			"Snub - World - Broken";
+	icon = "icon_SNS";
+	inventoryIcon = "Inventory Icon - Snub";
+	firstPersonWeapon = "Saturday Night Special";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakOnThrownImpact = false;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor FitzSpecial 17048
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Snub - Fitz - World", 
+			"Snub - Fitz - World - Broken";
+	icon = "icon_SNS";
+	inventoryIcon = "Inventory Icon - Snub";
+	firstPersonWeapon = "Fitz Special";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakOnThrownImpact = false;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor ServiceRevolver 17049
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Cop Pistol - World", 
+			"Cop Pistol - World - Broken";
+	icon = "icon_SNS";
+	inventoryIcon = "Inventory Icon - Cop Pistol";
+	firstPersonWeapon = "Service Revolver";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	breakOnThrownImpact = false;
+	hasVariants = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor FireAxe 17016
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = "Fire Axe - World", "Fire Axe - World - Broken";
+	icon = "icon_axe";
+	inventoryIcon = "Inventory Icon - Fire Axe";
+	firstPersonWeapon = "Fire Axe";
+	disappearOnBreak = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 31;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 35;
+}
+
+actor Speargun 17017
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Speargun - World - Loaded", "Speargun - World - Broken",
+			"Speargun - World - Unloaded", "Speargun - World - Broken";
+	icon = "icon_speargun";
+	inventoryIcon = "Inventory Icon - Speargun";
+	firstPersonWeapon = "Speargun";
+	pickupReaction = "DecentWeapon";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 23;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor Tripwire 17018
+{
+	type = "Prop"
+	category = "Weapons";
+	pickupType = "Weapon";
+	sprites = 	"Tripwire Prop";
+	icon = "icon_tripbomb";
+	inventoryIcon = "Tripwire - Inventory Icon";
+	firstPersonWeapon = "Tripwire";
+	hitpoints = 60;
+	effectSet = 32;
+	weightClass = 1;
+	maxStackCount = 3;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+}
+
+actor ScopedRepeater 17019
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Scoped Repeater - World", "Scoped Repeater - World - Broken";
+	icon = "icon_sniperrifle";
+	inventoryIcon = "Scoped Repeater - Inventory Icon";
+	firstPersonWeapon = "Scoped Repeater";
+	pickupReaction = "FancyWeapon";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 23;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor Repeater 17042
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Repeater - World", "Scoped Repeater - World - Broken";
+	icon = "icon_sniperrifle";
+	inventoryIcon = "Repeater - Inventory Icon";
+	firstPersonWeapon = "Repeater";
+	pickupReaction = "FancyWeapon";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 23;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor SawnOff 17020
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Sawn Off - World", "Sawn Off - World - Broken";
+	icon = "icon_sawnoff";
+	inventoryIcon = "Sawn Off - Inventory Icon";
+	firstPersonWeapon = "Sawn Off";
+	pickupReaction = "DecentWeapon";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	pickupType = "Weapon";
+	effectSet = 23;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 30;
+}
+
+
+actor Automag 17021
+{
+    type = "Prop"
+    category = "Weapons";
+    sprites =     "Revolver - World",
+            "Revolver - World - Broken";
+    icon = "icon_revolver";
+    inventoryIcon = "Revolver - Inventory Icon";
+    firstPersonWeapon = "Automag";
+    pickupType = "Weapon";
+    pickupReaction = "DecentWeapon";
+    effectSet = 23;
+    disappearOnBreak = false;
+    damagedVariantCount = 1;
+    breakOnThrownImpact = false;
+    collideWithCharacters = false;
+    projectilesCanDamage = true;
+    weightClass = 1;
+    hitpoints = 60;
+}
+
+actor Wrench 17022
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Wrench - World", "Wrench - World - Broken";
+	icon = "icon_wrench";
+	inventoryIcon = "Wrench - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Wrench";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 9;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 60;
+}
+
+actor PoolCue 17023
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = 	"Pool Cue - World";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Pool Cue - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Pool Cue - Unbroken";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 11;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 30;
+}
+
+actor BrokenPoolCue 17024
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = 	"Pool Cue - World - Broken", 
+			"Pool Cue - World - Really Broken";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Inventory Icon - Pool Cue - Broken";
+	firstPersonWeapon = "Pool Cue - Broken";
+	pickupType = "Weapon";
+	effectSet = 11;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 20;
+}
+
+actor PocketPistol 17025
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Pocket Pistol - World",
+			"Pocket Pistol - World - Broken";
+	icon = "icon_ppistol";
+	inventoryIcon = "Pocket Pistol - Inventory Icon";
+	firstPersonWeapon = "Pocket Pistol";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	disappearOnBreak = false;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 40;
+}
+
+actor Guitar 17026
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Guitar - World", "Guitar - World - Broken";
+	icon = "icon_guitar";
+	inventoryIcon = "Guitar - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Guitar";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	effectSet = 36;
+	weightClass = 2;
+	hitpoints = 30;
+}
+
+actor Blackjack 17027
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = 	"Blackjack - World", "Blackjack - World - Broken";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Blackjack - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Blackjack";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 2;
+	effectSet = 12;
+	hitpoints = 30;
+}
+
+actor TranquilizerPistol 17028
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Suppressed Pistol - World", "Suppressed Pistol - World - Broken";
+	icon = "iconb_tranqgun";
+	inventoryIcon = "Suppressed Pistol - Inventory Icon";
+	firstPersonWeapon = "Tranquilizer Pistol";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 40;
+}
+
+actor StraightRazor 17029
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = "Straight Razor - World", "Straight Razor - World - Broken";
+	icon = "iconb_straightrazor";
+	inventoryIcon = "Straight Razor - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Straight Razor";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 10;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 30;
+}
+
+actor Hammer 17030
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = "Hammer - World", "Hammer - World - Broken";
+	icon = "Editor Icon - Hammer";
+	inventoryIcon = "Hammer - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Hammer";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 9;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 50;
+}
+
+actor PowerDrill 17031
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Power Drill - World", "Power Drill - World - Broken";
+	icon = "icon_drill";
+	inventoryIcon = "Power Drill - Inventory Icon";
+	firstPersonWeapon = "Power Drill";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	breakOnThrownImpact = false;
+	disappearOnBreak = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 75;
+}
+
+actor WhiskeyBottle 17032
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Whiskey Bottle - World";
+	icon = "icon_whiskeybottle";
+	inventoryIcon = "Inventory Icon - Whiskey Bottle";
+	firstPersonWeapon = "Whiskey Bottle - Full";
+	disappearOnBreak = true;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	pickupType = "Weapon";
+	effectSet = "Glass Bottle Liquid";
+	weightClass = 1;
+	hitpoints = 30;
+	consumable_statusEffects = 6;
+	consumable_useVerb = "Pickup";
+	consumable_holdVerb = "Drink";
+	consumable_stayAfterConsumption = true;
+}
+
+actor EmptyWhiskeyBottle 17033
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Whiskey Bottle - World";
+	icon = "icon_whiskeybottle";
+	inventoryIcon = "Inventory Icon - Whiskey Bottle";
+	firstPersonWeapon = "Whiskey Bottle - Empty";
+	disappearOnBreak = true;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	pickupType = "Weapon";
+	effectSet = 7;
+	weightClass = 1;
+	hitpoints = 30;
+}
+
+actor BrokenWhiskeyBottle 17034
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = 	"Whiskey Bottle - World - Broken";
+	icon = "icon_whiskeybottle";
+	inventoryIcon = "Inventory Icon - Whiskey Bottle";
+	firstPersonWeapon = "Whiskey Bottle - Broken";
+	disappearOnBreak = true;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	pickupType = "Weapon";
+	effectSet = 7;
+	weightClass = 1;
+	hitpoints = 30;
+}
+
+actor ColaBottle 18001
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "Cola Bottle - Full - World";
+	firstPersonWeapon = "Cola Bottle - Full";
+	icon = "Editor Icon - Cola";
+	inventoryIcon = "Cola Bottle - Full - Inventory Icon";
+	effectSet = 1;
+	pickupType = "Weapon";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	hitpoints = 20;
+	consumable_statusEffects = 3, 1, 0;
+	consumable_messageOnConsumption = "You feel energized";
+	consumable_useVerb = "Pickup";
+	consumable_holdVerb = "Drink";
+	consumable_stayAfterConsumption = true;
+}
+
+actor EmptyColaBottle 17035
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = "Cola Bottle - Empty - World";
+	icon = "Editor Icon - Cola";
+	inventoryIcon = "Cola Bottle - Empty - Inventory Icon";
+	firstPersonWeapon = "Cola Bottle - Empty";
+	disappearOnBreak = true;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	pickupType = "Weapon";
+	effectSet = 1;
+	weightClass = 1;
+	hitpoints = 20;
+}
+
+actor BrokenColaBottle 17036
+{
+	type = "Prop"
+	category = "Weapons";
+	sprites = "Cola Bottle - Broken - World";
+	icon = "Editor Icon - Cola";
+	inventoryIcon = "Cola Bottle - Broken - Inventory Icon";
+	firstPersonWeapon = "Cola Bottle - Broken";
+	disappearOnBreak = true;
+	breakOnThrownImpact = true;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	pickupType = "Weapon";
+	effectSet = 1;
+	weightClass = 1;
+	hitpoints = 20;
+}
+
+actor EP2ProloguePistol 17037
+{
+	type = "Prop"
+	category = "Weapons";
+	inGameName = "Пистолет-пулемёт";
+	sprites = 	"Machine Pistol - World", 
+			"Automatic Pistol - World - Broken";
+	icon = "icon_apistol";
+	inventoryIcon = "Inventory Icon - Machine Pistol";
+	firstPersonWeapon = "EP2 Prologue Pistol";
+	pickupType = "Weapon";
+	pickupReaction = "DecentWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor Monitor 17038
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Monitor - World", 
+			"Monitor - World - Broken";
+	icon = "icon_apistol";
+	inventoryIcon = "Inventory Icon - Monitor";
+	firstPersonWeapon = "Monitor";
+	pickupType = "Weapon";
+	pickupReaction = "FancyWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor ElephantGun 17039
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = 	"Elephant Gun - World", 
+			"Elephant Gun - World - Broken";
+	icon = "icon_apistol";
+	inventoryIcon = "Elephant Gun - Inventory Icon";
+	firstPersonWeapon = "Elephant Gun";
+	pickupType = "Weapon";
+	pickupReaction = "FancyWeapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	switchToAlternateVariantOnBreak = true;
+	damagedVariantCount = 1;
+	weightClass = 1;
+	hitpoints = 60;
+}
+
+actor Baton 17040
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Baton - World", "Baton - World - Broken";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Baton - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Baton";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 11;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 55;
+}
+
+actor Cleaver 17041
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = "Cleaver - World", "Cleaver - World - Broken";
+	icon = "Editor Icon - Switchblade";
+	inventoryIcon = "Cleaver - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Meat Cleaver";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 10;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 55;
+}
+
+actor SledgeHammer 17043
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Sledge - World", "Sledge - World - Broken";
+	icon = "icon_baseballbat";
+	inventoryIcon = "Sledge - Inventory Icon";
+	firstPersonWeapon = "Sledgehammer";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 11;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 40;
+}
+
+actor Shovel 17044
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Shovel - World", "Shovel - World - Broken";
+	icon = "icon_baseballbat";
+	inventoryIcon = "Shovel - Inventory Icon";
+	firstPersonWeapon = "Shovel";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	pickupType = "Weapon";
+	effectSet = 11;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 40;
+}
+
+actor Machete 17045
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = "Machete - World", "Machete - World - Broken";
+	icon = "Editor Icon - Switchblade";
+	inventoryIcon = "Machete - Inventory Icon";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Machete";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 10;
+	damagedVariantCount = 1;
+	damagedVariantMode = 1;
+	weightClass = 1;
+	hitpoints = 55;
+}
+
+actor Sword 17046
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Long Prop";
+	sprites = "Sword - World", "Sword - World - Broken";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Inventory Icon - Sword";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Sword";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 9;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 55;
+}
+
+actor Chainsaw 17047
+{
+	type = "Prop"
+	category = "Weapons";
+	prefab = "Tall Long Prop";
+	sprites = "Chainsaw - World", "Chainsaw - World - Broken";
+	icon = "Editor Icon - Lead Pipe";
+	inventoryIcon = "Inventory Icon - Chainsaw";
+	pickupType = "Weapon";
+	firstPersonWeapon = "Chainsaw";
+	disappearOnBreak = false;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	effectSet = 9;
+	damagedVariantCount = 1;
+	weightClass = 2;
+	hitpoints = 55;
+}
+
+actor Taser 17050
+{
+	type = "Prop";
+	category = "Weapons";
+	inGameName = "Зап-О-Матик";
+	sprites =	"w_taser",
+			"w_taser-broken";
+	icon = "icon_revolver";
+	inventoryIcon = "Taser - Inventory Icon";
+	firstPersonWeapon = "Zap-O-Matic";
+	pickupType = "Weapon";
+	effectSet = 23;
+	disappearOnBreak = false;
+	damagedVariantCount = 1;
+	breakOnThrownImpact = false;
+	collideWithCharacters = false;
+	projectilesCanDamage = true;
+	weightClass = 1;
+	hitpoints = 60;
+}

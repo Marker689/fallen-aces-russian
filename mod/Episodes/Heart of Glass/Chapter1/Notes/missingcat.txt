@@ -1,0 +1,36 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка от миссис Абернати 
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Мистер Тейн. Надеюсь, эта неделя застала вас в добром здравии.
+
+ Я надеялась, что меня уведомят о любых новых подробностях, касающихся моей пропавшей кошки,
+Варежки.
+ Бедняжка пропала уже больше недели назад, и мысль о том, что она
+бродит холодная и одинокая по улицам
+ночью, меня очень расстраивает. 
+
+Очень надеюсь, что вы найдёте её побыстрее, я по ней очень скучаю. 
+
+-Миссис Абернати  
+
+  </color>"
+}
+

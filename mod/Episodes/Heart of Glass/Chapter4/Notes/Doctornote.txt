@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записки врача
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Как ваш врач, я прошу вас постараться не перенапрягаться. Я знаю, вы занятой человек, но вы должны отдыхать и не слишком нагружать плечо, не хотелось бы, чтобы вы его усугубили. Пожалуйста, продолжайте принимать прописанное мной обезболивающее. 
+
+
+
+
+  </color>"
+}
+
+
+
+

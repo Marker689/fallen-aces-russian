@@ -1,0 +1,12 @@
+title = "В загон";
+over_title_text = "Глава 4";
+order = 4;
+next_chapter = 5;
+always_unlocked = false;
+world_file_name = "intoTheBullpen.txt";
+intro_movie = "EP2 CH4 - Intro";
+
+loading_screen_music = "Music/punishment" "Music/tabu" "Music/coponbeat";
+
+description_text = "Гектор — последний, кто видел Алексию. Нужно вытащить из него ответы, пока его не прикончили, как остальных. Беда в том, что он крепко заперт
+в штаб-квартире ВАЙЗ в центре. Найтвейву пришла в голову блестящая идея, чтобы я лично его оттуда вывел. Что может пойти не так?"

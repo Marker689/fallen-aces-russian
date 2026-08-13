@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background"";
+background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Журнал отложенных заказов «Карты и комиксы Джека»
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+
+Список комиксов «Увлекательные истории» в наличии
+
+Выпуск 203 - Текс Диксон против Людей-динозавров
+Выпуск 151 - Истории из дальнего космоса: Существо с планеты Икс
+Выпуск 83 - Мрачные истории: Док наносит визит на дом 
+Выпуск 177 - Приключения Зоркого Глаза: Тайна бриллиантового ограбления
+Выпуск 15 - Эйсес: Жжём масло в полночь
+  </color>"
+}
+

@@ -1,0 +1,36 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "НЕ РАБОТАЕТ";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> НЕ РАБОТАЕТ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+
+ОТ: Отдел обслуживания
+
+Лифт опять барахлит. Опять вытворяет то самое — не останавливается на втором этаже.
+Остальные этажи работают нормально. Так что пока я не оформил заявку, разомнитесь и пока пользуйтесь лестницей. 
+
+Некоторым из вас, парни, не помешало бы сбросить пару кило.
+
+
+
+</color>"
+}
+
+
+}

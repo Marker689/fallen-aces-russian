@@ -1,0 +1,29 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        print_name = "Обязательный комендантский час";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Обязательный комендантский час</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Из-за недавней череды проделок местной молодёжи с заходом солнца строго вводится комендантский час. Все подростки обязаны либо сидеть дома, либо посетить хеллоуинские танцы, которые этим вечером пройдут в общинном зале.
+Мы благодарим всех жителей нашего сообщества за сотрудничество.
+
+- Ассоциация домовладельцев Уиллоубрук
+
+
+</color>"
+}

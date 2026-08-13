@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Ваучер казино";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Ваучер казино </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Привет, большой мальчик, мне было невероятно приятно провести с тобой вчера вечер. Позволь отплатить тем же: встретимся наверху этим вечером. Просто воспользуйся картой, которую я оставила для тебя на столе, и вышибалы пропустят тебя в казино, без лишних хлопот. 
+
+
+
+</color>"
+}
+
+}
+
+
+}

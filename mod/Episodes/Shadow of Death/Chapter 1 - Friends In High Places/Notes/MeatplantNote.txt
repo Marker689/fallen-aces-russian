@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка о подозрительном бомже";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Записка о подозрительном бомже</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Джо, когда вернёшься с работы по банку — мне надоела болтовня Ларри про копов, прикидывающихся бездомными бродягами, так что хочу, чтобы ты взял пару ребят и помял приют через дорогу. Либо кто-то из них расколется и мы поймаем крысу, либо заставим их быть нашими глазами на случай, если легавые и правда что-то затеют.
+
+
+
+</color>"
+}
+
+}
+
+
+}

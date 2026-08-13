@@ -1,0 +1,31 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        print_name = "Записи ветеринара";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записи ветеринара </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Сегодня привели бульдога. Пулевое ранение из перестрелки. Прописал морфин.
+
+Когда же эти псы научатся играть по-хорошему?
+
+Заказал ещё транквилизаторных патронов для пистолета. Похоже, потерял свой ствол.
+
+</color>"
+}
+
+

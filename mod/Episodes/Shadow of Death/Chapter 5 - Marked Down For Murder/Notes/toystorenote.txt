@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Напоминание об открытке с соболезнованиями";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Напоминание об открытке с соболезнованиями </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+КОМУ: Тине, Джейни и Элис
+
+Не забудьте подписать открытку с соболезнованиями, которую Уэс принёс для семьи Горачека. Это такой милый жест, подумать о его семье после такой жути. Он обычно такой тихий, я никогда бы от него такого не ожидала.
+
+</color>"
+}
+
+
+}

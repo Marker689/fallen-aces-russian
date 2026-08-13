@@ -1,0 +1,32 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка в комнате 204
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Нидлз, 
+
+Если читаешь это, значит, я свалил из города. Есть дела в Мейвилле. Приказ дона. Хочу, чтобы ты отнёс бабки из моего сейфа
+на улицу Рочестер. Заберёт их парень по имени Джимми. Я сменил код на сейфе. Если нужна подсказка, глянь <color=#47AF3D> результаты скачек в сегодняшней газете.</color>
+
+  </color>"
+}
+
+
+
+

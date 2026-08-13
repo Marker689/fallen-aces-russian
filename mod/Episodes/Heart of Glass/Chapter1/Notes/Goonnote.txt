@@ -1,0 +1,34 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записки громилы";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Записки громилы </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Майкл Тейн.
+Жилой дом «Ройял Армс».
+Улица Найтингейл.
+Комната 305.
+Ты знаешь порядок, сделай дело.
+
+-ГДж
+</color>"
+}
+
+
+}
+

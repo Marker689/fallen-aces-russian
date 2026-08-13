@@ -1,0 +1,40 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Объявление на кухне
+ </color>"
+}
+
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Держите кухню запертой до особого распоряжения. Кое-кто постоянно тырит еду с этого места. А эта еда только для платящих клиентов! И я знаю, кто это. Марти, этот жирный увалень. Что ж, у меня есть план, если он снова стащит еду. Я подсыпал кучу слабительного в еду, которую специально оставил для него.
+
+
+   </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Хочешь тырить еду, а? Веселись, высирая кишки, жирная задница, двуличная мразь! Не переживай, он этого не увидит, потому что все знают, что этот идиот не умеет читать.
+
+
+   </color>"
+}
+

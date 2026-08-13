@@ -1,0 +1,31 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Возьми себя в руки!
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Вы что, в хлеву выросли?!
+Кто из вас, болванов, умудрился разлить пойло по всему подвалу и оставил там всё это мне на уборку? И хватит сидеть сложа руки: пройдите те 5 метров до Рэнди через дорогу и раздобудьте нормальных инструментов, чтобы починить кое-какие балки. Они явно гниют, и пол в любой день может провалиться. Я знаю, у нас тут «забегаловка», но всё же, проявите хоть немного класса, ради бога.
+
+
+   </color>"
+}
+
+
+
+

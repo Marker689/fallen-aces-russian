@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка о проблеме с граффити";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка о проблеме с граффити </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Я понимаю, что Каннингему надо оставаться в образе для облавы на мясокомбинате, но было ли обязательно рисовать эти каракули на участке и по всему городу? Мне кажется, он слишком вжился в роль, если ты понимаешь, о чём я. Теперь мне придётся попросить кого-нибудь из новичков закрасить это дерьмо.
+
+</color>"
+}
+
+
+
+
+}

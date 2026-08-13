@@ -1,0 +1,16 @@
+# Промежуточные данные перевода (генерируются tools/, не обязательны в репо)
+*.json
+!glossary/glossary.md
+
+# Папки с батчами перевода (можно исключить — генерируются заново)
+/packs/
+/packs_rest/
+/pack_manifest.json
+/pack_manifest_rest.json
+/strings.json
+/subtitle_strings.json
+/rest_strings.json
+
+# ОС
+.DS_Store
+Thumbs.db

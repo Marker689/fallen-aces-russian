@@ -1,0 +1,14 @@
+GeneralInfo
+{
+	use_paper_sounds = false;
+	print_name = "Пуговица";
+	background_sprite = "Button Clue - 2";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	voiceline = "Level 4 - Button Clue";
+}

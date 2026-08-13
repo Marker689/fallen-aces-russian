@@ -1,0 +1,34 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Тревоги «Бетонного клуба»";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Тревоги «Бетонного клуба» </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Фрэнки,
+«Бетонный клуб» нас прижал. Они хорошо зарабатывают на этом районе, а Боссу не понравится узнать о перестрелке на новой стройплощадке той ночью. Передай ему, что пара профсоюзных лидеров начала нервничать, но держи это при себе, если не хочешь, чтобы тебя сцапали. 
+
+Советы
+
+
+</color>"
+}
+
+
+
+
+}

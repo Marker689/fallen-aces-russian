@@ -1,0 +1,517 @@
+actor Apple 18000
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "Apple";
+	icon = "iconb_apple";
+	inventoryIcon = "Inventory Icon - Apple";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_leftoverProp = 18004;
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 3;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+actor Painkillers 18036
+{
+	type = "Prop";
+	category = "Aid";
+	sprites = "Painkillers";
+	icon = "icon_painkillers";
+	inventoryIcon = "Inventory Icon - Painkillers";
+	effectSet = 25;
+	pickupType = "Consumable";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	weightClass = 1;
+	pickupReaction = "UsefulItem";
+	consumable_statusEffects = 3, 7;
+	consumable_messageOnConsumption = "Ты чувствуешь себя крепче";
+	consumable_reactionOnConsumption = "UsePainkillers";
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Взять";
+	maxStackCount = 3;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor Banana 18002
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "Banana";
+	icon = "iconb_banana";
+	inventoryIcon = "Inventory Icon - Banana";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_leftoverProp = 18003;
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 3;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+actor BananaPeel 18003
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "Banana Peel";
+	icon = "iconb_banana";
+	prefab = "Banana Peel";
+	pickupType = "Unstorable";
+	effectSet = 6;
+	breakOnThrownImpact = false;
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	hitpoints = 5;
+	weightClass = 1;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+actor EatenApple 18004
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "Apple - Eaten";
+	icon = "iconb_apple";
+	effectSet = 6;
+	pickupType = "Unstorable";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	weightClass = 1;
+	firstPersonOffset = 0, -200;
+	firstPersonScale = 0.4;
+}
+
+actor MedKit 18005
+{
+	type = "Prop";
+	sprites = "Medkit";
+	icon = "icon_medkit";
+	inventoryIcon = "Inventory Icon - Medkit";
+	effectSet = 24;
+	maxStackCount = 3;
+	category = "Aid";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	pickupType = "Consumable";
+	pickupReaction = "UsefulItem";
+	consumable_statusEffects = 2;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Использовать";
+	consumable_inventoryIcon = "Inventory Icon - Medkit";
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.3;
+}
+
+actor StrawberryMilkshake 18007
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "StrawberryMilkshake";
+	icon = "icon_milkshake";
+	inventoryIcon = "Inventory Icon - Strawberry Milkshake";
+	effectSet = 2;
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_messageOnConsumption = "Твоё любимое!";
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Пить";
+	consumable_inventoryIcon = "Inventory Icon - Strawberry Milkshake";
+	consumable_reactionOnConsumption = "NiceFood";
+	consumable_leftoverProp = 18064;
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 3;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor SmallCheese 18008
+{
+	type = "Prop";
+	sprites = "SmallCheese";
+	icon = "iconb_cheese";
+	inventoryIcon = "Inventory Icon - Small Cheese";
+	effectSet = 6;
+	maxStackCount = 3;
+	category = "Food";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_inventoryIcon = "Inventory Icon - Small Cheese";
+	firstPersonOffset = 0, -250;
+	firstPersonScale = 0.5;
+}
+
+actor CoffeeCup 18010
+{
+	type = "Prop";
+	title = "Кофе";
+	category = "Food";
+	sprites = "CoffeeCup";
+	icon = "iconb_coffee";
+	inventoryIcon = "Inventory Icon - Coffee";
+	effectSet = 2;
+	maxStackCount = 3;
+	pickupType = "Consumable";
+	consumable_messageOnConsumption = "Твоя энергия восстанавливается!";
+	consumable_statusEffects = 3, 0;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Пить";
+	consumable_inventoryIcon = "Inventory Icon - Coffee Cup";
+	consumable_reactionOnConsumption = "NiceCoffee";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor DeliSandwich 18011
+{
+	type = "Prop";
+	sprites = "DeliSandwich";
+	icon = "iconb_sandwhich";
+	inventoryIcon = "Inventory Icon - Deli Sandwich";
+	category = "Food";
+	pickupType = "Consumable";
+	effectSet = 6;
+	maxStackCount = 3;
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	breakable = true;
+	collideWithCharacters = false;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor Hotdog 18012
+{
+	type = "Prop";
+	sprites = "Hotdog";
+	icon = "icon_hotdog";
+	effectSet = 6;
+	maxStackCount = 3;
+	category = "Food";
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	breakable = true;
+	collideWithCharacters = false;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor Pie 18023
+{
+	type = "Prop";
+	sprites = "Pie";
+	icon = "iconb_pie";
+	effectSet = 6;
+	maxStackCount = 3;
+	category = "Food";
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	breakable = true;
+	collideWithCharacters = false;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.25;
+}
+
+actor Donut 18024
+{
+	type = "Prop";
+	sprites = "Donut";
+	icon = "iconb_donut";
+	effectSet = 6;
+	maxStackCount = 3;
+	hitpoints = 30;
+	category = "Food";
+	pickupType = "Consumable";
+	consumable_statusEffects = 3;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	lunchboxable = true;
+	breakable = true;
+	collideWithCharacters = false;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.5;
+}
+
+actor Smokes 18025
+{
+	type = "Prop";
+	sprites = "Smokes";
+	icon = "iconb_smokes";
+	category = "Props";
+	pickupType = "Consumable";
+	effectSet = "Smokes";
+	pickupReaction = "UsefulItem";
+	consumable_statusEffects = 9;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Курить";
+	inventoryIcon = "Inventory Icon - Smokes";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	maxStackCount = 3;
+	consumable_noUnderwaterUse = true;
+	firstPersonOffset = 0, -100;
+}
+
+actor BodyArmor 18040
+{
+	type = "Prop";
+	category = "Props";
+	sprites =	"Body Armor";
+	effectSet = "Body Armor";
+	pickupType = "Consumable";
+	collideWithCharacters = false;
+	consumable_messageOnConsumption = "Это поглотит немного урона!";
+	consumable_reactionOnConsumption = "UsefulItem";
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Надеть";
+	consumable_statusEffects = 8;
+	consumable_canPickup = false;
+}
+
+actor Loot 18041
+{
+	type = "Prop";
+	category = "Props";
+	prefab = "Loot Prop";
+	sprites =	"Wad Of Dough",
+			"Wallet",
+			"Gold Pocket Watch",
+			"Gold Ring",
+			"Lucky Rabbits Foot",
+			"Diamond",
+			"Silver Bar",
+			"Gold Bar",
+			"Pearl Necklace",
+			"Stack Of Coins",
+			"Stack Of Coins - 2",
+			"Gold Tooth",
+			"Silver Cigarette Case",
+			"Pile Of Coins",
+			"Cursed Emerald",
+			"Ruby",
+			"Sapphire",
+			"Jewel Encrusted Falcon",
+			"Penny",
+			"Quarter";
+	icon = "icon_loot";
+	pickupType = "Consumable";
+	consumable_useVerb = "Подобрать";
+	consumable_canPickup = false;
+	consumable_reactionOnConsumption = "Loot";
+	effectSet = "Loot";
+	hasVariants = true;
+	collideWithCharacters = false;
+}
+
+actor BoltTonic 18059
+{
+	type = "Prop";
+	category = "Aid";
+	inGameName = "«Болт!» — спортивный эликсир";
+	sprites = "Bolt Tonic - World";
+	icon = "iconb_bolt";
+	inventoryIcon = "Bolt Tonic - Inventory Icon";
+	effectSet = 38;
+	pickupType = "Consumable";
+	consumable_statusEffects = 10;
+	consumable_messageOnConsumption = "Такое чувство, что можно пробежать марафон!";
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Пить";
+	projectilesCanDamage = true;
+	breakable = false;
+	collideWithCharacters = false;
+	weightClass = 1;
+}
+
+actor RagingBullTonic 18060
+{
+	type = "Prop";
+	category = "Aid";
+	inGameName = "Тоник «Разъярённый бык»";
+	sprites = "Raging Bull Tonic - World";
+	icon = "icon_bulltonic";
+	inventoryIcon = "Raging Bull Tonic - Inventory Icon";
+	effectSet = 37;
+	pickupType = "Consumable";
+	consumable_statusEffects = 11, 8;
+	consumable_messageOnConsumption = "Такое чувство, что можно пробить бетон голыми руками!";
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Пить";
+	consumable_reactionOnConsumption = "RagingBull";
+	thrownProjectile = "Thrown Raging Bull Tonic";
+	projectilesCanDamage = true;
+	breakable = false;
+	collideWithCharacters = false;
+	weightClass = 1;
+}
+
+actor Candy1 18175
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "candy A";
+	icon = "iconb_apple";
+	inventoryIcon = "candy A - Inventory Icon";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 0, 15;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 5;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+actor Candy2 18176
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "candy B";
+	icon = "iconb_apple";
+	inventoryIcon = "candy B - Inventory Icon";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 0, 16;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "GrossFood";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 5;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+actor Candy3 18177
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "candy2";
+	icon = "iconb_apple";
+	inventoryIcon = "candy2 - Inventory Icon";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 0, 15;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 5;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+actor Candy4 18178
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "candy3";
+	icon = "iconb_apple";
+	inventoryIcon = "candy3 - Inventory Icon";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 0, 15;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 5;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}
+
+
+actor Candy5 18179
+{
+	type = "Prop";
+	category = "Food";
+	sprites = "candy4";
+	icon = "iconb_apple";
+	inventoryIcon = "candy4 - Inventory Icon";
+	effectSet = 6;
+	pickupType = "Consumable";
+	consumable_statusEffects = 0, 15;
+	consumable_useVerb = "Подобрать";
+	consumable_holdVerb = "Съесть";
+	consumable_reactionOnConsumption = "NiceFood";
+	projectilesCanDamage = true;
+	breakable = true;
+	collideWithCharacters = false;
+	lunchboxable = true;
+	weightClass = 1;
+	maxStackCount = 5;
+	firstPersonOffset = 0, -100;
+	firstPersonScale = 0.4;
+}

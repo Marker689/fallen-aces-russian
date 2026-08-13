@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Дело о банковском грузовике";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Дело о банковском грузовике </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Это будет лёгкая прогулка. Подготовь отряд рубщиков и жди, пока они поднимутся на крыльцо, потом выпусти всех. Скинни сказал, что пришлёт этих типов не позже половины шестого. Если к тому времени их не будет, дай знать Типсу, и он разберётся.
+ПФ
+
+
+</color>"
+}
+
+
+}

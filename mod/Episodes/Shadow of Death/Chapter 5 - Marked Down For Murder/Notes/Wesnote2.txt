@@ -1,0 +1,30 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Уэс в последнее время пропадает";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Уэс в последнее время пропадает </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Есть идеи, где Уэс был на прошлой неделе? Обычно он пунктуален, но в последнее время пропускает работу. Джанет говорит, что он всё больше времени проводит со своей новой девушкой. Если так, я могу дать ему отгулы. Может, дамочка поможет ему стать общительнее. В любом случае,
+когда увидишь его, скажи, чтобы он немедленно явился ко мне в кабинет.
+
+
+</color>"
+}
+
+
+}

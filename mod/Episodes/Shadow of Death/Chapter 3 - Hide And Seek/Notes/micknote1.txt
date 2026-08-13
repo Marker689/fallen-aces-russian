@@ -1,0 +1,28 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        print_name = "Записка антиквара";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Записка антиквара-коллекционера </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Благодарю вас, ребята, за то, что присматриваете за местом, пока я разбираюсь с ситуацией. Передайте мистеру Этторе и его сыновьям, что все ценности, которые можно спасти, будут возвращены. Если вам нужно попасть в клуб, воспользуйтесь моим ключом и скажите охране, что вас послал казначей Пэт. Угощайтесь всем, что есть в холодильнике, кроме вишнёвого пирога моей жены!
+
+-Пэт Макферсон
+
+
+</color>"
+}

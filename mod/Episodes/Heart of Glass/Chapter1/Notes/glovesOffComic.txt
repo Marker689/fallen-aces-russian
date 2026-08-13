@@ -1,0 +1,43 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	print_name = "Наставление боксёра по драке";
+	background_sprite = "Gloves Off - Cover";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	background_sprite = "Gloves Off - 1";
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	background_sprite = "Gloves Off - 2";
+}
+
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	background_sprite = "Gloves Off - 3";
+}
+
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	background_sprite = "Gloves Off - 4";
+}

@@ -1,0 +1,14 @@
+title = "Переключая передачи";
+order = 3;
+next_chapter = 4;
+loading_screen_music = 45;
+intro_movie = "Level 3 - Intro";
+world_file_name = "Shifting_Gears.txt";
+description_text = "Наша тачка вдребезги, нужны новые колёса. У старого друга Найтвейва, Блейка, есть как раз то, что нам нужно.<br><br>Он держит свалку на другом конце города. Беда в том, что каким-то умникам взбрело в голову обложить это место и устроить там свою площадку для игр.<br><br>Похоже, мне нужно подсобить Блейку избавиться от незваных гостей.";
+over_title_text = "Глава 3";
+
+faction_name = 0 "Глассхарты";
+faction_color = 0 "red";
+
+faction_name = 2 "Бенедетто";
+faction_color = 2 "purple";

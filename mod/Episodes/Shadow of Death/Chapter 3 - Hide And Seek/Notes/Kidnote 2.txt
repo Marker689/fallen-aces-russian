@@ -1,0 +1,26 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        print_name = "Записка из детского домика";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Записка из домика на дереве </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Никому ни слова о том, что случилось с Нормом Кларком! Это был несчастный случай. Убедись, что спрятал пушку!
+
+
+</color>"
+}

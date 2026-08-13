@@ -1,0 +1,29 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка об Уэсе";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка об Уэсе </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Нужно поговорить с Уэсом. Понятия не имею, как он вообще стал работником месяца. Такой неряха! Если я найду ещё хоть один чёртов комикс на витринах, я сорвусь. Скажи ему, чтобы убирал за собой, он же уборщик, ёлки-палки.
+
+
+</color>"
+}
+
+
+}

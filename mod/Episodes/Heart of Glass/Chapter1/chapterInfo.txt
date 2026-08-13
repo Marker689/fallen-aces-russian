@@ -1,0 +1,23 @@
+title = "Пробуждение";
+over_title_text = "Глава 1";
+order = 1;
+next_chapter = 2;
+loading_screen_ambience = 9;
+loading_screen_music = 27;
+scripted_event_controller = 1;
+world_file_name = "level1.txt";
+intro_movie = "Level 1 - Intro.webm";
+sprite_groups = "Level 1", "Note Backgrounds";
+always_unlocked = true;
+
+description_text = "Очередная ночь в одиночестве в моей паршивой квартире, пьяный в стельку, как обычно. Я взял новое жирное дельце для одного шишки, так что, пожалуй, есть повод отпраздновать. 
+
+Если я раскрою это дело, может, сколочу достаточно бабок, чтобы свалить из этой дыры, а может, и вовсе навсегда уехать из города.";
+
+faction_name = 0 "Глассхарты";
+faction_color = 0 "red";
+
+faction_name = 1 "Бенедетто";
+faction_color = 1 "purple";
+
+continue_to_next_chapter = true;

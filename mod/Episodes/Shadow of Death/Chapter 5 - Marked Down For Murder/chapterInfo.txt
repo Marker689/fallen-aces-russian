@@ -1,0 +1,17 @@
+title = "Со скидкой на убийство";
+over_title_text = "Глава 5";
+order = 5;
+world_file_name = "markedDownForMurder.txt";
+always_unlocked = false;
+
+early_access_end = true;
+
+loading_screen_music = "Music/storybook" "Music/shoppinwithu" "Music/revenge";
+
+description_text = "Блэкаут поставил весь город на уши. Гектор упомянул, что легавые всё допрашивали его про железнодорожный билет, который оставил убийца. Билет до
+станции на Митчелл-стрит. Эта станция на верхнем этаже универмага Марва. Как и пуговица, которую я нашёл у Уолтца. Если он там, мы проследим,
+чтобы на этот раз он не ушёл."
+
+
+intro_movie = "EP2 CH5 - Intro";
+outro_movie = "EP2 CH5 - Outro";

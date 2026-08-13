@@ -1,0 +1,11 @@
+title = "Прятки";
+over_title_text = "Глава 3";
+order = 3;
+next_chapter = 4;
+intro_movie = "EP2 CH3 - Intro";
+world_file_name = "hideAndSeek.txt";
+always_unlocked = false;
+
+description_text = "Наконец-то добрались. Говорят, этот тип по кличке Покерфейс заныкался где-то в этом сонном районе. Делия надеется, что он знает, куда подевалась её мать. Так что пошерстим округу, найдём его дверь и будем надеяться, что он разговорится. Может, на этот раз уйдём с настоящими ответами."
+
+loading_screen_music = "Music/mysteriousmose" "Music/hauntedhouse";

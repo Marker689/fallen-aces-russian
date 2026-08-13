@@ -1,0 +1,33 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка со стойки чистильщика обуви";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка со стойки чистильщика обуви</color>"
+}
+
+
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+
+<color=#47AF3D> Офицер Каннингем </color> сегодня зашёл начистить ботинки — рассказал мне, что позже на другом конце улицы что-то произойдёт. Он сказал убираться до конца дня, если я не хочу поймать шальную пулю. Может, он и вонючка, особенно в этом паршивом прикиде, но приятно знать, что кто-то обо мне заботится. Наверное, просто хотел вернуть должок за то, что я отчистил всю эту краску с его новых ботинок.
+
+</color>"
+}
+
+
+
+
+}

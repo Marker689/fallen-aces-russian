@@ -1,0 +1,14 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "gnome_catalogue2";
+	background_scale = 1;
+        print_name = "Рваная страница";
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	text = "Перенесено для сохранности в мой личный сейф"
+}

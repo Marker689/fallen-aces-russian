@@ -1,0 +1,37 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+       background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Книга детских стишков </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Королева Червей пекла пирожки,
+      В летний денёк на славу;
+Валет Червей украл пирожки,
+      И утащил их начисто.
+
+  Король Червей
+  Потребовал пирожки,
+  И избил Валета до полусмерти;
+  Валет Червей
+  Вернул пирожки,
+  И поклялся больше не воровать.
+
+</color>"
+}
+
+
+

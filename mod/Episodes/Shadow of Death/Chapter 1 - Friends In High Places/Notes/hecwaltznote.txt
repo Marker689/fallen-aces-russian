@@ -1,0 +1,33 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка от Уолтца";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка от Уолтца </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Не делай этого со мной. Ты знаешь, в какое положение меня ставишь, после всего, что я тебе одолжил, и я не видел ни цента отдачи. Слава и так должна была однажды иссякнуть, а тот день настал ещё вчера. Вытащи себя из этой дыры с картами и брось разгульный образ жизни — мне не нравится видеть друга в загоне.
+Вик
+
+
+
+</color>"
+}
+
+}
+
+
+}

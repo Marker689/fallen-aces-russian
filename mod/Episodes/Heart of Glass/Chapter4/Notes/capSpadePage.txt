@@ -1,0 +1,14 @@
+GeneralInfo
+{
+	use_paper_sounds = false;
+	print_name = "Страница о капитане Спейде";
+	background_sprite = "Captain Spade Page";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	background_inspectable = true;
+	voiceline = "Level 4 - Spade Page";
+}

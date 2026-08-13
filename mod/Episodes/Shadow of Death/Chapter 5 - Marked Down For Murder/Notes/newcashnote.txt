@@ -1,0 +1,34 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка новой кассирше";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка новой кассирше </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Мисс Калдер,
+
+Добро пожаловать в семью «Марва»! Такая красивая и трудолюбивая женщина, как вы, без труда освоится в торговом зале. Как управляющий магазином, я отвечаю за ваш рост внутри компании и готов помочь вам влиться в новую роль продавщицы. Если захотите обсудить какие-то вопросы по вводу в должность наедине, милости прошу в мой кабинет после закрытия. Может, по рюмочке?
+
+- г-н Халперин 
+
+
+
+</color>"
+}
+
+
+}

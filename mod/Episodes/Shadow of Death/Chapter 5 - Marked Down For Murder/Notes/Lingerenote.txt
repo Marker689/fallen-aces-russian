@@ -1,0 +1,29 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Записка о пропаже белья";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Записка о пропаже белья </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Записка персоналу. Тому, кто постоянно таскает бельё с манекенов, пора завязывать. Я понимаю, что многие мужчины тут работают сверхурочно и могут чересчур возбуждаться при виде полуодетой пластиковой куклы, но кража товара не допускается. Если застукаю на воровстве, уволите на месте.
+
+
+</color>"
+}
+
+
+}

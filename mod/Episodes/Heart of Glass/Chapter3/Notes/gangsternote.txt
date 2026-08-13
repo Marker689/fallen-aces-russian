@@ -1,0 +1,35 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Note Decal";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D> Последнее предложение
+ </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF> 
+
+Ладно, ублюдок. Мы предложили тебе очень даже неплохую сделку. Лучше ты не получишь.
+
+Последний шанс принять наше предложение: либо продаёшь нам заведение, либо выкручивайся как знаешь, когда Глассхарты постучатся в твою дверь. 
+
+Держу пари, человек с твоим «положением» далеко в этом городишке не уедет. Завтра утром мы пришлём одного из наших выслушать твой ответ.   
+
+
+
+   </color>"
+}
+
+
+
+

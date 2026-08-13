@@ -1,0 +1,35 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Нужны бабки срочно";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Нужны бабки срочно</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Мы в горячей воде. С Гласджо в кутузке заработки быстро ссыхаются — особенно с учётом нового кабака на холме. Индюшачий Глаз требует хлеба, которого у нас нет, а сборщик уже на подходе.
+
+Мне нужно, чтобы ты с ребятами провернул чистую работу по банку и притащил жирный куш.
+
+Не напортачьте.
+
+
+</color>"
+}
+
+}
+
+
+}

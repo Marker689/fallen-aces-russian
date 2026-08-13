@@ -1,0 +1,55 @@
+GeneralInfo
+{
+	use_paper_sounds = true;
+	background_sprite = "Paper Note Background";
+        text = "Валите всех!";
+	background_scale = 1;
+}
+
+Page
+{
+	darken_note_background = false;
+	use_lower_text = true;
+	text = "<color=#47AF3D>Валите всех! </color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Так, парни, вы знаете правила. Пора показать этим ублюдкам Бенедетто,
+кто тут хозяин города! Слово от Гласджо: сегодня ночью случится
+что-то крупное, что перевернёт игру в нашу пользу.
+
+</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Возьмите пару ребят и спуститесь на улицу Найтингейл. Разнесите, разграбьте и сожгите каждый притон Бенедетто, какой увидите. Босс хочет, чтобы их предвыборный штаб, где они засели, сгорел дотла. А тем временем остальные ребята навестят букмекерскую контору, что они прячут в комиксовой лавке, а Джоуи и Толстяк Ларри надавят на лавки, что платят им за крышу.
+
+</color>"
+}
+
+Page
+{
+	darken_note_background = true;
+	use_lower_text = false;
+	text = "<color=#FFFFFF>
+
+Дэнни Три Пальца и пара крутых ребят пришьют того никудышного частного легавого, что нужен боссу. У этого типа будет по-настоящему паршивый день.  
+
+   
+
+</color>"
+}
+
+
+}
+

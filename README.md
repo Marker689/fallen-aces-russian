@@ -37,13 +37,15 @@ XUnity.AutoTranslator), но основная нарративная часть 
 > Поэтому перевод текста ставится **прямой заменой файлов** в папку игры.
 
 ### Способ 1 — ручная замена (рекомендуется)
-1. Открой папку игры:
+1. **Скачай архив** со страницы релизов (готовый zip):
+   [github.com/Marker689/fallen-aces-russian/releases](https://github.com/Marker689/fallen-aces-russian/releases)
+2. Открой папку игры:
    ```
    C:\Program Files (x86)\Steam\steamapps\common\Fallen Aces
    ```
-2. **Сделай резервную копию** папки `AcesData` (или хотя бы `AcesData\Subtitles`
+3. **Сделай резервную копию** папки `AcesData` (или хотя бы `AcesData\Subtitles`
    и `AcesData\Episodes`) — это позволит откатить перевод.
-3. Скопируй содержимое папки `mod/` из этого репозитория **внутрь** `AcesData/`,
+4. Скопируй содержимое папки `mod/` из этого репозитория **внутрь** `AcesData/`,
    соглашаясь на замену файлов.
 
    Итоговая структура должна выглядеть так:
@@ -53,7 +55,7 @@ XUnity.AutoTranslator), но основная нарративная часть 
    Fallen Aces\AcesData\loadingScreenTips.txt   (переведённые советы)
    Fallen Aces\AcesData\props.txt, consumables.txt, ...   (переведённые названия)
    ```
-4. Запусти игру.
+5. Запусти игру.
 
 ### Откат
 Восстанови папку `AcesData` из резервной копии (п.2) — и перевод будет удалён.

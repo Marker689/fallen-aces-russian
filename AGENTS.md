@@ -51,7 +51,9 @@
 - ✅ Имена предметов (props/consumables/weaponPickups/decals): ~39 строк — переведено.
 - ✅ episodeInfo.txt (названия эпизодов): 3 строки — переведено.
 - ✅ Глаголы UI (consumable_useVerb/holdVerb, messageOnConsumption): переведено.
-- ⬜ Меню / UI (зашито в DLL/ассеты): НЕ переведено (опционально, позже).
+- 🟡 Меню / UI (зашито в DLL): ЧАСТИЧНО, бета — через XUnity.AutoTranslator
+  (BepInEx 5 + XUnity 5.6.1). Словарь/конфиг/шрифт в `mod_ui/`, документы в
+  `notes/ui-localization.md` и `notes/ui-font.md`. Ветка `feature/ui-localization`.
 
 ## Распространение
 Пользователь оформляет всё как руководство / репозиторий GitHub (не установочный

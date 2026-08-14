@@ -1,0 +1,177 @@
+# Fallen Aces — UI-строки для локализации (извлечено из FallenAces.CSharp.dll)
+# Формат словаря XUnity.AutoTranslator: оригинал=перевод
+# Это КАНДИДАТЫ на перевод. Отметь/переведи только реально видимые пользователю строки.
+# Места {0},{1} — плейсхолдеры, их сохраняем как есть.
+
+# ===== Привязки клавиш (меню управления) =====
+Sprint / Dodge
+Slow Walk
+Attack / Primary Action
+Throw / Drop
+Block / Secondary Action
+Use Gadget / Tertiary Action
+Hide Hud
+Unhide Hud
+Next Gadget
+Previous Gadget
+Gadget Slot 1
+Gadget Slot 2
+Gadget Slot 3
+Gadget Slot 4
+Quick Save
+Quick Load
+Test Move
+Developer Console
+Alternate Use
+Keyboard and mouse
+
+# ===== HUD / подсказки / уведомления =====
+You unlocked it
+Use (No Key!)
+Restricted Area Price
+Pay toll {0}(${1})
+Player Bought Item
+Player Bought Expensive Item
+Player Bought Gun
+Player Bought Cheap Item
+Player Cant Afford Item
+Player Looking At Item
+Player Looking At Pocket Pistol
+Player Looking At Tommy Gun
+Player Looking At Expensive Weapon
+Player Looking At Cheap Gun
+Player Looking At Cheap Weapon
+Ammo Pouch
+Not enough cash!
+Picked up
+Buy ${0}
+(Out of stock)
+Out of stock!
+Not enough money!
+Bought {0} - ${1}
+Picked up Loot! + ${0}
+Picked cursed Loot! - ${0}
+({0} rounds)
+Collected {0}/5
+Press [ ] to continue
+Press <color=#C42620><u> </u></color> to continue
+HOLD <color=#C42620><u> </u></color> TO SKIP
+Can't do that right now
+Enabled slow walk mode.
+Disabled slow walk mode.
+Player fell out of world!
+Can't use that while underwater!
+Drop what you're holding first!
+Ammo is full!
+Can't carry anymore!
+No room in inventory!
+Need a lighter!
+Can't use this underwater!
+Can't reload, hands are full
+Weapon is broken!
+Get closer!
+Can't plant here!
+Can't throw this while underwater!
+Can't swap this
+No gadget in slot {0}!
+No Ammo!
+No Target!
+Not enough stamina!
+Can't save while in a vehicle, yet.
+Picked up <color=red>
+No new chapters to play!
+Can't exit here!
+Chapter Select
+Next Chapter
+(Requires Key)
+Open This Door
+Open Door Region
+Toilet To Sit On
+New Objective!
+Objective Completed!
+Objective Failed!
+You've found a secret!
+Game Over
+Player Cant Pay Toll
+Player Paid Toll
+Got permission to enter
+Got permission to enter this faction's turf!
+The Getaway
+Heart of Glass
+Phone Booth Part
+Shark Spotted
+Sniper Glint
+
+# ===== Экраны сохранения / главы / эпизоды =====
+SAVE PROGRESS
+LOAD PROGRESS
+SELECT CHAPTER
+SELECT EPISODE
+New Save
+Auto Save
+(Auto) Hideout
+Save Corrupted
+Outdated Save
+Level Restart Required
+Unknown Save Version
+Progress is saved automatically in the Hideout.
+Can't save right now...
+Workshop episodes
+Shadow of Death
+Episode 3
+Chapter 1
+Chapter 2
+Lights Out
+Nightwave Introduction
+
+# ===== Экран статистики / финал =====
+Hostiles pacified...........
+Hostiles killed.............
+Secrets found...............
+Loot collected.............  $
+
+# ===== Загрузка (шутки-подсказки) =====
+Distributing cannoli...
+Loading tommy guns...
+Hanging fedoras...
+Whacking wise guys...
+Getting Gianni...
+Making unrefusable offers...
+Fuhgetting about it...
+Agreeing with boss...
+(This may take a while)
+WAKE UP CALL
+No tips for you...
+
+# ===== Меню настроек =====
+2x MSAA
+4x MSAA
+8x MSAA
+Startup Only
+Maximized Window
+Exclusive Full Screen
+Full Screen Window
+Objects + Characters
+Ammo Only
+Storables Only
+All Pickups
+Custom Difficulties
+New Preset
+New Profile
+Delete this profile?
+Profile Name
+Show Documents
+Hide Documents
+Save Overlay
+
+# ===== Разное / диалоговые подсказки =====
+Wise Guy Eh?
+Sleep With The Fishes
+You'll be leaving Umburgh in peril!
+A goon called you a wimp just now.
+I'm leaving.
+Wait, go back!
+Go back to the title screen?
+Nightwave will be disappointed...
+No Description
+Unknown prop

@@ -5,14 +5,13 @@ Fallen Aces — подготовка пакетов для субагентов-
 и создаёт для каждого батча входной JSON вида:
     [{"id": "...", "text": "...", "context": "персонаж / файл"}]
 """
-import os, json, collections, hashlib, sys
+import os, json, collections, sys
 
-OUT = os.path.expanduser("~/fallenaces-rus")
+from _paths import OUT
+from _common import make_id
+
 PACKS_DIR = os.path.join(OUT, "packs")
 os.makedirs(PACKS_DIR, exist_ok=True)
-
-def make_id(file, line_no):
-    return hashlib.md5(f"{file}:{line_no}".encode()).hexdigest()[:12]
 
 def build_batches(mode="by_char", max_per=200):
     recs = json.load(open(os.path.join(OUT, "subtitle_strings.json")))

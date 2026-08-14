@@ -5,7 +5,8 @@ Fallen Aces — формирование батчей для перевода о
 """
 import os, json, collections
 
-OUT = os.path.expanduser("~/fallenaces-rus")
+from _paths import OUT
+
 PACKS = os.path.join(OUT, "packs_rest")
 os.makedirs(PACKS, exist_ok=True)
 

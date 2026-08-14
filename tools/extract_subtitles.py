@@ -12,8 +12,7 @@ Fallen Aces — надёжный экстрактор строк для пере
 """
 import os, re, json, collections
 
-GAME = "/mnt/c/Program Files (x86)/Steam/steamapps/common/Fallen Aces"
-OUT = os.path.expanduser("~/fallenaces-rus")
+from _paths import OUT, source_root
 
 # Строка целиком в кавычках с префиксом/суффиксом.
 # Захватывает: { T 0.5 } "text", T 0 "text", key = "text", SpeakDialogue(a, "text")...
@@ -54,8 +53,12 @@ def extract_lines(path):
     return results
 
 def main():
+    SRC = source_root()
+    if SRC is None:
+        print("Игра/бэкап недоступны — нечего извлекать.")
+        return
     targets = []
-    sub_dir = os.path.join(GAME, "AcesData/Subtitles")
+    sub_dir = os.path.join(SRC, "AcesData/Subtitles")
     for root, _, files in os.walk(sub_dir):
         for fn in files:
             if fn.endswith(".txt"):
@@ -64,7 +67,7 @@ def main():
     all_records = []
     per_kind = collections.Counter()
     for kind, path in targets:
-        rel = os.path.relpath(path, GAME)
+        rel = os.path.relpath(path, SRC)
         recs = extract_lines(path)
         per_kind[kind] += len(recs)
         for r in recs:

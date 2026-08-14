@@ -7,28 +7,14 @@ Fallen Aces — инжектор переводов в папку-мод для 
 Исходник: берёт оригинальные файлы из AcesData, применяет переводы из
 *.out.json, пишет результат в mod-папку. НЕ трогает оригиналы.
 """
-import os, json, glob, hashlib
+import os, json
 
-GAME = "/mnt/c/Program Files (x86)/Steam/steamapps/common/Fallen Aces"
-BACKUP = "/mnt/c/Program Files (x86)/Steam/steamapps/common/Fallen Aces_backup_txt"
-OUT = os.path.expanduser("~/fallenaces-rus")
-MOD = os.path.join(OUT, "mod")
-
-def make_id(file, line_no):
-    return hashlib.md5(f"{file}:{line_no}".encode()).hexdigest()[:12]
-
-def load_translations():
-    trans = {}
-    for path in glob.glob(os.path.join(OUT, "packs", "*.out.json")):
-        d = json.load(open(path, encoding="utf-8"))
-        for k, v in d.items():
-            if v:
-                trans[k] = v
-    return trans
+from _paths import OUT, MOD, resolve_source
+from _common import make_id, load_translations
 
 def main():
     recs = json.load(open(os.path.join(OUT, "subtitle_strings.json"), encoding="utf-8"))
-    trans = load_translations()
+    trans = load_translations(os.path.join(OUT, "packs", "*.out.json"))
     print(f"Загружено переводов: {len(trans)} из {len(recs)} строк")
 
     for r in recs:
@@ -49,10 +35,8 @@ def main():
         rel = file[len("AcesData/Subtitles/"):]
         # Читаем ОРИГИНАЛ из бэкап-папки (чистые английские файлы), чтобы мод
         # не зависел от состояния AcesData (которая могла быть изменена пилотом).
-        src = os.path.join(BACKUP, file)
-        if not os.path.exists(src):
-            src = os.path.join(GAME, file)
-        if not os.path.exists(src):
+        src = resolve_source(file)
+        if not src:
             continue
         with open(src, "r", encoding="utf-8") as f:
             lines = f.read().split("\n")

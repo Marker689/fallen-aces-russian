@@ -9,7 +9,7 @@ Slow Walk=Медленный шаг
 Attack / Primary Action=Атака / Основное действие
 Throw / Drop=Бросок / Выбросить
 Block / Secondary Action=Блок / Второстепенное действие
-Use Gadget / Tertiary Action=Использовать гаджет / Третичное действие
+Use Gadget / Tertiary Action=Использовать гаджет / Доп. действие
 Hide Hud=Скрыть HUD
 Unhide Hud=Показать HUD
 Next Gadget=Следующий гаджет
@@ -20,85 +20,85 @@ Gadget Slot 3=Слот гаджета 3
 Gadget Slot 4=Слот гаджета 4
 Quick Save=Быстрое сохранение
 Quick Load=Быстрая загрузка
-Test Move=Тестовое перемещение
+Test Move=Пробное перемещение
 Developer Console=Консоль разработчика
-Alternate Use=Альтернативное использование
+Alternate Use=Альтернативное действие
 Keyboard and mouse=Клавиатура и мышь
 
 # ===== HUD / подсказки / уведомления =====
-You unlocked it=Вы открыли это
-Use (No Key!)=Использовать (Ключа нет!)
-Restricted Area Price=Плата за доступ в закрытую зону
-Pay toll {0}(${1})=Оплатить проезд {0}(${1})
-Player Bought Item=Игрок купил предмет
-Player Bought Expensive Item=Игрок купил дорогой предмет
-Player Bought Gun=Игрок купил оружие
-Player Bought Cheap Item=Игрок купил дешёвый предмет
-Player Cant Afford Item=Игрок не может позволить себе предмет
-Player Looking At Item=Игрок смотрит на предмет
-Player Looking At Pocket Pistol=Игрок смотрит на карманный пистолет
-Player Looking At Tommy Gun=Игрок смотрит на томми-ган
-Player Looking At Expensive Weapon=Игрок смотрит на дорогое оружие
-Player Looking At Cheap Gun=Игрок смотрит на дешёвый пистолет
-Player Looking At Cheap Weapon=Игрок смотрит на дешёвое оружие
-Ammo Pouch=Подсумок с патронами
-Not enough cash!=Не хватает наличных!
+You unlocked it=Открыто!
+Use (No Key!)=Применить (Ключа нет!)
+Restricted Area Price=Плата за проход в закрытую зону
+Pay toll {0}(${1})=Оплатить проезд {0} (${1})
+Player Bought Item=Куплен предмет
+Player Bought Expensive Item=Куплен дорогой предмет
+Player Bought Gun=Куплено оружие
+Player Bought Cheap Item=Куплена дешёвая вещь
+Player Cant Afford Item=Денег на это не хватает
+Player Looking At Item=Осматривает предмет
+Player Looking At Pocket Pistol=Смотрит на карманный пистолет
+Player Looking At Tommy Gun=Смотрит на томми-ган
+Player Looking At Expensive Weapon=Смотрит на дорогое оружие
+Player Looking At Cheap Gun=Смотрит на дешёвый пистолет
+Player Looking At Cheap Weapon=Смотрит на дешёвое оружие
+Ammo Pouch=Подсумок для патронов
+Not enough cash!=Бабла не хватает!
 Picked up=Подобрано
 Buy ${0}=Купить ${0}
-(Out of stock)=(Нет в наличии)
-Out of stock!=Нет в наличии!
-Not enough money!=Не хватает денег!
-Bought {0} - ${1}=Куплено {0} - ${1}
-Picked up Loot! + ${0}=Подобрана добыча! + ${0}
+(Out of stock)=(Распродано)
+Out of stock!=Товар закончился!
+Not enough money!=Денег не хватает!
+Bought {0} - ${1}=Куплено: {0} - ${1}
+Picked up Loot! + ${0}=Добыча подобрана! + ${0}
 Picked cursed Loot! - ${0}=Подобрана проклятая добыча! - ${0}
 ({0} rounds)=({0} патронов)
-Collected {0}/5=Собрано {0}/5
-Press [ ] to continue=Нажмите [ ] для продолжения
-Press <color\=#C42620><u> </u></color> to continue=Нажмите <color\=#C42620><u> </u></color> для продолжения
+Collected {0}/5=Собрано: {0}/5
+Press [ ] to continue=Нажмите [ ], чтобы продолжить
+Press <color\=#C42620><u> </u></color> to continue=Нажмите <color\=#C42620><u> </u></color>, чтобы продолжить
 HOLD <color\=#C42620><u> </u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\=#C42620><u> </u></color>, ЧТОБЫ ПРОПУСТИТЬ
-Can't do that right now=Сейчас это нельзя сделать
-Enabled slow walk mode.=Режим медленного шага включён.
-Disabled slow walk mode.=Режим медленного шага выключен.
-Player fell out of world!=Игрок выпал из мира!
-Can't use that while underwater!=Нельзя использовать это под водой!
-Drop what you're holding first!=Сначала выбросьте то, что держите!
+Can't do that right now=Сейчас нельзя
+Enabled slow walk mode.=Медленный шаг включён.
+Disabled slow walk mode.=Медленный шаг выключен.
+Player fell out of world!=Вы выпали из мира!
+Can't use that while underwater!=Под водой это не сработает!
+Drop what you're holding first!=Сначала выбросьте то, что в руках!
 Ammo is full!=Боезапас полон!
-Can't carry anymore!=Больше не унести!
-No room in inventory!=Нет места в инвентаре!
+Can't carry anymore!=Больше ничего не влезет!
+No room in inventory!=В инвентаре нет места!
 Need a lighter!=Нужна зажигалка!
-Can't use this underwater!=Нельзя использовать это под водой!
-Can't reload, hands are full=Не перезарядить, руки заняты
+Can't use this underwater!=Под водой это не сработает!
+Can't reload, hands are full=Руки заняты, не перезарядить
 Weapon is broken!=Оружие сломано!
-Get closer!=Подойдите ближе!
-Can't plant here!=Здесь нельзя разместить!
-Can't throw this while underwater!=Нельзя бросить это под водой!
-Can't swap this=Нельзя поменять это
+Get closer!=Подойди ближе!
+Can't plant here!=Здесь не поставишь!
+Can't throw this while underwater!=Под водой не бросить!
+Can't swap this=Это не поменять
 No gadget in slot {0}!=В слоте {0} нет гаджета!
 No Ammo!=Нет патронов!
 No Target!=Нет цели!
-Not enough stamina!=Не хватает выносливости!
-Can't save while in a vehicle, yet.=Пока нельзя сохраниться в транспорте.
-Picked up <color\=red>=Подобрано <color\=red>
-No new chapters to play!=Нет новых глав для игры!
+Not enough stamina!=Выносливости не хватает!
+Can't save while in a vehicle, yet.=В транспорте сохраниться пока нельзя.
+Picked up <color\=red>=Подобрано: <color\=red>
+No new chapters to play!=Новых глав пока нет!
 Can't exit here!=Здесь нельзя выйти!
 Chapter Select=Выбор главы
 Next Chapter=Следующая глава
-(Requires Key)=(Требуется ключ)
-Open This Door=Открыть эту дверь
-Open Door Region=Открыть область двери
-Toilet To Sit On=Унитаз, на который можно сесть
+(Requires Key)=(Нужен ключ)
+Open This Door=Открыть дверь
+Open Door Region=Открыть проход
+Toilet To Sit On=Присесть на унитаз
 New Objective!=Новая задача!
 Objective Completed!=Задача выполнена!
 Objective Failed!=Задача провалена!
-You've found a secret!=Вы нашли секрет!
+You've found a secret!=Секрет найден!
 Game Over=Игра окончена
-Player Cant Pay Toll=Игрок не может оплатить проезд
-Player Paid Toll=Игрок оплатил проезд
-Got permission to enter=Получено разрешение на вход
-Got permission to enter this faction's turf!=Получено разрешение войти на территорию этой фракции!
+Player Cant Pay Toll=Денег на проезд не хватает
+Player Paid Toll=Проезд оплачен
+Got permission to enter=Проход открыт
+Got permission to enter this faction's turf!=Теперь ты свой в этой части города!
 The Getaway=Побег
-Heart of Glass=Сердце из стекла
-Phone Booth Part=Часть телефонной будки
+Heart of Glass=Стеклянное сердце
+Phone Booth Part=Деталь телефонной будки
 Shark Spotted=Замечена акула
 Sniper Glint=Блик снайпера
 
@@ -111,11 +111,11 @@ New Save=Новое сохранение
 Auto Save=Автосохранение
 (Auto) Hideout=(Авто) Притон
 Save Corrupted=Сохранение повреждено
-Outdated Save=Устаревшее сохранение
-Level Restart Required=Требуется перезапуск уровня
+Outdated Save=Сохранение устарело
+Level Restart Required=Нужен перезапуск уровня
 Unknown Save Version=Неизвестная версия сохранения
-Progress is saved automatically in the Hideout.=Прогресс сохраняется автоматически в притоне.
-Can't save right now...=Сейчас нельзя сохраниться...
+Progress is saved automatically in the Hideout.=В притоне игра сохраняется автоматически.
+Can't save right now...=Сейчас сохраниться нельзя...
 Workshop episodes=Эпизоды из мастерской
 Shadow of Death=Тень смерти
 Episode 3=Эпизод 3
@@ -125,23 +125,23 @@ Lights Out=Свет погас
 Nightwave Introduction=Знакомство с Найтвейв
 
 # ===== Экран статистики / финал =====
-Hostiles pacified...........=Врагов утихомирено...........
-Hostiles killed.............=Врагов убито.............
-Secrets found...............=Секретов найдено...............
-Loot collected.............  $=Добычи собрано.............  $
+Hostiles pacified...........=Врагов вырублено...........
+Hostiles killed.............=Врагов уложено.............
+Secrets found...............=Тайников найдено...............
+Loot collected.............  $=Собрано добычи.............  $
 
 # ===== Загрузка (шутки-подсказки) =====
-Distributing cannoli...=Раздаём канноли...
-Loading tommy guns...=Загружаем томми-ганы...
+Distributing cannoli...=Развозим канноли...
+Loading tommy guns...=Заряжаем томми-ганы...
 Hanging fedoras...=Развешиваем федоры...
 Whacking wise guys...=Валим мафиози...
-Getting Gianni...=Приводим Джанни...
-Making unrefusable offers...=Делаем предложения, от которых невозможно отказаться...
-Fuhgetting about it...=Забываем об этом...
+Getting Gianni...=Достаём Джанни...
+Making unrefusable offers...=Делаем предложения, от которых не отказываются...
+Fuhgetting about it...=Забудем об этом...
 Agreeing with boss...=Соглашаемся с боссом...
-(This may take a while)=(Это может занять время)
-WAKE UP CALL=ПРОБУЖДЕНИЕ
-No tips for you...=Никаких подсказок для вас...
+(This may take a while)=(Может занять некоторое время)
+WAKE UP CALL=ПОБУДКА
+No tips for you...=Для тебя подсказок нет...
 
 # ===== Меню настроек =====
 2x MSAA=2x MSAA
@@ -153,9 +153,9 @@ Exclusive Full Screen=Полноэкранный режим
 Full Screen Window=Окно во весь экран
 Objects + Characters=Объекты + персонажи
 Ammo Only=Только патроны
-Storables Only=Только хранимые
+Storables Only=Только складируемые
 All Pickups=Все подбираемые предметы
-Custom Difficulties=Настраиваемые сложности
+Custom Difficulties=Свои сложности
 New Preset=Новый пресет
 New Profile=Новый профиль
 Delete this profile?=Удалить этот профиль?
@@ -167,12 +167,12 @@ Save Overlay=Оверлей сохранения
 # ===== Разное / диалоговые подсказки =====
 Wise Guy Eh?=Умник, а?
 Sleep With The Fishes=Кормить рыб
-You'll be leaving Umburgh in peril!=Ты оставишь Умбург в опасности!
-A goon called you a wimp just now.=Только что какой-то громила назвал тебя слабаком.
+You'll be leaving Umburgh in peril!=Оставишь Умбург в беде!
+A goon called you a wimp just now.=Только что какой-то громила обозвал тебя слабаком.
 I'm leaving.=Я ухожу.
 Wait, go back!=Стой, вернись!
 Go back to the title screen?=Вернуться в главное меню?
-Nightwave will be disappointed...=Найтвейв будет разочарован...
+Nightwave will be disappointed...=Найтвейв расстроится...
 No Description=Нет описания
 Unknown prop=Неизвестный предмет
 
@@ -194,7 +194,7 @@ Gameplay=Геймплей
 Audio\n=Аудио\n
 Accessibility=Доступность
 OPTIONS=ПАРАМЕТРЫ
-Texture Detail=Детали текстуры
+Texture Detail=Детализация текстур
 Display Mode=Режим отображения
 Max FPS=Макс. ФПС
 Field of View=Поле зрения
@@ -220,7 +220,7 @@ Label=Метка
 [DEBUG]=[ОТЛАДКА]
 [Ambience Tracker]=[Отслеживание атмосферы]
 [Enemy State Tracker]=[Отслеживание состояния противника]
-Name: Unarmed Goon\n\nPhysical State: \n\tIdle\n\tSubstate: Unknown\nBehaviour State: \n\tEngagingPlayer\n\tSubstate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n\tБездействие\n\tПодсостояние: Неизвестно\nСостояние поведения: \n\tВступает в бой\n\tПодсостояние: Неизвестно
+Name: Unarmed Goon\n\nPhysical State: \n\tIdle\n\tSubstate: Unknown\nBehaviour State: \n\tEngagingPlayer\n\tSubstate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n\tБездействие\n\tПодсостояние: Неизвестно\nСостояние поведения: \n\tАтакует игрока\n\tПодсостояние: Неизвестно
 
 # ===== Журнал / карта (управление) =====
 <color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Up</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вверх</color>
@@ -233,17 +233,17 @@ Name: Unarmed Goon\n\nPhysical State: \n\tIdle\n\tSubstate: Unknown\nBehaviour S
 <color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] or <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Close</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] или <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Закрыть</color>
 </color><color\=white>] Close</color>=</color><color\=white>] Закрыть</color>
 ] to continue=] чтобы продолжить
-Follow Me=Следуй за мной
-Wait Here=Жди здесь
+Follow Me=За мной!
+Wait Here=Жди тут
 Objective Entry=Задача
 Sub Objective Entry=Подзадача
 Previous=Назад
 
 Name: Unarmed Goon\n\nPhysical State: \n	Idle\n	Substate: Unknown\nBehaviour State: \n	EngagingPlayer\n	Substate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n	Бездействие\n	Подсостояние: Неизвестно\nСостояние поведения: \n	Вступает в бой\n	Подсостояние: Неизвестно
 
-Custom=Настраиваемая
+Custom=Своя
 
-Sleep with the fishes\n=Кормить рыб\n
+Sleep with the fishes\n=Кормить рыбок\n
 
 Fuggedaboutit!=Забудь об этом!
 
@@ -253,7 +253,7 @@ Loading=Загрузка
 
 Faction=Фракция
 
-Enemy Healthbar\n=Полоска здоровья врага\n
+Enemy Healthbar\n=Полоса здоровья врага\n
 
 Finished!=Готово!
 
@@ -323,7 +323,7 @@ Door=Дверь
 
 Back To Title=В главное меню
 
-Default Controls=Элементы управления по умолчанию
+Default Controls=Управление по умолчанию
 
 Save Game\n=Сохранить игру\n
 
@@ -331,7 +331,7 @@ Episode Select=Выбор эпизода
 
 Resume=Продолжить
 
-PAUSED=ПРИОСТАНОВЛЕНО
+PAUSED=ПАУЗА
 
 Turn off=Выключить
 
@@ -389,11 +389,11 @@ N=N
 
 M=M
 
-HOLD <color\=#C42620><u>SPACE</u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\=#C42620><u>ПРОБЕЛ</u></color>, ЧТОБЫ ПРОПУСТИТЬ
+HOLD <color\=#C42620><u>SPACE</u></color> TO SKIP=УДЕРЖИ <color\=#C42620><u>ПРОБЕЛ</u></color>, ЧТОБЫ ПРОПУСТИТЬ
 
-HOLD <color\=#C42620><u>Space</u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\=#C42620><u>Пробел</u></color>, ЧТОБЫ ПРОПУСТИТЬ
+HOLD <color\=#C42620><u>Space</u></color> TO SKIP=УДЕРЖИ <color\=#C42620><u>Пробел</u></color>, ЧТОБЫ ПРОПУСТИТЬ
 
-<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Previous</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Предыдущий</color>\n
+<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Previous</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Назад</color>\n
 
 <color\=white>'</color><color\=#4BB740>E</color><color\=white>' Close</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Закрыть</color>\n
 
@@ -431,7 +431,7 @@ Cooking Pot=Кастрюля
 
 Sliding Door=Раздвижная дверь
 
-Used Security Gate Key=Использованный ключ от охранных ворот
+Used Security Gate Key=Ключ от охранных ворот (использован)
 
 Button=Кнопка
 

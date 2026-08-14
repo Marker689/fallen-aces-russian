@@ -1,0 +1,98 @@
+# ===== Экран статистики / финал =====
+Hostiles pacified...........=Врагов утихомирено...........
+Hostiles killed.............=Врагов убито.............
+Secrets found...............=Секретов найдено...............
+Loot collected.............  $=Добычи собрано.............  $
+
+# ===== Загрузка (шутки-подсказки) =====
+Distributing cannoli...=Раздаём канноли...
+Loading tommy guns...=Загружаем томми-ганы...
+Hanging fedoras...=Развешиваем федоры...
+Whacking wise guys...=Валим мафиози...
+Getting Gianni...=Приводим Джанни...
+Making unrefusable offers...=Делаем предложения, от которых невозможно отказаться...
+Fuhgetting about it...=Забываем об этом...
+Agreeing with boss...=Соглашаемся с боссом...
+(This may take a while)=(Это может занять время)
+WAKE UP CALL=ПРОБУЖДЕНИЕ
+No tips for you...=Никаких подсказок для вас...
+
+# ===== Меню настроек =====
+2x MSAA=2x MSAA
+4x MSAA=4x MSAA
+8x MSAA=8x MSAA
+Startup Only=Только при запуске
+Maximized Window=Развёрнутое окно
+Exclusive Full Screen=Полноэкранный режим
+Full Screen Window=Окно во весь экран
+Objects + Characters=Объекты + персонажи
+Ammo Only=Только патроны
+Storables Only=Только хранимые
+All Pickups=Все подбираемые предметы
+Custom Difficulties=Настраиваемые сложности
+New Preset=Новый пресет
+New Profile=Новый профиль
+Delete this profile?=Удалить этот профиль?
+Profile Name=Имя профиля
+Show Documents=Показать документы
+Hide Documents=Скрыть документы
+Save Overlay=Оверлей сохранения
+
+# ===== Разное / диалоговые подсказки =====
+Wise Guy Eh?=Умник, а?
+Sleep With The Fishes=Кормить рыб
+You'll be leaving Umburgh in peril!=Ты оставишь Умбург в опасности!
+A goon called you a wimp just now.=Только что какой-то громила назвал тебя слабаком.
+I'm leaving.=Я ухожу.
+Wait, go back!=Стой, вернись!
+Go back to the title screen?=Вернуться в главное меню?
+Nightwave will be disappointed...=Найтвейв будет разочарован...
+No Description=Нет описания
+Unknown prop=Неизвестный предмет
+
+# ===== Реальные строки меню (собрано из игры) =====
+PRESS ANY KEY=НАЖМИТЕ ЛЮБУЮ КЛАВИШУ
+Load Game=Загрузить игру
+Play=Играть
+Marek=Марек
+Build 0.9.2=Сборка 0.9.2
+Options=Параметры
+Profile=Профиль
+Hideout=Притон
+Main Menu=Главное меню
+Quit\n=Выйти\n
+Back=Назад
+Video\n=Видео\n
+Keyboard & Mouse=Клавиатура и мышь
+Gameplay=Геймплей
+Audio\n=Аудио\n
+Accessibility=Доступность
+OPTIONS=ПАРАМЕТРЫ
+Texture Detail=Детали текстуры
+Display Mode=Режим отображения
+Max FPS=Макс. ФПС
+Field of View=Поле зрения
+Contrast=Контраст
+Brightness=Яркость
+Anti Aliasing=Антиалиасинг
+Resolution=Разрешение
+VIDEO=ВИДЕО
+Normal=Нормальный
+Shadow Quality=Качество теней
+High=Высокий
+Object Shadows=Тени объектов
+Vertical Sync=Вертикальная синхронизация
+Texture Filtering=Фильтрация текстур
+Reduce Particle FX=Уменьшить эффекты частиц
+Noir Filter=Нуар-фильтр
+2560x1440=2560x1440
+Enables a black and white noir color filter.=Включает чёрно-белый нуар-фильтр.
+Windowed=В окне
+Label=Метка
+
+# ===== Отладочные переключатели (панель разработчика) =====
+[DEBUG]=[ОТЛАДКА]
+[Ambience Tracker]=[Отслеживание атмосферы]
+[Enemy State Tracker]=[Отслеживание состояния противника]
+Name: Unarmed Goon\n\nPhysical State: \n\tIdle\n\tSubstate: Unknown\nBehaviour State: \n\tEngagingPlayer\n\tSubstate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n\tБездействие\n\tПодсостояние: Неизвестно\nСостояние поведения: \n\tВступает в бой\n\tПодсостояние: Неизвестно
+

@@ -1,0 +1,222 @@
+# ===== Журнал / карта (управление) =====
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Up</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вверх</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Down</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вниз</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Left</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Влево</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Right</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вправо</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Zoom In</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Приблизить</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Zoom Out</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Отдалить</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Previous</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Назад</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] or <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Close</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] или <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Закрыть</color>
+</color><color\=white>] Close</color>=</color><color\=white>] Закрыть</color>
+] to continue=] чтобы продолжить
+Follow Me=За мной!
+Wait Here=Жди тут
+Objective Entry=Задача
+Sub Objective Entry=Подзадача
+Previous=Назад
+
+Name: Unarmed Goon\n\nPhysical State: \n	Idle\n	Substate: Unknown\nBehaviour State: \n	EngagingPlayer\n	Substate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n	Бездействие\n	Подсостояние: Неизвестно\nСостояние поведения: \n	Вступает в бой\n	Подсостояние: Неизвестно
+
+Custom=Своя
+
+Sleep with the fishes\n=Кормить рыбок\n
+
+Fuggedaboutit!=Забудь об этом!
+
+DIFFICULTY=СЛОЖНОСТЬ
+
+Loading=Загрузка
+
+Faction=Фракция
+
+Enemy Healthbar\n=Полоса здоровья врага\n
+
+Finished!=Готово!
+
+x2=х2
+
+Hidden=Скрыто
+
+Weapon Name=Название оружия
+
+[Key]=[Клавиша]
+
+Struggle=Борьба
+
+Char Name=Имя персонажа
+
+Map of the streets=Карта улиц
+
+Use=Использовать
+
+Door<color\=#ff0000ff> (Locked)</color>=Дверь<color\=#ff0000ff> (Заперта)</color>
+
+Partly Hidden=Частично скрыто
+
+Pickup=Подобрать
+
+Old Phone<color\=#808080ff> (Unstorable)</color>=Старый телефон<color\=#808080ff> (Нельзя хранить)</color>
+
+OBJECTIVES=ЦЕЛИ
+
+MAPS=КАРТЫ
+
+NOTES=ЗАМЕТКИ
+
+Next=Следующий
+
+KEY ITEMS=КЛЮЧЕВЫЕ ПРЕДМЕТЫ
+
+Mike And Thomas Picture=Майк и Томас
+
+Secrets:=Секреты:
+
+CHAPTER 1=ГЛАВА 1
+
+"WAKE UP CALL"=«ПОБУДКА»
+
+PRIMARY GOALS=ОСНОВНЫЕ ЦЕЛИ
+
+SECONDARY GOALS=ВТОРИЧНЫЕ ЦЕЛИ
+
+CLUES=УЛИКИ
+
+Header=Заголовок
+
+Contents=Содержание
+
+Name: Subtitle=Название: Субтитры
+
+Read=Читать
+
+Table Lamp<color\=#808080ff> (Unstorable)</color>=Настольная лампа<color\=#808080ff> (Нельзя хранить)</color>
+
+Trophy=Трофей
+
+Unstorable=Нельзя хранить
+
+Door=Дверь
+
+Back To Title=В главное меню
+
+Default Controls=Управление по умолчанию
+
+Save Game\n=Сохранить игру\n
+
+Episode Select=Выбор эпизода
+
+Resume=Продолжить
+
+PAUSED=ПАУЗА
+
+Turn off=Выключить
+
+Unarmed Goon=Безоружный громила
+
+Glasshearts=Глассхарты
+
+Stomp=Затоптать
+
+Unarmed Goon<color\=#808080ff> (Unconscious)</color>=Безоружный громила<color\=#808080ff> (Без сознания)</color>
+
+Generic Container<color\=#808080ff> (Unstorable)</color>=Ящик<color\=#808080ff> (Нельзя хранить)</color>
+
+Space=Пробел
+
+SPACE=ПРОБЕЛ
+
+Tab=Tab
+
+Control=Ctrl
+
+Enter=Ввод
+
+Escape=Esc
+
+W=W
+
+A=A
+
+S=S
+
+D=D
+
+E=E
+
+Q=Q
+
+R=R
+
+F=F
+
+G=G
+
+X=X
+
+Z=Z
+
+C=C
+
+V=V
+
+B=B
+
+N=N
+
+M=M
+
+HOLD <color\=#C42620><u>SPACE</u></color> TO SKIP=УДЕРЖИ <color\=#C42620><u>ПРОБЕЛ</u></color>, ЧТОБЫ ПРОПУСТИТЬ
+
+HOLD <color\=#C42620><u>Space</u></color> TO SKIP=УДЕРЖИ <color\=#C42620><u>Пробел</u></color>, ЧТОБЫ ПРОПУСТИТЬ
+
+<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Previous</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Назад</color>\n
+
+<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Close</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Закрыть</color>\n
+
+<color\=white>'</color><color\=#4BB740>Space</color><color\=white>' Zoom Inp</color>\n=<color\=white>'</color><color\=#4BB740>Пробел</color><color\=white>' Приблизить</color>\n
+
+<color\=white>'</color><color\=#4BB740>W</color><color\=white>' Move Up</color>\n=<color\=white>'</color><color\=#4BB740>W</color><color\=white>' Вверх</color>\n
+
+<color\=white>'</color><color\=#4BB740>S</color><color\=white>' Move Down</color>\n=<color\=white>'</color><color\=#4BB740>S</color><color\=white>' Вниз</color>\n
+
+<color\=white>[</color><color\=#4BB740>Tab</color><color\=white>] Close</color>=<color\=white>[</color><color\=#4BB740>Tab</color><color\=white>] Закрыть</color>
+
+<color\=white>[</color><color\=#4BB740>Control</color><color\=white>] Zoom In</color>=<color\=white>[</color><color\=#4BB740>Ctrl</color><color\=white>] Приблизить</color>
+
+<color\=white>[</color><color\=#4BB740>У</color><color\=white>] or <color\=white>[</color><color\=#4BB740>В</color><color\=white>] Next</color>=<color\=white>[</color><color\=#4BB740>У</color><color\=white>] или <color\=white>[</color><color\=#4BB740>В</color><color\=white>] Следующий</color>
+
+Locked!=Заперто!
+
+Generic Can<color\=#808080ff> (Unstorable)</color>=Банка<color\=#808080ff> (Нельзя хранить)</color>
+
+Generic Can=Банка
+
+Pipe Wielding Mook=Головорез с трубой
+
+Pickpocket=Карманник
+
+У [Hold]=У [Удерживать]
+
+Chop=Рубить
+
+Fridge Door=Дверца холодильника
+
+Generic Container=Ящик
+
+Cooking Pot=Кастрюля
+
+Sliding Door=Раздвижная дверь
+
+Used Security Gate Key=Ключ от охранных ворот (использован)
+
+Button=Кнопка
+
+Gate<color\=#ff0000ff> (Locked)</color>=Ворота<color\=#ff0000ff> (Заперты)</color>
+
+Cigarette Machine=Автомат с сигаретами
+
+Buy $2=Купить $2
+
+Vent<color\=#ff0000ff> (Locked)</color>=Вентиляция<color\=#ff0000ff> (Заперта)</color>
+
+Vent=Вентиляция

@@ -140,10 +140,51 @@ def merge():
         print("Новых строк не добавлено (нет заполненных кандидатов или всё уже в словаре).")
 
 
+def validate():
+    """Проверка формата словаря по правилам XUnity.AutoTranslator.
+
+    Каждая строка словаря должна содержать РОВНО один неэкранированный '='
+    (разделитель original=translation). Второй неэкранированный '=' — строка
+    целиком игнорируется плагином. Литеральный '=' экранируется как '\\='.
+    """
+    path = DICT
+    if not os.path.exists(path):
+        print(f"Словарь не найден: {path}")
+        return 1
+    lines = open(path, encoding="utf-8").read().splitlines()
+    errors = []
+    entries = 0
+    for i, line in enumerate(lines, 1):
+        if not line.strip() or line.startswith("#"):
+            continue
+        entries += 1
+        cnt = 0
+        esc = False
+        for c in line:
+            if esc:
+                esc = False
+                continue
+            if c == "\\":
+                esc = True
+            elif c == "=":
+                cnt += 1
+        if cnt != 1:
+            errors.append((i, cnt, line[:80]))
+    if errors:
+        print(f"Словарь: {entries} записей, НАЙДЕНО {len(errors)} проблемных строк:")
+        for i, cnt, l in errors:
+            print(f"  LINE {i} ({cnt} '='): {l!r}")
+        return 1
+    print(f"Словарь: {entries} записей — формат корректен (0 проблем).")
+    return 0
+
+
 def main():
     args = sys.argv[1:]
     if "--merge" in args:
         merge()
+    elif "--validate" in args:
+        sys.exit(validate())
     else:
         harvest()
 

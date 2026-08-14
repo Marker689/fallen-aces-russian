@@ -54,8 +54,8 @@ Picked cursed Loot! - ${0}=Подобрана проклятая добыча! -
 ({0} rounds)=({0} патронов)
 Collected {0}/5=Собрано {0}/5
 Press [ ] to continue=Нажмите [ ] для продолжения
-Press <color=#C42620><u> </u></color> to continue=Нажмите <color=#C42620><u> </u></color> для продолжения
-HOLD <color=#C42620><u> </u></color> TO SKIP=УДЕРЖИВАЙТЕ <color=#C42620><u> </u></color>, ЧТОБЫ ПРОПУСТИТЬ
+Press <color\=#C42620><u> </u></color> to continue=Нажмите <color\=#C42620><u> </u></color> для продолжения
+HOLD <color\=#C42620><u> </u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\=#C42620><u> </u></color>, ЧТОБЫ ПРОПУСТИТЬ
 Can't do that right now=Сейчас это нельзя сделать
 Enabled slow walk mode.=Режим медленного шага включён.
 Disabled slow walk mode.=Режим медленного шага выключен.
@@ -78,7 +78,7 @@ No Ammo!=Нет патронов!
 No Target!=Нет цели!
 Not enough stamina!=Не хватает выносливости!
 Can't save while in a vehicle, yet.=Пока нельзя сохраниться в транспорте.
-Picked up <color=red>=Подобрано <color=red>
+Picked up <color\=red>=Подобрано <color\=red>
 No new chapters to play!=Нет новых глав для игры!
 Can't exit here!=Здесь нельзя выйти!
 Chapter Select=Выбор главы
@@ -223,15 +223,15 @@ Label=Метка
 Name: Unarmed Goon\n\nPhysical State: \n\tIdle\n\tSubstate: Unknown\nBehaviour State: \n\tEngagingPlayer\n\tSubstate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n\tБездействие\n\tПодсостояние: Неизвестно\nСостояние поведения: \n\tВступает в бой\n\tПодсостояние: Неизвестно
 
 # ===== Журнал / карта (управление) =====
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Move Up</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Вверх</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Move Down</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Вниз</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Move Left</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Влево</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Move Right</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Вправо</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Zoom In</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Приблизить</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Zoom Out</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Отдалить</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] Previous</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] Назад</color>
-<color=white>[</color><color=#4BB740>{0}</color><color=white>] or <color=white>[</color><color=#4BB740>{1}</color><color=white>] Close</color>=<color=white>[</color><color=#4BB740>{0}</color><color=white>] или <color=white>[</color><color=#4BB740>{1}</color><color=white>] Закрыть</color>
-</color><color=white>] Close</color>=</color><color=white>] Закрыть</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Up</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вверх</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Down</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вниз</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Left</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Влево</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Right</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вправо</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Zoom In</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Приблизить</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Zoom Out</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Отдалить</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Previous</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Назад</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] or <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Close</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] или <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Закрыть</color>
+</color><color\=white>] Close</color>=</color><color\=white>] Закрыть</color>
 ] to continue=] чтобы продолжить
 Follow Me=Следуй за мной
 Wait Here=Жди здесь

@@ -11,20 +11,19 @@ Fallen Aces — экстрактор оставшихся переводимых
 Для каждой записи: {file, id, orig (точный фрагмент для replace), surface}.
 Инжектор делает file_content.replace(orig, translated) — безопасно, т.к. orig уникален в файле.
 """
-import os, re, json, hashlib
+import os, re, json
 
-GAME = "/mnt/c/Program Files (x86)/Steam/steamapps/common/Fallen Aces"
-OUT = os.path.expanduser("~/fallenaces-rus")
+from _paths import OUT, source_root
+from _common import make_id_orig
 
-def make_id(file, orig):
-    return hashlib.md5(f"{file}|{orig}".encode()).hexdigest()[:16]
-
+# Корень исходных данных (бэкап приоритетно, иначе живая игра).
+SRC = source_root()
 def extract_notes():
     """Записки: text = "..." и print_name = "..." (многострочные)."""
     recs = []
     pat = re.compile(r'(text\s*=\s*")((?:[^"\\]|\\.)*)(")', re.S)
     pn = re.compile(r'(print_name\s*=\s*")((?:[^"\\]|\\.)*)(")')
-    for root, _, files in os.walk(os.path.join(GAME, "AcesData/Episodes")):
+    for root, _, files in os.walk(os.path.join(SRC, "AcesData/Episodes")):
         for fn in files:
             if "/Notes/" not in root + "/":
                 continue
@@ -34,7 +33,7 @@ def extract_notes():
                     txt = f.read()
             except Exception:
                 continue
-            rel = os.path.relpath(p, GAME)
+            rel = os.path.relpath(p, SRC)
             for patx, surf in ((pat, "note"), (pn, "print_name")):
                 for m in patx.finditer(txt):
                     content = m.group(2)
@@ -43,7 +42,7 @@ def extract_notes():
                     if not re.search(r"[A-Za-zА-Яа-я]", content):
                         continue
                     recs.append({
-                        "file": rel, "id": make_id(rel, m.group(0)),
+                        "file": rel, "id": make_id_orig(rel, m.group(0)),
                         "orig": m.group(0), "surface": surf,
                         "prefix": m.group(1), "content": content, "suffix": m.group(3),
                     })
@@ -55,7 +54,7 @@ def extract_chapterinfo():
     fields = ["title", "over_title_text", "description_text"]
     pats = [re.compile(f'({f}\\s*=\\s*")((?:[^"\\\\]|\\\\.)*)(")') for f in fields]
     fac_pat = re.compile(r'(faction_name\s*=\s*\d+\s*")((?:[^"\\]|\\.)*)(")')
-    for root, _, files in os.walk(os.path.join(GAME, "AcesData/Episodes")):
+    for root, _, files in os.walk(os.path.join(SRC, "AcesData/Episodes")):
         for fn in files:
             if fn != "chapterInfo.txt":
                 continue
@@ -65,20 +64,20 @@ def extract_chapterinfo():
                     txt = f.read()
             except Exception:
                 continue
-            rel = os.path.relpath(p, GAME)
+            rel = os.path.relpath(p, SRC)
             for pat in pats:
                 for m in pat.finditer(txt):
                     if not m.group(2).strip():
                         continue
                     recs.append({
-                        "file": rel, "id": make_id(rel, m.group(0)),
+                        "file": rel, "id": make_id_orig(rel, m.group(0)),
                         "orig": m.group(0), "surface": "chapterinfo",
                         "prefix": m.group(1), "content": m.group(2), "suffix": m.group(3),
                     })
             for m in fac_pat.finditer(txt):
                 # faction_name = N "Name" — переводим имя, не цвет
                 recs.append({
-                    "file": rel, "id": make_id(rel, m.group(0)),
+                    "file": rel, "id": make_id_orig(rel, m.group(0)),
                     "orig": m.group(0), "surface": "faction",
                     "prefix": m.group(1), "content": m.group(2), "suffix": m.group(3),
                 })
@@ -87,7 +86,7 @@ def extract_chapterinfo():
 def extract_episodeinfo():
     recs = []
     pat = re.compile(r'(title\s*=\s*")((?:[^"\\]|\\.)*)(")')
-    for root, _, files in os.walk(os.path.join(GAME, "AcesData/Episodes")):
+    for root, _, files in os.walk(os.path.join(SRC, "AcesData/Episodes")):
         for fn in files:
             if fn != "episodeInfo.txt":
                 continue
@@ -97,12 +96,12 @@ def extract_episodeinfo():
                     txt = f.read()
             except Exception:
                 continue
-            rel = os.path.relpath(p, GAME)
+            rel = os.path.relpath(p, SRC)
             for m in pat.finditer(txt):
                 if not m.group(2).strip():
                     continue
                 recs.append({
-                    "file": rel, "id": make_id(rel, m.group(0)),
+                    "file": rel, "id": make_id_orig(rel, m.group(0)),
                     "orig": m.group(0), "surface": "episode",
                     "prefix": m.group(1), "content": m.group(2), "suffix": m.group(3),
                 })
@@ -116,7 +115,7 @@ def extract_root_titles():
     pat = re.compile(r'(inGameName\s*=\s*")((?:[^"\\]|\\.)*)(")')
     pat2 = re.compile(r'(title\s*=\s*")((?:[^"\\]|\\.)*)(")')
     for fn in files:
-        p = os.path.join(GAME, "AcesData", fn)
+        p = os.path.join(SRC, "AcesData", fn)
         if not os.path.exists(p):
             continue
         try:
@@ -124,7 +123,7 @@ def extract_root_titles():
                 txt = f.read()
         except Exception:
             continue
-        rel = os.path.relpath(p, GAME)
+        rel = os.path.relpath(p, SRC)
         # inGameName приоритетнее (это отображаемое имя в инвентаре)
         for patx, surf in ((pat, "item_name"), (pat2, "item_title")):
             for m in patx.finditer(txt):
@@ -134,7 +133,7 @@ def extract_root_titles():
                 if not re.search(r"[A-Za-z]", content):
                     continue
                 recs.append({
-                    "file": rel, "id": make_id(rel, m.group(0)),
+                    "file": rel, "id": make_id_orig(rel, m.group(0)),
                     "orig": m.group(0), "surface": surf,
                     "prefix": m.group(1), "content": m.group(2), "suffix": m.group(3),
                 })
@@ -143,17 +142,17 @@ def extract_root_titles():
 def extract_tips():
     """loadingScreenTips: каждая строка-совет в кавычках."""
     recs = []
-    p = os.path.join(GAME, "AcesData", "loadingScreenTips.txt")
+    p = os.path.join(SRC, "AcesData", "loadingScreenTips.txt")
     if not os.path.exists(p):
         return recs
     with open(p, encoding="utf-8") as f:
         lines = f.read().split("\n")
-    rel = os.path.relpath(p, GAME)
+    rel = os.path.relpath(p, SRC)
     for i, line in enumerate(lines):
         m = re.match(r'^\s*"(?P<c>(?:[^"\\]|\\.)*)"\s*$', line)
         if m and m.group("c").strip():
             recs.append({
-                "file": rel, "id": make_id(rel, line),
+                "file": rel, "id": make_id_orig(rel, line),
                 "orig": line, "surface": "tip",
                 "prefix": '"', "content": m.group("c"), "suffix": '"',
                 "full_line": line,
@@ -161,6 +160,9 @@ def extract_tips():
     return recs
 
 def main():
+    if SRC is None:
+        print("Игра/бэкап недоступны — нечего извлекать.")
+        return
     all_recs = []
     all_recs += extract_notes()
     all_recs += extract_chapterinfo()

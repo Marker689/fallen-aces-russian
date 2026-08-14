@@ -4,10 +4,9 @@ Fallen Aces — экстрактор строк для перевода.
 Извлекает текстовые строки из нарративных файлов, сохраняя связку
 файл -> строка, и собирает статистику имён собственных для глоссария.
 """
-import os, re, json, sys, collections
+import os, re, json, collections
 
-GAME = "/mnt/c/Program Files (x86)/Steam/steamapps/common/Fallen Aces"
-OUT = os.path.expanduser("~/fallenaces-rus")
+from _paths import OUT, source_root
 
 # --- Регэкспы для разных форматов ---
 # Субтитры: T 8.7 "text"
@@ -50,23 +49,27 @@ def extract_lines(path):
     return results
 
 def main():
+    SRC = source_root()
+    if SRC is None:
+        print("Игра/бэкап недоступны — нечего извлекать.")
+        return
     targets = []
     # Субтитры
-    sub_dir = os.path.join(GAME, "AcesData/Subtitles")
+    sub_dir = os.path.join(SRC, "AcesData/Subtitles")
     for root, _, files in os.walk(sub_dir):
         for fn in files:
             if fn.endswith(".txt"):
                 targets.append(("subtitle", os.path.join(root, fn)))
     # Эпизоды (скрипты, записки, chapterInfo)
-    ep_dir = os.path.join(GAME, "AcesData/Episodes")
+    ep_dir = os.path.join(SRC, "AcesData/Episodes")
     for root, _, files in os.walk(ep_dir):
         for fn in files:
             if fn.endswith(".txt"):
                 targets.append(("episode", os.path.join(root, fn)))
     # Корневые txt (misc, npcs и т.д.)
-    for fn in os.listdir(os.path.join(GAME, "AcesData")):
+    for fn in os.listdir(os.path.join(SRC, "AcesData")):
         if fn.endswith(".txt"):
-            targets.append(("root", os.path.join(GAME, "AcesData", fn)))
+            targets.append(("root", os.path.join(SRC, "AcesData", fn)))
 
     all_records = []
     per_kind = collections.Counter()
@@ -84,7 +87,7 @@ def main():
     Whats Ill Youre Youve Id Idve Does Geez Alrighty Wow Good God Sir Fellow""".split())
 
     for kind, path in targets:
-        rel = os.path.relpath(path, GAME)
+        rel = os.path.relpath(path, SRC)
         recs = extract_lines(path)
         per_kind[kind] += len(recs)
         for r in recs:

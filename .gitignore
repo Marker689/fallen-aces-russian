@@ -14,3 +14,11 @@
 # ОС
 .DS_Store
 Thumbs.db
+
+# Артефакты сборки / инструменты
+*.zip
+.staging/
+.venv/
+__pycache__/
+*.pyc
+.omo/

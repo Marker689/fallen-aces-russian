@@ -1,0 +1,85 @@
+# Собранные из игры UI-строки (батч 3) — заполнено редакторскими переводами
+
+Enemy hunt time in seconds:=Время преследования врага (сек):
+Finisher health bonus per second:=Бонус к здоровью за финишер (в сек):
+Enemy vision range:=Дальность зрения врага:
+Player damage from enemies:=Урон по игроку:
+Player damage to enemies:=Урон игрока по врагам:
+Item Spawns:=Появление предметов:
+Enemy spawns:=Появление врагов:
+Preset:=Пресет:
+Confirm=Подтвердить
+CUSTOM DIFFICULTY=СВОЯ СЛОЖНОСТЬ
+Allow sprinting while holding bodies:=Спринт с телом в руках:
+Sprinting costs stamina:=Спринт тратит выносливость:
+Shark bites insta-kill:=Укус акулы убивает с одного раза:
+Enemies have predictive aim:=Враги стреляют с упреждением:
+Broken Weapon Drop Chance=Шанс выпадения сломанного оружия
+Broken Weapon Drop Chance On Chop=Шанс сломать оружие при ударе
+Enemy Weapon Drops=Оружие врагов:
+Разряжай огнестрельное оружие, выкинув его и зажав R (по умолчанию).=Разряди огнестрельное оружие: выброси его и зажми R (по умолчанию).
+Bottle=Бутылка
+Desk Fan<color\=#808080ff> (Unstorable)</color>=Настольный вентилятор<color\=#808080ff> (Нельзя хранить)</color>
+Alarm Clock<color\=#808080ff> (Unstorable)</color>=Будильник<color\=#808080ff> (Нельзя хранить)</color>
+Rat=Крыса
+Generic Jar<color\=#808080ff> (Unstorable)</color>=Банка<color\=#808080ff> (Нельзя хранить)</color>
+Curtain=Занавес
+Digit=Цифра
+Up=Вверх
+Saturday Night Special=Дешёвый револьвер
+Picked up Loot! + $14=Добыча подобрана! +$14
+Патроны .38 Special<color\=#b3b3b3CC> (Stackable)</color>=Патроны .38 Special<color\=#b3b3b3CC> (Можно складывать)</color>
+NPC=НПС
+x3=х3
+Патроны .38 Special=Патроны .38 Special
+Deli Sandwich<color\=#b3b3b3CC> (Stackable)</color>=Сэндвич<color\=#b3b3b3CC> (Можно складывать)</color>
+E [Hold]=E [Удерживать]
+Banana<color\=#b3b3b3CC> (Stackable)</color>=Банан<color\=#b3b3b3CC> (Можно складывать)</color>
+Apple<color\=#b3b3b3CC> (Stackable)</color>=Яблоко<color\=#b3b3b3CC> (Можно складывать)</color>
+Cola Bottle=Бутылка колы
+Pie<color\=#b3b3b3CC> (Stackable)</color>=Пирог<color\=#b3b3b3CC> (Можно складывать)</color>
+Utensil Jar<color\=#808080ff> (Unstorable)</color>=Банка для приборов<color\=#808080ff> (Нельзя хранить)</color>
+Chair<color\=#808080ff> (Unstorable)</color>=Стул<color\=#808080ff> (Нельзя хранить)</color>
+Glass<color\=#808080ff> (Unstorable)</color>=Стакан<color\=#808080ff> (Нельзя хранить)</color>
+Standing Lamp<color\=#808080ff> (Unstorable)</color>=Торшер<color\=#808080ff> (Нельзя хранить)</color>
+Standing Ashtray=Напольная пепельница
+Elevator Button=Кнопка лифта
+Ladder=Лестница
+Climb=Взобраться
+Lock=Замок
+Fire Extinguisher=Огнетушитель
+Finisher=Добивание
+Civilian Male=Мужчина-гражданин
+Civilians=Гражданские
+Get to Pete's place=Доберись до Пита
+Some consumables give you <color\=#C42620><u>Toughness</u></color>.\n\nThe tougher you are, the less damage you take.=Некоторые расходники дают <color\=#C42620><u>Живучесть</u></color>.\n\nЧем ты выносливее, тем меньше урона получаешь.
+Gate=Ворота
+Lead Pipe=Свинцовая труба
+Flick=Щёлкнуть
+Collected 1/5=Собрано 1/5
+Press [К] to continue=Нажмите [К], чтобы продолжить
+Civilian Merchant=Торговец-гражданин
+Talk=Поговорить
+Bathroom Bottle<color\=#808080ff> (Unstorable)</color>=Флакон из ванной<color\=#808080ff> (Нельзя хранить)</color>
+Used Barbershop Storage Key=Использованный ключ от шкафчика в парикмахерской
+Pencil Holder<color\=#808080ff> (Unstorable)</color>=Карандашница<color\=#808080ff> (Нельзя хранить)</color>
+Desk Lamp<color\=#808080ff> (Unstorable)</color>=Настольная лампа<color\=#808080ff> (Нельзя хранить)</color>
+Whiskey Bottle=Бутылка виски
+Wrench=Гаечный ключ
+Empty Whiskey Bottle=Пустая бутылка виски
+Stack Of Coins=Стопка монет
+Picked up Loot! + $7=Добыча подобрана! +$7
+Window=Окно
+Armed Goon=Вооружённый громила
+Unload=Разрядить
+Trashbin<color\=#808080ff> (Unstorable)</color>=Мусорное ведро<color\=#808080ff> (Нельзя хранить)</color>
+CHAPTER TITLE=НАЗВАНИЕ ГЛАВЫ
+Statistics=Статистика
+Continue=Продолжить
+Hostiles killed.............  13=Врагов убито.............  13
+Loot collected.............  $28=Добычи собрано.............  $28
+Secrets found...............  3/9=Секретов найдено...............  3/9
+Hostiles pacified...........  7=Врагов вырублено...........  7
+Time........................  00:18:24=Время........................  00:18:24
+Return To Hideout=Вернуться в притон
+Return To Main Menu=Вернуться в главное меню

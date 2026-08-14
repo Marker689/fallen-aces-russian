@@ -1,0 +1,612 @@
+# Fallen Aces — UI-строки для локализации (извлечено из FallenAces.CSharp.dll)
+# Формат словаря XUnity.AutoTranslator: оригинал=перевод
+# Это КАНДИДАТЫ на перевод. Отметь/переведи только реально видимые пользователю строки.
+# Места {0},{1} — плейсхолдеры, их сохраняем как есть.
+
+# ===== Привязки клавиш (меню управления) =====
+Sprint / Dodge=Рывок / Уклонение
+Slow Walk=Медленный шаг
+Attack / Primary Action=Атака / Основное действие
+Throw / Drop=Бросок / Выбросить
+Block / Secondary Action=Блок / Второстепенное действие
+Use Gadget / Tertiary Action=Использовать гаджет / Доп. действие
+Hide Hud=Скрыть HUD
+Unhide Hud=Показать HUD
+Next Gadget=Следующий гаджет
+Previous Gadget=Предыдущий гаджет
+Gadget Slot 1=Слот гаджета 1
+Gadget Slot 2=Слот гаджета 2
+Gadget Slot 3=Слот гаджета 3
+Gadget Slot 4=Слот гаджета 4
+Quick Save=Быстрое сохранение
+Quick Load=Быстрая загрузка
+Test Move=Пробное перемещение
+Developer Console=Консоль разработчика
+Alternate Use=Альтернативное действие
+Keyboard and mouse=Клавиатура и мышь
+
+# ===== HUD / подсказки / уведомления =====
+You unlocked it=Открыто!
+Use (No Key!)=Применить (Ключа нет!)
+Restricted Area Price=Плата за проход в закрытую зону
+Pay toll {0}(${1})=Оплатить проезд {0} (${1})
+Player Bought Item=Куплен предмет
+Player Bought Expensive Item=Куплен дорогой предмет
+Player Bought Gun=Куплено оружие
+Player Bought Cheap Item=Куплена дешёвая вещь
+Player Cant Afford Item=Денег на это не хватает
+Player Looking At Item=Осматривает предмет
+Player Looking At Pocket Pistol=Смотрит на карманный пистолет
+Player Looking At Tommy Gun=Смотрит на томми-ган
+Player Looking At Expensive Weapon=Смотрит на дорогое оружие
+Player Looking At Cheap Gun=Смотрит на дешёвый пистолет
+Player Looking At Cheap Weapon=Смотрит на дешёвое оружие
+Ammo Pouch=Подсумок для патронов
+Not enough cash!=Бабла не хватает!
+Picked up=Подобрано
+Buy ${0}=Купить ${0}
+(Out of stock)=(Распродано)
+Out of stock!=Товар закончился!
+Not enough money!=Денег не хватает!
+Bought {0} - ${1}=Куплено: {0} - ${1}
+Picked up Loot! + ${0}=Добыча подобрана! + ${0}
+Picked cursed Loot! - ${0}=Подобрана проклятая добыча! - ${0}
+({0} rounds)=({0} патронов)
+Collected {0}/5=Собрано: {0}/5
+Press [ ] to continue=Нажмите [ ], чтобы продолжить
+Press <color\=#C42620><u> </u></color> to continue=Нажмите <color\=#C42620><u> </u></color>, чтобы продолжить
+HOLD <color\=#C42620><u> </u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\=#C42620><u> </u></color>, ЧТОБЫ ПРОПУСТИТЬ
+Can't do that right now=Сейчас нельзя
+Enabled slow walk mode.=Медленный шаг включён.
+Disabled slow walk mode.=Медленный шаг выключен.
+Player fell out of world!=Вы выпали из мира!
+Can't use that while underwater!=Под водой это не сработает!
+Drop what you're holding first!=Сначала выбросьте то, что в руках!
+Ammo is full!=Боезапас полон!
+Can't carry anymore!=Больше ничего не влезет!
+No room in inventory!=В инвентаре нет места!
+Need a lighter!=Нужна зажигалка!
+Can't use this underwater!=Под водой это не сработает!
+Can't reload, hands are full=Руки заняты, не перезарядить
+Weapon is broken!=Оружие сломано!
+Get closer!=Подойди ближе!
+Can't plant here!=Здесь не поставишь!
+Can't throw this while underwater!=Под водой не бросить!
+Can't swap this=Это не поменять
+No gadget in slot {0}!=В слоте {0} нет гаджета!
+No Ammo!=Нет патронов!
+No Target!=Нет цели!
+Not enough stamina!=Выносливости не хватает!
+Can't save while in a vehicle, yet.=В транспорте сохраниться пока нельзя.
+Picked up <color\=red>=Подобрано: <color\=red>
+No new chapters to play!=Новых глав пока нет!
+Can't exit here!=Здесь нельзя выйти!
+Chapter Select=Выбор главы
+Next Chapter=Следующая глава
+(Requires Key)=(Нужен ключ)
+Open This Door=Открыть дверь
+Open Door Region=Открыть проход
+Toilet To Sit On=Присесть на унитаз
+New Objective!=Новая задача!
+Objective Completed!=Задача выполнена!
+Objective Failed!=Задача провалена!
+You've found a secret!=Секрет найден!
+Game Over=Игра окончена
+Player Cant Pay Toll=Денег на проезд не хватает
+Player Paid Toll=Проезд оплачен
+Got permission to enter=Проход открыт
+Got permission to enter this faction's turf!=Теперь ты свой в этой части города!
+The Getaway=Побег
+Heart of Glass=Стеклянное сердце
+Phone Booth Part=Деталь телефонной будки
+Shark Spotted=Замечена акула
+Sniper Glint=Блик снайпера
+
+# ===== Экраны сохранения / главы / эпизоды =====
+SAVE PROGRESS=СОХРАНИТЬ ПРОГРЕСС
+LOAD PROGRESS=ЗАГРУЗИТЬ ПРОГРЕСС
+SELECT CHAPTER=ВЫБРАТЬ ГЛАВУ
+SELECT EPISODE=ВЫБРАТЬ ЭПИЗОД
+New Save=Новое сохранение
+Auto Save=Автосохранение
+(Auto) Hideout=(Авто) Притон
+Save Corrupted=Сохранение повреждено
+Outdated Save=Сохранение устарело
+Level Restart Required=Нужен перезапуск уровня
+Unknown Save Version=Неизвестная версия сохранения
+Progress is saved automatically in the Hideout.=В притоне игра сохраняется автоматически.
+Can't save right now...=Сейчас сохраниться нельзя...
+Workshop episodes=Эпизоды из мастерской
+Shadow of Death=Тень смерти
+Episode 3=Эпизод 3
+Chapter 1=Глава 1
+Chapter 2=Глава 2
+Lights Out=Свет погас
+Nightwave Introduction=Знакомство с Найтвейв
+
+# ===== Экран статистики / финал =====
+Hostiles pacified...........=Врагов вырублено...........
+Hostiles killed.............=Врагов уложено.............
+Secrets found...............=Тайников найдено...............
+Loot collected.............  $=Собрано добычи.............  $
+
+# ===== Загрузка (шутки-подсказки) =====
+Distributing cannoli...=Развозим канноли...
+Loading tommy guns...=Заряжаем томми-ганы...
+Hanging fedoras...=Развешиваем федоры...
+Whacking wise guys...=Валим мафиози...
+Getting Gianni...=Достаём Джанни...
+Making unrefusable offers...=Делаем предложения, от которых не отказываются...
+Fuhgetting about it...=Забудем об этом...
+Agreeing with boss...=Соглашаемся с боссом...
+(This may take a while)=(Может занять некоторое время)
+WAKE UP CALL=ПОБУДКА
+No tips for you...=Для тебя подсказок нет...
+
+# ===== Меню настроек =====
+2x MSAA=2x MSAA
+4x MSAA=4x MSAA
+8x MSAA=8x MSAA
+Startup Only=Только при запуске
+Maximized Window=Развёрнутое окно
+Exclusive Full Screen=Полноэкранный режим
+Full Screen Window=Окно во весь экран
+Objects + Characters=Объекты + персонажи
+Ammo Only=Только патроны
+Storables Only=Только складируемые
+All Pickups=Все подбираемые предметы
+Custom Difficulties=Свои сложности
+New Preset=Новый пресет
+New Profile=Новый профиль
+Delete this profile?=Удалить этот профиль?
+Profile Name=Имя профиля
+Show Documents=Показать документы
+Hide Documents=Скрыть документы
+Save Overlay=Оверлей сохранения
+
+# ===== Разное / диалоговые подсказки =====
+Wise Guy Eh?=Умник, а?
+Sleep With The Fishes=Кормить рыб
+You'll be leaving Umburgh in peril!=Оставишь Умбург в беде!
+A goon called you a wimp just now.=Только что какой-то громила обозвал тебя слабаком.
+I'm leaving.=Я ухожу.
+Wait, go back!=Стой, вернись!
+Go back to the title screen?=Вернуться в главное меню?
+Nightwave will be disappointed...=Найтвейв расстроится...
+No Description=Нет описания
+Unknown prop=Неизвестный предмет
+
+# ===== Реальные строки меню (собрано из игры) =====
+PRESS ANY KEY=НАЖМИТЕ ЛЮБУЮ КЛАВИШУ
+Load Game=Загрузить игру
+Play=Играть
+Marek=Марек
+Build 0.9.2=Сборка 0.9.2
+Options=Параметры
+Profile=Профиль
+Hideout=Притон
+Main Menu=Главное меню
+Quit\n=Выйти\n
+Back=Назад
+Video\n=Видео\n
+Keyboard & Mouse=Клавиатура и мышь
+Gameplay=Геймплей
+Audio\n=Аудио\n
+Accessibility=Доступность
+OPTIONS=ПАРАМЕТРЫ
+Texture Detail=Детализация текстур
+Display Mode=Режим отображения
+Max FPS=Макс. ФПС
+Field of View=Поле зрения
+Contrast=Контраст
+Brightness=Яркость
+Anti Aliasing=Антиалиасинг
+Resolution=Разрешение
+VIDEO=ВИДЕО
+Normal=Нормальный
+Shadow Quality=Качество теней
+High=Высокий
+Object Shadows=Тени объектов
+Vertical Sync=Вертикальная синхронизация
+Texture Filtering=Фильтрация текстур
+Reduce Particle FX=Уменьшить эффекты частиц
+Noir Filter=Нуар-фильтр
+2560x1440=2560x1440
+Enables a black and white noir color filter.=Включает чёрно-белый нуар-фильтр.
+Windowed=В окне
+Label=Метка
+
+# ===== Отладочные переключатели (панель разработчика) =====
+[DEBUG]=[ОТЛАДКА]
+[Ambience Tracker]=[Отслеживание атмосферы]
+[Enemy State Tracker]=[Отслеживание состояния противника]
+Name: Unarmed Goon\n\nPhysical State: \n\tIdle\n\tSubstate: Unknown\nBehaviour State: \n\tEngagingPlayer\n\tSubstate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n\tБездействие\n\tПодсостояние: Неизвестно\nСостояние поведения: \n\tАтакует игрока\n\tПодсостояние: Неизвестно
+
+# ===== Журнал / карта (управление) =====
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Up</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вверх</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Down</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вниз</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Left</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Влево</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Move Right</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Вправо</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Zoom In</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Приблизить</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Zoom Out</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Отдалить</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Previous</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] Назад</color>
+<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] or <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Close</color>=<color\=white>[</color><color\=#4BB740>{0}</color><color\=white>] или <color\=white>[</color><color\=#4BB740>{1}</color><color\=white>] Закрыть</color>
+</color><color\=white>] Close</color>=</color><color\=white>] Закрыть</color>
+] to continue=] чтобы продолжить
+Follow Me=За мной!
+Wait Here=Жди тут
+Objective Entry=Задача
+Sub Objective Entry=Подзадача
+Previous=Назад
+
+Name: Unarmed Goon\n\nPhysical State: \n	Idle\n	Substate: Unknown\nBehaviour State: \n	EngagingPlayer\n	Substate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n	Бездействие\n	Подсостояние: Неизвестно\nСостояние поведения: \n	Вступает в бой\n	Подсостояние: Неизвестно
+
+Custom=Своя
+
+Sleep with the fishes\n=Кормить рыбок\n
+
+Fuggedaboutit!=Забудь об этом!
+
+DIFFICULTY=СЛОЖНОСТЬ
+
+Loading=Загрузка
+
+Faction=Фракция
+
+Enemy Healthbar\n=Полоса здоровья врага\n
+
+Finished!=Готово!
+
+x2=х2
+
+Hidden=Скрыто
+
+Weapon Name=Название оружия
+
+[Key]=[Клавиша]
+
+Struggle=Борьба
+
+Char Name=Имя персонажа
+
+Map of the streets=Карта улиц
+
+Use=Использовать
+
+Door<color\=#ff0000ff> (Locked)</color>=Дверь<color\=#ff0000ff> (Заперта)</color>
+
+Partly Hidden=Частично скрыто
+
+Pickup=Подобрать
+
+Old Phone<color\=#808080ff> (Unstorable)</color>=Старый телефон<color\=#808080ff> (Нельзя хранить)</color>
+
+OBJECTIVES=ЦЕЛИ
+
+MAPS=КАРТЫ
+
+NOTES=ЗАМЕТКИ
+
+Next=Следующий
+
+KEY ITEMS=КЛЮЧЕВЫЕ ПРЕДМЕТЫ
+
+Mike And Thomas Picture=Майк и Томас
+
+Secrets:=Секреты:
+
+CHAPTER 1=ГЛАВА 1
+
+"WAKE UP CALL"=«ПОБУДКА»
+
+PRIMARY GOALS=ОСНОВНЫЕ ЦЕЛИ
+
+SECONDARY GOALS=ВТОРИЧНЫЕ ЦЕЛИ
+
+CLUES=УЛИКИ
+
+Header=Заголовок
+
+Contents=Содержание
+
+Name: Subtitle=Название: Субтитры
+
+Read=Читать
+
+Table Lamp<color\=#808080ff> (Unstorable)</color>=Настольная лампа<color\=#808080ff> (Нельзя хранить)</color>
+
+Trophy=Трофей
+
+Unstorable=Нельзя хранить
+
+Door=Дверь
+
+Back To Title=В главное меню
+
+Default Controls=Управление по умолчанию
+
+Save Game\n=Сохранить игру\n
+
+Episode Select=Выбор эпизода
+
+Resume=Продолжить
+
+PAUSED=ПАУЗА
+
+Turn off=Выключить
+
+Unarmed Goon=Безоружный громила
+
+Glasshearts=Глассхарты
+
+Stomp=Затоптать
+
+Unarmed Goon<color\=#808080ff> (Unconscious)</color>=Безоружный громила<color\=#808080ff> (Без сознания)</color>
+
+Generic Container<color\=#808080ff> (Unstorable)</color>=Ящик<color\=#808080ff> (Нельзя хранить)</color>
+
+Space=Пробел
+
+SPACE=ПРОБЕЛ
+
+Tab=Tab
+
+Control=Ctrl
+
+Enter=Ввод
+
+Escape=Esc
+
+W=W
+
+A=A
+
+S=S
+
+D=D
+
+E=E
+
+Q=Q
+
+R=R
+
+F=F
+
+G=G
+
+X=X
+
+Z=Z
+
+C=C
+
+V=V
+
+B=B
+
+N=N
+
+M=M
+
+HOLD <color\=#C42620><u>SPACE</u></color> TO SKIP=УДЕРЖИ <color\=#C42620><u>ПРОБЕЛ</u></color>, ЧТОБЫ ПРОПУСТИТЬ
+
+HOLD <color\=#C42620><u>Space</u></color> TO SKIP=УДЕРЖИ <color\=#C42620><u>Пробел</u></color>, ЧТОБЫ ПРОПУСТИТЬ
+
+<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Previous</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Назад</color>\n
+
+<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Close</color>\n=<color\=white>'</color><color\=#4BB740>E</color><color\=white>' Закрыть</color>\n
+
+<color\=white>'</color><color\=#4BB740>Space</color><color\=white>' Zoom Inp</color>\n=<color\=white>'</color><color\=#4BB740>Пробел</color><color\=white>' Приблизить</color>\n
+
+<color\=white>'</color><color\=#4BB740>W</color><color\=white>' Move Up</color>\n=<color\=white>'</color><color\=#4BB740>W</color><color\=white>' Вверх</color>\n
+
+<color\=white>'</color><color\=#4BB740>S</color><color\=white>' Move Down</color>\n=<color\=white>'</color><color\=#4BB740>S</color><color\=white>' Вниз</color>\n
+
+<color\=white>[</color><color\=#4BB740>Tab</color><color\=white>] Close</color>=<color\=white>[</color><color\=#4BB740>Tab</color><color\=white>] Закрыть</color>
+
+<color\=white>[</color><color\=#4BB740>Control</color><color\=white>] Zoom In</color>=<color\=white>[</color><color\=#4BB740>Ctrl</color><color\=white>] Приблизить</color>
+
+<color\=white>[</color><color\=#4BB740>У</color><color\=white>] or <color\=white>[</color><color\=#4BB740>В</color><color\=white>] Next</color>=<color\=white>[</color><color\=#4BB740>У</color><color\=white>] или <color\=white>[</color><color\=#4BB740>В</color><color\=white>] Следующий</color>
+
+Locked!=Заперто!
+
+Generic Can<color\=#808080ff> (Unstorable)</color>=Банка<color\=#808080ff> (Нельзя хранить)</color>
+
+Generic Can=Банка
+
+Pipe Wielding Mook=Головорез с трубой
+
+Pickpocket=Карманник
+
+У [Hold]=У [Удерживать]
+
+Chop=Рубить
+
+Fridge Door=Дверца холодильника
+
+Generic Container=Ящик
+
+Cooking Pot=Кастрюля
+
+Sliding Door=Раздвижная дверь
+
+Used Security Gate Key=Ключ от охранных ворот (использован)
+
+Button=Кнопка
+
+Gate<color\=#ff0000ff> (Locked)</color>=Ворота<color\=#ff0000ff> (Заперты)</color>
+
+Cigarette Machine=Автомат с сигаретами
+
+Buy $2=Купить $2
+
+Vent<color\=#ff0000ff> (Locked)</color>=Вентиляция<color\=#ff0000ff> (Заперта)</color>
+
+Vent=Вентиляция
+
+Enemy hunt time in seconds:=Время преследования врага (сек):
+
+Finisher health bonus per second:=Бонус к здоровью за финишер (в сек):
+
+Enemy vision range:=Дальность зрения врага:
+
+Player damage from enemies:=Урон по игроку:
+
+Player damage to enemies:=Урон игрока по врагам:
+
+Item Spawns:=Появление предметов:
+
+Enemy spawns:=Появление врагов:
+
+Preset:=Пресет:
+
+Confirm=Подтвердить
+
+CUSTOM DIFFICULTY=СВОЯ СЛОЖНОСТЬ
+
+Allow sprinting while holding bodies:=Спринт с телом в руках:
+
+Sprinting costs stamina:=Спринт тратит выносливость:
+
+Shark bites insta-kill:=Укус акулы убивает с одного раза:
+
+Enemies have predictive aim:=Враги стреляют с упреждением:
+
+Broken Weapon Drop Chance=Шанс выпадения сломанного оружия
+
+Broken Weapon Drop Chance On Chop=Шанс сломать оружие при ударе
+
+Enemy Weapon Drops=Оружие врагов:
+
+Разряжай огнестрельное оружие, выкинув его и зажав R (по умолчанию).=Разряди огнестрельное оружие: выброси его и зажми R (по умолчанию).
+
+Bottle=Бутылка
+
+Desk Fan<color\=#808080ff> (Unstorable)</color>=Настольный вентилятор<color\=#808080ff> (Нельзя хранить)</color>
+
+Alarm Clock<color\=#808080ff> (Unstorable)</color>=Будильник<color\=#808080ff> (Нельзя хранить)</color>
+
+Rat=Крыса
+
+Generic Jar<color\=#808080ff> (Unstorable)</color>=Банка<color\=#808080ff> (Нельзя хранить)</color>
+
+Curtain=Занавес
+
+Digit=Цифра
+
+Up=Вверх
+
+Saturday Night Special=Дешёвый револьвер
+
+Picked up Loot! + $14=Добыча подобрана! +$14
+
+Патроны .38 Special<color\=#b3b3b3CC> (Stackable)</color>=Патроны .38 Special<color\=#b3b3b3CC> (Можно складывать)</color>
+
+NPC=НПС
+
+x3=х3
+
+Патроны .38 Special=Патроны .38 Special
+
+Deli Sandwich<color\=#b3b3b3CC> (Stackable)</color>=Сэндвич<color\=#b3b3b3CC> (Можно складывать)</color>
+
+E [Hold]=E [Удерживать]
+
+Banana<color\=#b3b3b3CC> (Stackable)</color>=Банан<color\=#b3b3b3CC> (Можно складывать)</color>
+
+Apple<color\=#b3b3b3CC> (Stackable)</color>=Яблоко<color\=#b3b3b3CC> (Можно складывать)</color>
+
+Cola Bottle=Бутылка колы
+
+Pie<color\=#b3b3b3CC> (Stackable)</color>=Пирог<color\=#b3b3b3CC> (Можно складывать)</color>
+
+Utensil Jar<color\=#808080ff> (Unstorable)</color>=Банка для приборов<color\=#808080ff> (Нельзя хранить)</color>
+
+Chair<color\=#808080ff> (Unstorable)</color>=Стул<color\=#808080ff> (Нельзя хранить)</color>
+
+Glass<color\=#808080ff> (Unstorable)</color>=Стакан<color\=#808080ff> (Нельзя хранить)</color>
+
+Standing Lamp<color\=#808080ff> (Unstorable)</color>=Торшер<color\=#808080ff> (Нельзя хранить)</color>
+
+Standing Ashtray=Напольная пепельница
+
+Elevator Button=Кнопка лифта
+
+Ladder=Лестница
+
+Climb=Взобраться
+
+Lock=Замок
+
+Fire Extinguisher=Огнетушитель
+
+Finisher=Добивание
+
+Civilian Male=Мужчина-гражданин
+
+Civilians=Гражданские
+
+Get to Pete's place=Доберись до Пита
+
+Some consumables give you <color\=#C42620><u>Toughness</u></color>.\n\nThe tougher you are, the less damage you take.=Некоторые расходники дают <color\=#C42620><u>Живучесть</u></color>.\n\nЧем ты выносливее, тем меньше урона получаешь.
+
+Gate=Ворота
+
+Lead Pipe=Свинцовая труба
+
+Flick=Щёлкнуть
+
+Collected 1/5=Собрано 1/5
+
+Press [К] to continue=Нажмите [К], чтобы продолжить
+
+Civilian Merchant=Торговец-гражданин
+
+Talk=Поговорить
+
+Bathroom Bottle<color\=#808080ff> (Unstorable)</color>=Флакон из ванной<color\=#808080ff> (Нельзя хранить)</color>
+
+Used Barbershop Storage Key=Использованный ключ от шкафчика в парикмахерской
+
+Pencil Holder<color\=#808080ff> (Unstorable)</color>=Карандашница<color\=#808080ff> (Нельзя хранить)</color>
+
+Desk Lamp<color\=#808080ff> (Unstorable)</color>=Настольная лампа<color\=#808080ff> (Нельзя хранить)</color>
+
+Whiskey Bottle=Бутылка виски
+
+Wrench=Гаечный ключ
+
+Empty Whiskey Bottle=Пустая бутылка виски
+
+Stack Of Coins=Стопка монет
+
+Picked up Loot! + $7=Добыча подобрана! +$7
+
+Window=Окно
+
+Armed Goon=Вооружённый громила
+
+Unload=Разрядить
+
+Trashbin<color\=#808080ff> (Unstorable)</color>=Мусорное ведро<color\=#808080ff> (Нельзя хранить)</color>
+
+CHAPTER TITLE=НАЗВАНИЕ ГЛАВЫ
+
+Statistics=Статистика
+
+Continue=Продолжить
+
+Hostiles killed.............  13=Врагов убито.............  13
+
+Loot collected.............  $28=Добычи собрано.............  $28
+
+Secrets found...............  3/9=Секретов найдено...............  3/9
+
+Hostiles pacified...........  7=Врагов вырублено...........  7
+
+Time........................  00:18:24=Время........................  00:18:24
+
+Return To Hideout=Вернуться в притон
+
+Return To Main Menu=Вернуться в главное меню

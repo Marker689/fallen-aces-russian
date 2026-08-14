@@ -1,0 +1,126 @@
+# Fallen Aces — UI-строки для локализации (извлечено из FallenAces.CSharp.dll)
+# Формат словаря XUnity.AutoTranslator: оригинал=перевод
+# Это КАНДИДАТЫ на перевод. Отметь/переведи только реально видимые пользователю строки.
+# Места {0},{1} — плейсхолдеры, их сохраняем как есть.
+
+# ===== Привязки клавиш (меню управления) =====
+Sprint / Dodge=Рывок / Уклонение
+Slow Walk=Медленный шаг
+Attack / Primary Action=Атака / Основное действие
+Throw / Drop=Бросок / Выбросить
+Block / Secondary Action=Блок / Второстепенное действие
+Use Gadget / Tertiary Action=Использовать гаджет / Третичное действие
+Hide Hud=Скрыть HUD
+Unhide Hud=Показать HUD
+Next Gadget=Следующий гаджет
+Previous Gadget=Предыдущий гаджет
+Gadget Slot 1=Слот гаджета 1
+Gadget Slot 2=Слот гаджета 2
+Gadget Slot 3=Слот гаджета 3
+Gadget Slot 4=Слот гаджета 4
+Quick Save=Быстрое сохранение
+Quick Load=Быстрая загрузка
+Test Move=Тестовое перемещение
+Developer Console=Консоль разработчика
+Alternate Use=Альтернативное использование
+Keyboard and mouse=Клавиатура и мышь
+
+# ===== HUD / подсказки / уведомления =====
+You unlocked it=Вы открыли это
+Use (No Key!)=Использовать (Ключа нет!)
+Restricted Area Price=Плата за доступ в закрытую зону
+Pay toll {0}(${1})=Оплатить проезд {0}(${1})
+Player Bought Item=Игрок купил предмет
+Player Bought Expensive Item=Игрок купил дорогой предмет
+Player Bought Gun=Игрок купил оружие
+Player Bought Cheap Item=Игрок купил дешёвый предмет
+Player Cant Afford Item=Игрок не может позволить себе предмет
+Player Looking At Item=Игрок смотрит на предмет
+Player Looking At Pocket Pistol=Игрок смотрит на карманный пистолет
+Player Looking At Tommy Gun=Игрок смотрит на томми-ган
+Player Looking At Expensive Weapon=Игрок смотрит на дорогое оружие
+Player Looking At Cheap Gun=Игрок смотрит на дешёвый пистолет
+Player Looking At Cheap Weapon=Игрок смотрит на дешёвое оружие
+Ammo Pouch=Подсумок с патронами
+Not enough cash!=Не хватает наличных!
+Picked up=Подобрано
+Buy ${0}=Купить ${0}
+(Out of stock)=(Нет в наличии)
+Out of stock!=Нет в наличии!
+Not enough money!=Не хватает денег!
+Bought {0} - ${1}=Куплено {0} - ${1}
+Picked up Loot! + ${0}=Подобрана добыча! + ${0}
+Picked cursed Loot! - ${0}=Подобрана проклятая добыча! - ${0}
+({0} rounds)=({0} патронов)
+Collected {0}/5=Собрано {0}/5
+Press [ ] to continue=Нажмите [ ] для продолжения
+Press <color\=#C42620><u> </u></color> to continue=Нажмите <color\=#C42620><u> </u></color> для продолжения
+HOLD <color\=#C42620><u> </u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\=#C42620><u> </u></color>, ЧТОБЫ ПРОПУСТИТЬ
+Can't do that right now=Сейчас это нельзя сделать
+Enabled slow walk mode.=Режим медленного шага включён.
+Disabled slow walk mode.=Режим медленного шага выключен.
+Player fell out of world!=Игрок выпал из мира!
+Can't use that while underwater!=Нельзя использовать это под водой!
+Drop what you're holding first!=Сначала выбросьте то, что держите!
+Ammo is full!=Боезапас полон!
+Can't carry anymore!=Больше не унести!
+No room in inventory!=Нет места в инвентаре!
+Need a lighter!=Нужна зажигалка!
+Can't use this underwater!=Нельзя использовать это под водой!
+Can't reload, hands are full=Не перезарядить, руки заняты
+Weapon is broken!=Оружие сломано!
+Get closer!=Подойдите ближе!
+Can't plant here!=Здесь нельзя разместить!
+Can't throw this while underwater!=Нельзя бросить это под водой!
+Can't swap this=Нельзя поменять это
+No gadget in slot {0}!=В слоте {0} нет гаджета!
+No Ammo!=Нет патронов!
+No Target!=Нет цели!
+Not enough stamina!=Не хватает выносливости!
+Can't save while in a vehicle, yet.=Пока нельзя сохраниться в транспорте.
+Picked up <color\=red>=Подобрано <color\=red>
+No new chapters to play!=Нет новых глав для игры!
+Can't exit here!=Здесь нельзя выйти!
+Chapter Select=Выбор главы
+Next Chapter=Следующая глава
+(Requires Key)=(Требуется ключ)
+Open This Door=Открыть эту дверь
+Open Door Region=Открыть область двери
+Toilet To Sit On=Унитаз, на который можно сесть
+New Objective!=Новая задача!
+Objective Completed!=Задача выполнена!
+Objective Failed!=Задача провалена!
+You've found a secret!=Вы нашли секрет!
+Game Over=Игра окончена
+Player Cant Pay Toll=Игрок не может оплатить проезд
+Player Paid Toll=Игрок оплатил проезд
+Got permission to enter=Получено разрешение на вход
+Got permission to enter this faction's turf!=Получено разрешение войти на территорию этой фракции!
+The Getaway=Побег
+Heart of Glass=Сердце из стекла
+Phone Booth Part=Часть телефонной будки
+Shark Spotted=Замечена акула
+Sniper Glint=Блик снайпера
+
+# ===== Экраны сохранения / главы / эпизоды =====
+SAVE PROGRESS=СОХРАНИТЬ ПРОГРЕСС
+LOAD PROGRESS=ЗАГРУЗИТЬ ПРОГРЕСС
+SELECT CHAPTER=ВЫБРАТЬ ГЛАВУ
+SELECT EPISODE=ВЫБРАТЬ ЭПИЗОД
+New Save=Новое сохранение
+Auto Save=Автосохранение
+(Auto) Hideout=(Авто) Притон
+Save Corrupted=Сохранение повреждено
+Outdated Save=Устаревшее сохранение
+Level Restart Required=Требуется перезапуск уровня
+Unknown Save Version=Неизвестная версия сохранения
+Progress is saved automatically in the Hideout.=Прогресс сохраняется автоматически в притоне.
+Can't save right now...=Сейчас нельзя сохраниться...
+Workshop episodes=Эпизоды из мастерской
+Shadow of Death=Тень смерти
+Episode 3=Эпизод 3
+Chapter 1=Глава 1
+Chapter 2=Глава 2
+Lights Out=Свет погас
+Nightwave Introduction=Знакомство с Найтвейв
+

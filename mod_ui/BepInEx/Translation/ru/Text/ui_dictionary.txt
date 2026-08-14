@@ -408,3 +408,39 @@ HOLD <color\=#C42620><u>Space</u></color> TO SKIP=УДЕРЖИВАЙТЕ <color\
 <color\=white>[</color><color\=#4BB740>Control</color><color\=white>] Zoom In</color>=<color\=white>[</color><color\=#4BB740>Ctrl</color><color\=white>] Приблизить</color>
 
 <color\=white>[</color><color\=#4BB740>У</color><color\=white>] or <color\=white>[</color><color\=#4BB740>В</color><color\=white>] Next</color>=<color\=white>[</color><color\=#4BB740>У</color><color\=white>] или <color\=white>[</color><color\=#4BB740>В</color><color\=white>] Следующий</color>
+
+Locked!=Заперто!
+
+Generic Can<color\=#808080ff> (Unstorable)</color>=Банка<color\=#808080ff> (Нельзя хранить)</color>
+
+Generic Can=Банка
+
+Pipe Wielding Mook=Головорез с трубой
+
+Pickpocket=Карманник
+
+У [Hold]=У [Удерживать]
+
+Chop=Рубить
+
+Fridge Door=Дверца холодильника
+
+Generic Container=Ящик
+
+Cooking Pot=Кастрюля
+
+Sliding Door=Раздвижная дверь
+
+Used Security Gate Key=Использованный ключ от ворот
+
+Button=Кнопка
+
+Gate<color\=#ff0000ff> (Locked)</color>=Ворота<color\=#ff0000ff> (Заперто)</color>
+
+Cigarette Machine=Автомат с сигаретами
+
+Buy $2=Купить $2
+
+Vent<color\=#ff0000ff> (Locked)</color>=Вентиляция<color\=#ff0000ff> (Заперто)</color>
+
+Vent=Вентиляция

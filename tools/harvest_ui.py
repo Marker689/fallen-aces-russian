@@ -43,7 +43,7 @@ def load_dictionary_originals(path):
         return originals
     with open(path, encoding="utf-8") as f:
         for line in f:
-            line = line.rstrip("\n")
+            line = line.rstrip("\n").lstrip("\ufeff")
             if not line or line.startswith("#"):
                 continue
             if "=" in line:
@@ -58,7 +58,7 @@ def load_autogen(path):
         return entries
     with open(path, encoding="utf-8", errors="replace") as f:
         for line in f:
-            line = line.rstrip("\n")
+            line = line.rstrip("\n").lstrip("\ufeff")
             if not line or line.startswith("#"):
                 continue
             if "=" in line:
@@ -74,7 +74,7 @@ def load_candidates(path):
         return entries
     with open(path, encoding="utf-8") as f:
         for line in f:
-            line = line.rstrip("\n")
+            line = line.rstrip("\n").lstrip("\ufeff")
             if not line or line.startswith("#"):
                 continue
             if "=" in line:

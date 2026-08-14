@@ -1,57 +1,21 @@
-# Собранные из игры UI-строки (заполнено правильными переводами по глоссарию)
+# Собранные из игры UI-строки (заполнено правильными переводами)
 # Заполни перевод после '=' и запусти: python3 tools/harvest_ui.py --merge
-# '#'-комментарии и пустые строки игнорируются.
 
-Name: Unarmed Goon\n\nPhysical State: \n	Idle\n	Substate: Unknown\nBehaviour State: \n	EngagingPlayer\n	Substate: Unknown=Имя: Безоружный громила\n\nФизическое состояние: \n	Бездействие\n	Подсостояние: Неизвестно\nСостояние поведения: \n	Вступает в бой\n	Подсостояние: Неизвестно
-Custom=Своя
-Sleep with the fishes\n=Кормить рыб\n
-Fuggedaboutit!=Забудь об этом!
-DIFFICULTY=СЛОЖНОСТЬ
-Loading=Загрузка
-Faction=Фракция
-Enemy Healthbar\n=Полоска здоровья врага\n
-Finished!=Готово!
-x2=х2
-Hidden=Скрыто
-Weapon Name=Название оружия
-[Key]=[Клавиша]
-Struggle=Борьба
-Char Name=Имя персонажа
-Map of the streets=Карта улиц
-Use=Использовать
-Door<color\=#ff0000ff> (Locked)</color>=Дверь<color\=#ff0000ff> (Заперта)</color>
-Partly Hidden=Частично скрыто
-Pickup=Подобрать
-Old Phone<color\=#808080ff> (Unstorable)</color>=Старый телефон<color\=#808080ff> (Нельзя хранить)</color>
-OBJECTIVES=ЦЕЛИ
-MAPS=КАРТЫ
-NOTES=ЗАМЕТКИ
-Next=Следующий
-KEY ITEMS=КЛЮЧЕВЫЕ ПУНКТЫ
-Mike And Thomas Picture=Майк и Томас
-Secrets:=Секреты:
-CHAPTER 1=ГЛАВА 1
-"WAKE UP CALL"=«ПОБУДКА»
-PRIMARY GOALS=ОСНОВНЫЕ ЦЕЛИ
-SECONDARY GOALS=ВТОРИЧНЫЕ ЦЕЛИ
-CLUES=УЛИКИ
-Header=Заголовок
-Contents=Содержание
-Name: Subtitle=Название: Субтитры
-Read=Читать
-Table Lamp<color\=#808080ff> (Unstorable)</color>=Настольная лампа<color\=#808080ff> (Нельзя хранить)</color>
-Trophy=Трофей
-Unstorable=Нельзя хранить
-Door=Дверь
-Back To Title=В главное меню
-Default Controls=Элементы управления по умолчанию
-Save Game\n=Сохранить игру\n
-Episode Select=Выбор эпизода
-Resume=Продолжить
-PAUSED=ПРИОСТАНОВЛЕНО
-Turn off=Выключить
-Unarmed Goon=Безоружный громила
-Glasshearts=Глассхарты
-Stomp=Затоптать
-Unarmed Goon<color\=#808080ff> (Unconscious)</color>=Безоружный громила<color\=#808080ff> (Без сознания)</color>
-Generic Container<color\=#808080ff> (Unstorable)</color>=Ящик<color\=#808080ff> (Нельзя хранить)</color>
+Locked!=Заперто!
+Generic Can<color\=#808080ff> (Unstorable)</color>=Банка<color\=#808080ff> (Нельзя хранить)</color>
+Generic Can=Банка
+Pipe Wielding Mook=Головорез с трубой
+Pickpocket=Карманник
+У [Hold]=У [Удерживать]
+Chop=Рубить
+Fridge Door=Дверца холодильника
+Generic Container=Ящик
+Cooking Pot=Кастрюля
+Sliding Door=Раздвижная дверь
+Used Security Gate Key=Использованный ключ от ворот
+Button=Кнопка
+Gate<color\=#ff0000ff> (Locked)</color>=Ворота<color\=#ff0000ff> (Заперто)</color>
+Cigarette Machine=Автомат с сигаретами
+Buy $2=Купить $2
+Vent<color\=#ff0000ff> (Locked)</color>=Вентиляция<color\=#ff0000ff> (Заперто)</color>
+Vent=Вентиляция
